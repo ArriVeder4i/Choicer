@@ -2,6 +2,7 @@ package com.example.choicer.viewmodel
 
 import android.graphics.Bitmap
 import android.util.Base64
+import android.util.Log // Для отладки
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -23,6 +24,11 @@ class MovieViewModel(
     val searchResults = MutableStateFlow<List<Movie>>(emptyList())
     val isSearching = MutableStateFlow(false)
 
+    // --- ПАГИНАЦИЯ ---
+    private var currentPage = 1
+    private var isPaginationLoading = false
+    private var lastLoadedPage = 0 // Чтобы не грузить одну и ту же страницу дважды
+
     val wishlist = dao.getAllMovies().stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5000),
@@ -36,7 +42,7 @@ class MovieViewModel(
     private val _combinedMovies = MutableStateFlow<List<Movie>>(emptyList())
     val combinedMovies: StateFlow<List<Movie>> = _combinedMovies.asStateFlow()
 
-    // Состояния фильтров
+    // Фильтры поиска
     val selectedGenres = MutableStateFlow<List<Genre>>(emptyList())
     val ratingRange = MutableStateFlow(0f..10f)
     val yearRange = MutableStateFlow(1980f..2025f)
@@ -49,25 +55,68 @@ class MovieViewModel(
         Genre(19, "Семейный"), Genre(22, "Документальный"), Genre(24, "Аниме")
     )
 
-    init { loadMovies() }
+    init {
+        loadMovies(1)
+    }
 
-    private fun loadMovies() {
+    // МЕТОД ЗАГРУЗКИ СТРАНИЦ
+    fun loadMovies(page: Int) {
+        if (isPaginationLoading || page == lastLoadedPage) return
+        isPaginationLoading = true
+
         viewModelScope.launch {
             try {
-                val response = api.getPopularMovies("5954a5e3f1d773aeff8fc45b928db34f")
-                trendingMovies.value = response.results
+                // Пытаемся через TMDB
+                val response = api.getPopularMovies("5954a5e3f1d773aeff8fc45b928db34f", page = page)
+                val newMovies = response.results
+
+                updateTrendingList(newMovies, page)
+                lastLoadedPage = page
+                currentPage = page
             } catch (e: Exception) {
+                Log.e("ViewModel", "TMDB error on page $page, trying Kinopoisk", e)
                 try {
-                    val kpResponse = kinopoiskApi.getPopularMovies()
-                    trendingMovies.value = kpResponse.items.map { kpFilm ->
-                        Movie(kpFilm.kinopoiskId, kpFilm.nameRu ?: kpFilm.nameOriginal ?: "Без названия", kpFilm.posterUrl, "", kpFilm.year?.toString() ?: "", kpFilm.ratingKinopoisk ?: 0.0)
+                    // Фолбэк на Кинопоиск
+                    val kpResponse = kinopoiskApi.getPopularMovies(page = page)
+                    val mapped = kpResponse.items.map { kpFilm ->
+                        Movie(
+                            id = kpFilm.kinopoiskId,
+                            title = kpFilm.nameRu ?: kpFilm.nameOriginal ?: "Без названия",
+                            poster_path = kpFilm.posterUrl,
+                            overview = "",
+                            release_date = kpFilm.year?.toString() ?: "Н/Д",
+                            vote_average = kpFilm.ratingKinopoisk ?: 0.0
+                        )
                     }
-                } catch (e2: Exception) {}
+                    updateTrendingList(mapped, page)
+                    lastLoadedPage = page
+                    currentPage = page
+                } catch (e2: Exception) {
+                    Log.e("ViewModel", "Kinopoisk error on page $page", e2)
+                }
+            } finally {
+                isPaginationLoading = false
             }
         }
     }
 
-    // ЛОГИКА "ИЛИ" ДЛЯ ЖАНРОВ
+    private fun updateTrendingList(newMovies: List<Movie>, page: Int) {
+        if (page == 1) {
+            trendingMovies.value = newMovies
+        } else {
+            // Создаем новый список для корректной работы collectAsState
+            val currentList = trendingMovies.value.toMutableList()
+            // Добавляем только те, которых еще нет (защита от дублей)
+            val filteredNew = newMovies.filter { new -> currentList.none { it.id == new.id } }
+            trendingMovies.value = currentList + filteredNew
+        }
+    }
+
+    fun getNextPage() {
+        loadMovies(currentPage + 1)
+    }
+
+    // Логика поиска (ИЛИ)
     fun searchMovies(query: String) {
         searchResults.value = emptyList()
         isSearching.value = true
@@ -78,34 +127,14 @@ class MovieViewModel(
                 val keyword = query.ifBlank { null }
 
                 if (genres.isEmpty()) {
-                    // Обычный поиск, если жанры не выбраны
-                    val resp = kinopoiskApi.searchMovies(
-                        keyword = keyword,
-                        ratingFrom = ratingRange.value.start.toDouble(),
-                        ratingTo = ratingRange.value.endInclusive.toDouble(),
-                        yearFrom = yearRange.value.start.toInt(),
-                        yearTo = yearRange.value.endInclusive.toInt()
-                    )
-                    resultsSet.addAll(resp.items.map { kpFilm ->
-                        Movie(kpFilm.kinopoiskId, kpFilm.nameRu ?: kpFilm.nameOriginal ?: "Без названия", kpFilm.posterUrl, "", kpFilm.year?.toString() ?: "", kpFilm.ratingKinopoisk ?: 0.0)
-                    })
+                    val resp = kinopoiskApi.searchMovies(keyword, null, ratingRange.value.start.toDouble(), ratingRange.value.endInclusive.toDouble(), yearRange.value.start.toInt(), yearRange.value.endInclusive.toInt())
+                    resultsSet.addAll(resp.items.map { Movie(it.kinopoiskId, it.nameRu ?: it.nameOriginal ?: "Без названия", it.posterUrl, "", it.year?.toString() ?: "", it.ratingKinopoisk ?: 0.0) })
                 } else {
-                    // Делаем по запросу на каждый жанр (Логика ИЛИ)
                     genres.forEach { genre ->
-                        val resp = kinopoiskApi.searchMovies(
-                            keyword = keyword,
-                            genreId = genre.id,
-                            ratingFrom = ratingRange.value.start.toDouble(),
-                            ratingTo = ratingRange.value.endInclusive.toDouble(),
-                            yearFrom = yearRange.value.start.toInt(),
-                            yearTo = yearRange.value.endInclusive.toInt()
-                        )
-                        resultsSet.addAll(resp.items.map { kpFilm ->
-                            Movie(kpFilm.kinopoiskId, kpFilm.nameRu ?: kpFilm.nameOriginal ?: "Без названия", kpFilm.posterUrl, "", kpFilm.year?.toString() ?: "", kpFilm.ratingKinopoisk ?: 0.0)
-                        })
+                        val resp = kinopoiskApi.searchMovies(keyword, genre.id, ratingRange.value.start.toDouble(), ratingRange.value.endInclusive.toDouble(), yearRange.value.start.toInt(), yearRange.value.endInclusive.toInt())
+                        resultsSet.addAll(resp.items.map { Movie(it.kinopoiskId, it.nameRu ?: it.nameOriginal ?: "Без названия", it.posterUrl, "", it.year?.toString() ?: "", it.ratingKinopoisk ?: 0.0) })
                     }
                 }
-                // Сортируем по рейтингу и обновляем список
                 searchResults.value = resultsSet.toList().sortedByDescending { it.vote_average }
             } catch (e: Exception) {
                 if (query.isNotBlank()) {
@@ -126,7 +155,7 @@ class MovieViewModel(
         selectedGenres.value = current
     }
 
-    // Методы для БД
+    // Методы БД
     fun addToWishlist(movie: Movie) { viewModelScope.launch(Dispatchers.IO) { dao.insertMovie(movie) } }
     fun removeFromWishlist(movie: Movie) { viewModelScope.launch(Dispatchers.IO) { dao.deleteMovie(movie) } }
     fun toggleWatchedStatus(movie: Movie) { viewModelScope.launch(Dispatchers.IO) { dao.updateMovie(movie.copy(isWatched = !movie.isWatched)) } }
@@ -147,7 +176,7 @@ class MovieViewModel(
         }
     }
 
-    // Генерация QR (используем твой оригинальный метод из файлов выше)
+    // QR и мэтчинг (восстановлено)
     fun generateWishlistQR(): Bitmap? {
         val moviesData = wishlist.value.take(20).joinToString(";") { movie ->
             val safeTitle = movie.title?.replace(";", "")?.replace("|", "") ?: "Без названия"
@@ -159,13 +188,36 @@ class MovieViewModel(
             "${movie.id}|$safeTitle|$shortPoster|${movie.vote_average}"
         }
         if (moviesData.isEmpty()) return null
-        val encodedData = android.util.Base64.encodeToString(moviesData.toByteArray(Charsets.UTF_8), android.util.Base64.NO_WRAP or android.util.Base64.URL_SAFE)
+        val encodedData = Base64.encodeToString(moviesData.toByteArray(Charsets.UTF_8), Base64.NO_WRAP or Base64.URL_SAFE)
         val writer = com.google.zxing.qrcode.QRCodeWriter()
         val bitMatrix = writer.encode(encodedData, com.google.zxing.BarcodeFormat.QR_CODE, 512, 512)
-        val bitmap = android.graphics.Bitmap.createBitmap(512, 512, android.graphics.Bitmap.Config.RGB_565)
+        val bitmap = Bitmap.createBitmap(512, 512, Bitmap.Config.RGB_565)
         for (x in 0 until 512) { for (y in 0 until 512) { bitmap.setPixel(x, y, if (bitMatrix.get(x, y)) android.graphics.Color.BLACK else android.graphics.Color.WHITE) } }
         return bitmap
     }
 
-    fun matchWishlists(data: String) { /* Твоя логика мэтчинга из файлов выше */ }
+    fun matchWishlists(scannedData: String) {
+        val myMovies = wishlist.value.toMutableList()
+        fun normalize(t: String?): String { return t?.lowercase()?.replace("ё", "е")?.replace(Regex("(человек|фильм|сериал|movie|film|the)"), "")?.replace(Regex("[^a-zа-я0-9]"), "") ?: "" }
+        try {
+            val decodedBytes = Base64.decode(scannedData, Base64.NO_WRAP or Base64.URL_SAFE)
+            val rawData = String(decodedBytes, Charsets.UTF_8)
+            val friendMovies = rawData.split(";").mapNotNull { part ->
+                val f = part.split("|")
+                if (f.size >= 4) {
+                    val id = f[0].toIntOrNull() ?: 0
+                    val title = f[1]
+                    val posterPath = when {
+                        f[2].startsWith("K") -> "https://kinopoiskapiunofficial.tech/images/posters/kp/${f[2].drop(1)}.jpg"
+                        f[2].startsWith("T") -> f[2].drop(1)
+                        else -> null
+                    }
+                    Movie(id, title, posterPath, "", "", f[3].toDoubleOrNull() ?: 0.0)
+                } else null
+            }
+            _matchedMovies.value = friendMovies.filter { fMovie -> val fTitle = normalize(fMovie.title); myMovies.any { myMovie -> val myTitle = normalize(myMovie.title); fMovie.id == myMovie.id || (fTitle.length > 4 && (fTitle.contains(myTitle) || myTitle.contains(fTitle))) } }
+            val combined = myMovies.toMutableList(); friendMovies.forEach { fMovie -> val fTitle = normalize(fMovie.title); val exists = combined.any { it.id == fMovie.id || (normalize(it.title).let { t -> fTitle.contains(t) || t.contains(fTitle) }) }; if (!exists) combined.add(fMovie) }
+            _combinedMovies.value = combined; _isConnected.value = true
+        } catch (e: Exception) {}
+    }
 }

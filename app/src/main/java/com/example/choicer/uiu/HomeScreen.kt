@@ -9,8 +9,10 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
@@ -21,17 +23,38 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.example.choicer.viewmodel.MovieViewModel
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.filter
 
 @Composable
 fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
     val movies by viewModel.trendingMovies.collectAsState()
+
+    // Создаем стейт пейджера с динамическим количеством страниц
     val pagerState = rememberPagerState(pageCount = { movies.size })
+
+    // УЛУЧШЕННЫЙ ТРИГГЕР БЕСКОНЕЧНОЙ ЛЕНТЫ
+    LaunchedEffect(pagerState) {
+        snapshotFlow { pagerState.currentPage }
+            .distinctUntilChanged()
+            .filter { page ->
+                // Условие: мы на 15-м фильме из 20 (или на 35-м из 40 и т.д.)
+                movies.isNotEmpty() && page >= movies.size - 5
+            }
+            .collect {
+                viewModel.getNextPage()
+            }
+    }
 
     Box(modifier = Modifier.fillMaxSize().background(Color.Black)) {
         if (movies.isEmpty()) {
             CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         } else {
-            VerticalPager(state = pagerState, modifier = Modifier.fillMaxSize()) { page ->
+            VerticalPager(
+                state = pagerState,
+                modifier = Modifier.fillMaxSize(),
+                beyondViewportPageCount = 1 // Предзагрузка соседних страниц для плавности
+            ) { page ->
                 val movie = movies[page]
 
                 Box(modifier = Modifier.fillMaxSize()) {
@@ -42,6 +65,7 @@ fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                         contentScale = ContentScale.Crop
                     )
 
+                    // Градиент для текста
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
@@ -70,8 +94,6 @@ fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                                 lineHeight = 32.sp
                             )
                             Spacer(modifier = Modifier.height(8.dp))
-
-                            // Используем свойство из модели
                             Text(
                                 text = "⭐ ${movie.formattedRating}  |  ${movie.release_date ?: "Н/Д"}",
                                 color = Color.Yellow,
