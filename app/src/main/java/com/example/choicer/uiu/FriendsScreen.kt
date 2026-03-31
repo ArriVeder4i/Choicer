@@ -183,19 +183,32 @@ fun FriendsScreen(viewModel: MovieViewModel) {
 
 @Composable
 fun SharedMovieCard(movie: Movie) {
-    Card(modifier = Modifier.fillMaxWidth().height(100.dp), colors = CardDefaults.cardColors(containerColor = Color.DarkGray)) {
-        Row(modifier = Modifier.fillMaxSize(), verticalAlignment = Alignment.CenterVertically) {
+    Card(
+        modifier = Modifier.fillMaxWidth().height(100.dp).padding(bottom = 8.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            val fullPosterUrl = when {
+                movie.poster_path.isNullOrEmpty() -> null
+                movie.poster_path.startsWith("http") -> movie.poster_path
+                else -> "https://image.tmdb.org/t/p/w500${movie.poster_path}"
+            }
+
             AsyncImage(
-                model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path else "https://image.tmdb.org/t/p/w500${movie.poster_path}",
+                model = fullPosterUrl,
                 contentDescription = null,
                 modifier = Modifier.width(70.dp).fillMaxHeight(),
-                contentScale = ContentScale.Crop
+                contentScale = ContentScale.Crop,
+                // Если картинка не грузится, покажем хотя бы иконку
+                error = coil.compose.rememberAsyncImagePainter("https://via.placeholder.com/150?text=No+Image")
             )
-            Column(modifier = Modifier.weight(1f).padding(12.dp), verticalArrangement = Arrangement.Center) {
-                Text(text = movie.title ?: "Без названия", color = Color.White, style = MaterialTheme.typography.titleMedium, maxLines = 1)
+
+            Column(modifier = Modifier.padding(12.dp)) {
+                Text(text = movie.title ?: "", color = Color.White, fontWeight = FontWeight.Bold, maxLines = 1)
                 Spacer(modifier = Modifier.height(4.dp))
-                val ratingText = if (movie.vote_average == 0.0 || movie.vote_average == null) "-" else movie.vote_average.toString()
-                Text(text = "⭐ $ratingText", color = Color.Yellow)
+
+                val rating = "%.1f".format(movie.vote_average ?: 0.0)
+                Text(text = "⭐ $rating", color = Color.Yellow)
             }
         }
     }
