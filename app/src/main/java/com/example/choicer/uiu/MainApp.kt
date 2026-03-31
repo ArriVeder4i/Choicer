@@ -11,7 +11,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.choicer.viewmodel.MovieViewModel
-// ВАЖНО: Убедись, что нет красных импортов сверху. Если есть - удали их.
 
 @Composable
 fun MainApp(viewModel: MovieViewModel) {
@@ -50,8 +49,6 @@ fun MainApp(viewModel: MovieViewModel) {
 
             // --- ГЛАВНЫЙ ЭКРАН ---
             composable(Screen.Home.route) {
-                // Если HomeScreen горит красным, нажми Alt+Enter, чтобы импортировать
-                // Или проверь, как точно называется функция в файле HomeScreen.kt
                 HomeScreen(
                     viewModel = viewModel,
                     onNavigateToDetails = { navController.navigate("details") }
@@ -70,14 +67,14 @@ fun MainApp(viewModel: MovieViewModel) {
 
             // --- ВИШЛИСТ ---
             composable(Screen.Wishlist.route) {
-                WishlistScreen(viewModel = viewModel)
+                WishlistScreen(
+                    viewModel = viewModel,
+                    onNavigateToDetails = { navController.navigate("details") } // Добавлен переход
+                )
             }
 
             // --- ДРУЗЬЯ ---
             composable(Screen.Friends.route) {
-                // Если тут горит красным, значит в файле FriendsScreen.kt функция
-                // не принимает viewModel. Открой FriendsScreen.kt и убедись,
-                // что там написано: fun FriendsScreen(viewModel: MovieViewModel)
                 FriendsScreen(viewModel = viewModel)
             }
         }

@@ -70,8 +70,10 @@ fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                                 lineHeight = 32.sp
                             )
                             Spacer(modifier = Modifier.height(8.dp))
+
+                            // Используем свойство из модели
                             Text(
-                                text = "⭐ ${movie.vote_average ?: 0.0}  |  ${movie.release_date ?: "Н/Д"}",
+                                text = "⭐ ${movie.formattedRating}  |  ${movie.release_date ?: "Н/Д"}",
                                 color = Color.Yellow,
                                 fontSize = 16.sp
                             )

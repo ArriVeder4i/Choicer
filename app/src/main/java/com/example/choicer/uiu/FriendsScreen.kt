@@ -28,8 +28,8 @@ fun FriendsScreen(viewModel: MovieViewModel) {
     val wishlist by viewModel.wishlist.collectAsState()
 
     val isConnected by viewModel.isConnected.collectAsState()
-    val matchedItems by viewModel.matchedMovies.collectAsState() // Совпадения
-    val combinedItems by viewModel.combinedMovies.collectAsState() // Все вместе
+    val matchedItems by viewModel.matchedMovies.collectAsState()
+    val combinedItems by viewModel.combinedMovies.collectAsState()
 
     var isQrVisible by remember { mutableStateOf(false) }
     var showScanner by remember { mutableStateOf(false) }
@@ -37,7 +37,6 @@ fun FriendsScreen(viewModel: MovieViewModel) {
     var showRandomDialog by remember { mutableStateOf(false) }
     var randomSelectedMovie by remember { mutableStateOf<Movie?>(null) }
 
-    // НОВОЕ СОСТОЯНИЕ: Какая вкладка выбрана (0 - Совпадения, 1 - Общий)
     var selectedTabIndex by remember { mutableStateOf(0) }
 
     if (showScanner) {
@@ -75,7 +74,6 @@ fun FriendsScreen(viewModel: MovieViewModel) {
             Spacer(modifier = Modifier.height(16.dp))
 
             if (!isConnected) {
-                // ДО КОННЕКТА
                 Row(
                     modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
                     horizontalArrangement = Arrangement.SpaceEvenly
@@ -109,9 +107,6 @@ fun FriendsScreen(viewModel: MovieViewModel) {
                 }
 
             } else {
-                // ПОСЛЕ КОННЕКТА
-
-                // Вкладки переключения
                 TabRow(
                     selectedTabIndex = selectedTabIndex,
                     containerColor = Color.DarkGray,
@@ -139,7 +134,6 @@ fun FriendsScreen(viewModel: MovieViewModel) {
                     }
                 }
 
-                // Определяем, какой список сейчас показывать
                 val currentList = if (selectedTabIndex == 0) matchedItems else combinedItems
 
                 Row(
@@ -155,7 +149,6 @@ fun FriendsScreen(viewModel: MovieViewModel) {
 
                     Text(titleText, style = MaterialTheme.typography.titleMedium, color = Color.White)
 
-                    // Кнопка-кубик выбирает рандомный фильм из ТЕКУЩЕЙ вкладки
                     IconButton(onClick = {
                         if (currentList.isNotEmpty()) {
                             randomSelectedMovie = currentList.random()
@@ -199,7 +192,6 @@ fun SharedMovieCard(movie: Movie) {
                 contentDescription = null,
                 modifier = Modifier.width(70.dp).fillMaxHeight(),
                 contentScale = ContentScale.Crop,
-                // Если картинка не грузится, покажем хотя бы иконку
                 error = coil.compose.rememberAsyncImagePainter("https://via.placeholder.com/150?text=No+Image")
             )
 
@@ -207,8 +199,8 @@ fun SharedMovieCard(movie: Movie) {
                 Text(text = movie.title ?: "", color = Color.White, fontWeight = FontWeight.Bold, maxLines = 1)
                 Spacer(modifier = Modifier.height(4.dp))
 
-                val rating = "%.1f".format(movie.vote_average ?: 0.0)
-                Text(text = "⭐ $rating", color = Color.Yellow)
+                // Используем свойство из модели
+                Text(text = "⭐ ${movie.formattedRating}", color = Color.Yellow)
             }
         }
     }

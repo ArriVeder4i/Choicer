@@ -19,7 +19,6 @@ import coil.compose.AsyncImage
 import com.example.choicer.data.Movie
 import com.example.choicer.viewmodel.MovieViewModel
 
-// ОБРАТИ ВНИМАНИЕ: мы добавили параметр onNavigateToDetails
 @Composable
 fun SearchScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
     var searchQuery by remember { mutableStateOf("") }
@@ -61,7 +60,6 @@ fun SearchScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                             .padding(bottom = 8.dp)
                             .clickable {
                                 viewModel.selectedMovieForDetails.value = movie
-                                // ДОБАВЛЯЕМ ЭТУ СТРОЧКУ:
                                 viewModel.loadExtraDetails(movie.id)
                                 onNavigateToDetails()
                             },
@@ -82,10 +80,9 @@ fun SearchScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                                 Text(movie.title, color = Color.White, style = MaterialTheme.typography.titleMedium, maxLines = 1)
                                 Spacer(modifier = Modifier.height(4.dp))
 
-                                // ДОБАВИЛИ РЕЙТИНГ И ГОД
                                 val year = movie.release_date?.take(4) ?: "Н/Д"
-                                val ratingText = if (movie.vote_average == 0.0 || movie.vote_average == null) "-" else String.format("%.1f", movie.vote_average)
-                                Text(text = "⭐ $ratingText  📅 $year", color = Color.LightGray, style = MaterialTheme.typography.bodySmall)
+                                // Используем свойство из модели
+                                Text(text = "⭐ ${movie.formattedRating}  📅 $year", color = Color.LightGray, style = MaterialTheme.typography.bodySmall)
                             }
 
                             IconButton(

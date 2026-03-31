@@ -21,7 +21,6 @@ fun MovieWishlistCard(
     onWatchedClick: (() -> Unit)? = null,
     onDeleteClick: (() -> Unit)? = null
 ) {
-    // Если фильм просмотрен, делаем его полупрозрачным
     val cardAlpha = if (movie.isWatched) 0.5f else 1f
 
     Card(
@@ -36,7 +35,6 @@ fun MovieWishlistCard(
             modifier = Modifier.fillMaxSize(),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // Постер фильма
             AsyncImage(
                 model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path else "https://image.tmdb.org/t/p/w500${movie.poster_path}",
                 contentDescription = movie.title,
@@ -44,7 +42,6 @@ fun MovieWishlistCard(
                 contentScale = ContentScale.Crop
             )
 
-            // Текстовая информация
             Column(
                 modifier = Modifier
                     .weight(1f)
@@ -59,11 +56,10 @@ fun MovieWishlistCard(
                 )
                 Spacer(modifier = Modifier.height(4.dp))
 
-                val ratingText = if (movie.vote_average == 0.0 || movie.vote_average == null) "-" else movie.vote_average.toString()
-                Text(text = "⭐ $ratingText", color = Color.Yellow)
+                // Используем свойство из модели
+                Text(text = "⭐ ${movie.formattedRating}", color = Color.Yellow)
             }
 
-            // Кнопка: ПРОСМОТРЕНО (если передано действие)
             if (onWatchedClick != null) {
                 IconButton(onClick = onWatchedClick) {
                     Icon(
@@ -74,7 +70,6 @@ fun MovieWishlistCard(
                 }
             }
 
-            // Кнопка: УДАЛИТЬ (если передано действие)
             if (onDeleteClick != null) {
                 IconButton(onClick = onDeleteClick) {
                     Icon(

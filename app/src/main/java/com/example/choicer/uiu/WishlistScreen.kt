@@ -1,6 +1,7 @@
 package com.example.choicer.uiu
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -21,13 +22,12 @@ import com.example.choicer.data.Movie
 import com.example.choicer.viewmodel.MovieViewModel
 
 @Composable
-fun WishlistScreen(viewModel: MovieViewModel) {
+fun WishlistScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
     val wishlist by viewModel.wishlist.collectAsState()
 
     var showRandomDialog by remember { mutableStateOf(false) }
     var selectedRandomMovie by remember { mutableStateOf<Movie?>(null) }
 
-    // Фильтруем: оставляем только НЕ просмотренные для кубика
     val unwatchedMovies = wishlist.filter { !it.isWatched }
 
     Box(modifier = Modifier.fillMaxSize().background(Color.Black)) {
@@ -45,7 +45,6 @@ fun WishlistScreen(viewModel: MovieViewModel) {
                 contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 100.dp)
             ) {
                 items(wishlist) { movie ->
-                    // Если фильм просмотрен, делаем прозрачность 50%
                     val cardAlpha = if (movie.isWatched) 0.5f else 1f
 
                     Card(
@@ -53,7 +52,12 @@ fun WishlistScreen(viewModel: MovieViewModel) {
                             .fillMaxWidth()
                             .height(100.dp)
                             .padding(bottom = 8.dp)
-                            .alpha(cardAlpha), // Применяем прозрачность ко всей карточке
+                            .alpha(cardAlpha)
+                            .clickable {
+                                viewModel.selectedMovieForDetails.value = movie
+                                viewModel.loadExtraDetails(movie.id)
+                                onNavigateToDetails()
+                            },
                         colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
                     ) {
                         Row(modifier = Modifier.fillMaxSize(), verticalAlignment = Alignment.CenterVertically) {
@@ -75,21 +79,19 @@ fun WishlistScreen(viewModel: MovieViewModel) {
                                     maxLines = 1
                                 )
                                 Spacer(modifier = Modifier.height(4.dp))
-                                val ratingText = if (movie.vote_average == 0.0 || movie.vote_average == null) "-" else movie.vote_average.toString()
-                                Text(text = "⭐ $ratingText", color = Color.Yellow)
+
+                                // Используем свойство из модели
+                                Text(text = "⭐ ${movie.formattedRating}", color = Color.Yellow)
                             }
 
-                            // КНОПКА: ПРОСМОТРЕНО (Галочка)
                             IconButton(onClick = { viewModel.toggleWatchedStatus(movie) }) {
                                 Icon(
                                     imageVector = Icons.Default.CheckCircle,
                                     contentDescription = "Просмотрено",
-                                    // Зеленая, если просмотрено, иначе серая
                                     tint = if (movie.isWatched) Color.Green else Color.LightGray
                                 )
                             }
 
-                            // КНОПКА: УДАЛИТЬ (Мусорка)
                             IconButton(onClick = { viewModel.removeFromWishlist(movie) }) {
                                 Icon(
                                     imageVector = Icons.Default.Delete,
@@ -103,7 +105,6 @@ fun WishlistScreen(viewModel: MovieViewModel) {
             }
         }
 
-        // Кнопка Рандома (показываем только если есть НЕ просмотренные фильмы)
         if (unwatchedMovies.isNotEmpty()) {
             FloatingActionButton(
                 modifier = Modifier
@@ -112,7 +113,7 @@ fun WishlistScreen(viewModel: MovieViewModel) {
                     .padding(bottom = 60.dp),
                 containerColor = MaterialTheme.colorScheme.primary,
                 onClick = {
-                    selectedRandomMovie = unwatchedMovies.random() // Берем только из непросмотренных!
+                    selectedRandomMovie = unwatchedMovies.random()
                     showRandomDialog = true
                 }
             ) {
@@ -121,7 +122,6 @@ fun WishlistScreen(viewModel: MovieViewModel) {
         }
     }
 
-    // Диалог с результатом
     if (showRandomDialog && selectedRandomMovie != null) {
         AlertDialog(
             onDismissRequest = { showRandomDialog = false },
