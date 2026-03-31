@@ -10,11 +10,11 @@ data class Movie(
     val title: String,
     val poster_path: String?,
     val overview: String,
-    val release_date: String?, // Дата выхода (гггг-мм-дд)
-    val vote_average: Double?, // Рейтинг (например, 8.5)
-    var isWatched: Boolean = false // На будущее для вишлиста
+    val release_date: String?,
+    val vote_average: Double?,
+    var isWatched: Boolean = false
 ) {
-    // Вынос логики рейтинга в модель
+    // Вычисляемый рейтинг
     val formattedRating: String
         get() = if (vote_average == null || vote_average <= 0.0) "-"
         else String.format(Locale.US, "%.1f", vote_average)
