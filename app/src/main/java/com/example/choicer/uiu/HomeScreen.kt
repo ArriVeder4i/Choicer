@@ -1,18 +1,16 @@
 package com.example.choicer.uiu
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.pager.VerticalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Segment
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.snapshotFlow
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
@@ -21,61 +19,45 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
 import coil.compose.AsyncImage
 import com.example.choicer.viewmodel.MovieViewModel
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.filter
 
 @Composable
 fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
     val movies by viewModel.trendingMovies.collectAsState()
+    val videoUrl by viewModel.currentVideoUrl
+    val isVideoLoading = viewModel.isVideoLoading.value
 
-    // Создаем стейт пейджера с динамическим количеством страниц
     val pagerState = rememberPagerState(pageCount = { movies.size })
-
-    // УЛУЧШЕННЫЙ ТРИГГЕР БЕСКОНЕЧНОЙ ЛЕНТЫ
-    LaunchedEffect(pagerState) {
-        snapshotFlow { pagerState.currentPage }
-            .distinctUntilChanged()
-            .filter { page ->
-                // Условие: мы на 15-м фильме из 20 (или на 35-м из 40 и т.д.)
-                movies.isNotEmpty() && page >= movies.size - 5
-            }
-            .collect {
-                viewModel.getNextPage()
-            }
-    }
 
     Box(modifier = Modifier.fillMaxSize().background(Color.Black)) {
         if (movies.isEmpty()) {
             CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         } else {
-            VerticalPager(
-                state = pagerState,
-                modifier = Modifier.fillMaxSize(),
-                beyondViewportPageCount = 1 // Предзагрузка соседних страниц для плавности
-            ) { page ->
+            VerticalPager(state = pagerState, modifier = Modifier.fillMaxSize()) { page ->
                 val movie = movies[page]
+                val hasClip = viewModel.hasClip(movie.id)
 
                 Box(modifier = Modifier.fillMaxSize()) {
                     AsyncImage(
-                        model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path else "https://image.tmdb.org/t/p/original${movie.poster_path}",
-                        contentDescription = movie.title ?: "Постер",
-                        modifier = Modifier.fillMaxSize(),
+                        model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path
+                        else "https://image.tmdb.org/t/p/original${movie.poster_path}",
+                        contentDescription = null,
+                        modifier = Modifier.fillMaxSize().clickable { viewModel.loadVideo(movie) },
                         contentScale = ContentScale.Crop
                     )
 
-                    // Градиент для текста
-                    Box(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .background(
-                                Brush.verticalGradient(
-                                    colors = listOf(Color.Transparent, Color.Black.copy(alpha = 0.8f)),
-                                    startY = 500f
-                                )
-                            )
-                    )
+                    if (hasClip) {
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = null,
+                            tint = Color.White.copy(alpha = 0.7f),
+                            modifier = Modifier.size(64.dp).align(Alignment.Center)
+                        )
+                    }
+
+                    Box(modifier = Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(Color.Transparent, Color.Black.copy(alpha = 0.8f)), startY = 500f)))
 
                     Row(
                         modifier = Modifier
@@ -86,22 +68,11 @@ fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
                         Column(modifier = Modifier.weight(1f)) {
-                            Text(
-                                text = movie.title ?: "Без названия",
-                                color = Color.White,
-                                fontSize = 28.sp,
-                                fontWeight = FontWeight.Bold,
-                                lineHeight = 32.sp
-                            )
-                            Spacer(modifier = Modifier.height(8.dp))
-                            Text(
-                                text = "⭐ ${movie.formattedRating}  |  ${movie.release_date ?: "Н/Д"}",
-                                color = Color.Yellow,
-                                fontSize = 16.sp
-                            )
+                            Text(movie.title, color = Color.White, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+                            Text("⭐ ${movie.formattedRating}", color = Color.Yellow, fontSize = 16.sp)
                         }
-
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Column {
+                            // ИКОНКА О ФИЛЬМЕ (поменял на Segment/Notes)
                             FloatingActionButton(
                                 onClick = {
                                     viewModel.selectedMovieForDetails.value = movie
@@ -109,24 +80,27 @@ fun HomeScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                                     onNavigateToDetails()
                                 },
                                 containerColor = Color.White.copy(alpha = 0.2f),
-                                contentColor = Color.White,
-                                modifier = Modifier.size(56.dp)
-                            ) {
-                                Icon(Icons.Default.Info, contentDescription = "Инфо")
-                            }
-                            Spacer(modifier = Modifier.height(16.dp))
+                                contentColor = Color.White
+                            ) { Icon(Icons.Default.Segment, null) }
+
+                            Spacer(Modifier.height(16.dp))
+
+                            // ИКОНКА ДОБАВИТЬ В ВИШЛИСТ (поменял на Сердце)
                             FloatingActionButton(
                                 onClick = { viewModel.addToWishlist(movie) },
                                 containerColor = MaterialTheme.colorScheme.primary,
-                                contentColor = Color.White,
-                                modifier = Modifier.size(56.dp)
-                            ) {
-                                Icon(Icons.Default.Add, contentDescription = "Добавить")
-                            }
+                                contentColor = Color.White
+                            ) { Icon(Icons.Default.Favorite, null) }
                         }
                     }
                 }
             }
         }
+
+        if (videoUrl != null) {
+            VideoScreen(url = videoUrl!!, onBack = { viewModel.currentVideoUrl.value = null })
+        }
+
+        if (isVideoLoading) Dialog(onDismissRequest = {}) { CircularProgressIndicator(color = Color.White) }
     }
 }

@@ -16,7 +16,9 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.example.choicer.data.Movie
 import com.example.choicer.viewmodel.MovieViewModel
@@ -44,13 +46,22 @@ fun WishlistScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                 modifier = Modifier.fillMaxSize(),
                 contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 100.dp)
             ) {
+                item {
+                    Text(
+                        "Мой список",
+                        color = Color.White,
+                        fontSize = 32.sp,
+                        modifier = Modifier.padding(bottom = 16.dp)
+                    )
+                }
+
                 items(wishlist) { movie ->
                     val cardAlpha = if (movie.isWatched) 0.5f else 1f
 
                     Card(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(100.dp)
+                            .height(110.dp) // Чуть увеличил высоту для двух строк текста
                             .padding(bottom = 8.dp)
                             .alpha(cardAlpha)
                             .clickable {
@@ -58,45 +69,51 @@ fun WishlistScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                                 viewModel.loadExtraDetails(movie.id)
                                 onNavigateToDetails()
                             },
-                        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
+                        colors = CardDefaults.cardColors(containerColor = Color.DarkGray.copy(alpha = 0.6f))
                     ) {
                         Row(modifier = Modifier.fillMaxSize(), verticalAlignment = Alignment.CenterVertically) {
                             AsyncImage(
-                                model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path else "https://image.tmdb.org/t/p/w500${movie.poster_path}",
+                                model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path
+                                else "https://image.tmdb.org/t/p/w500${movie.poster_path}",
                                 contentDescription = null,
-                                modifier = Modifier.width(70.dp).fillMaxHeight(),
+                                modifier = Modifier.width(75.dp).fillMaxHeight(),
                                 contentScale = ContentScale.Crop
                             )
 
                             Column(
-                                modifier = Modifier.weight(1f).padding(12.dp),
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .padding(horizontal = 12.dp),
                                 verticalArrangement = Arrangement.Center
                             ) {
+                                // ИСПРАВЛЕНИЕ: Теперь название переносится на 2 строки
                                 Text(
                                     text = movie.title,
                                     color = Color.White,
                                     style = MaterialTheme.typography.titleMedium,
-                                    maxLines = 1
+                                    maxLines = 2,
+                                    overflow = TextOverflow.Ellipsis,
+                                    lineHeight = 20.sp
                                 )
                                 Spacer(modifier = Modifier.height(4.dp))
-
-                                // Используем свойство из модели
                                 Text(text = "⭐ ${movie.formattedRating}", color = Color.Yellow)
                             }
 
+                            // Кнопка "Просмотрено"
                             IconButton(onClick = { viewModel.toggleWatchedStatus(movie) }) {
                                 Icon(
                                     imageVector = Icons.Default.CheckCircle,
                                     contentDescription = "Просмотрено",
-                                    tint = if (movie.isWatched) Color.Green else Color.LightGray
+                                    tint = if (movie.isWatched) Color.Green else Color.Gray
                                 )
                             }
 
+                            // Кнопка "Удалить"
                             IconButton(onClick = { viewModel.removeFromWishlist(movie) }) {
                                 Icon(
                                     imageVector = Icons.Default.Delete,
                                     contentDescription = "Удалить",
-                                    tint = Color.Red
+                                    tint = Color.Red.copy(alpha = 0.8f)
                                 )
                             }
                         }
@@ -105,6 +122,7 @@ fun WishlistScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
             }
         }
 
+        // Кнопка Рандома 🎲
         if (unwatchedMovies.isNotEmpty()) {
             FloatingActionButton(
                 modifier = Modifier
@@ -117,11 +135,12 @@ fun WishlistScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
                     showRandomDialog = true
                 }
             ) {
-                Text("🎲", style = MaterialTheme.typography.headlineSmall)
+                Text("🎲", fontSize = 24.sp)
             }
         }
     }
 
+    // Диалог рандомного фильма
     if (showRandomDialog && selectedRandomMovie != null) {
         AlertDialog(
             onDismissRequest = { showRandomDialog = false },
@@ -129,12 +148,17 @@ fun WishlistScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
             text = {
                 Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
                     AsyncImage(
-                        model = if (selectedRandomMovie!!.poster_path?.startsWith("http") == true) selectedRandomMovie!!.poster_path else "https://image.tmdb.org/t/p/w500${selectedRandomMovie!!.poster_path}",
+                        model = if (selectedRandomMovie!!.poster_path?.startsWith("http") == true) selectedRandomMovie!!.poster_path
+                        else "https://image.tmdb.org/t/p/w500${selectedRandomMovie!!.poster_path}",
                         contentDescription = null,
-                        modifier = Modifier.height(200.dp).padding(bottom = 16.dp),
+                        modifier = Modifier.height(220.dp).padding(bottom = 16.dp),
                         contentScale = ContentScale.Crop
                     )
-                    Text(selectedRandomMovie!!.title, style = MaterialTheme.typography.headlineSmall)
+                    Text(
+                        selectedRandomMovie!!.title,
+                        style = MaterialTheme.typography.headlineSmall,
+                        textAlign = TextAlign.Center
+                    )
                 }
             },
             confirmButton = {
