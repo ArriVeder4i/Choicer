@@ -1,227 +1,390 @@
 package com.example.choicer.uiu
 
+import android.Manifest
 import android.graphics.Bitmap
-import androidx.compose.foundation.Image
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import coil.compose.AsyncImage
+import androidx.compose.ui.unit.sp
+import com.example.choicer.data.BleManager
 import com.example.choicer.data.Movie
 import com.example.choicer.viewmodel.MovieViewModel
+import com.example.choicer.viewmodel.ScannedDevice
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 @Composable
-fun FriendsScreen(viewModel: MovieViewModel) {
-    val wishlist by viewModel.wishlist.collectAsState()
-
+fun FriendsScreen(viewModel: MovieViewModel, onNavigateToDetails: () -> Unit) {
     val isConnected by viewModel.isConnected.collectAsState()
     val matchedItems by viewModel.matchedMovies.collectAsState()
     val combinedItems by viewModel.combinedMovies.collectAsState()
+    val discoveredDevices by viewModel.discoveredDevices.collectAsState()
+    val percent by viewModel.compatibilityPercent.collectAsState()
+    val rating by viewModel.compatibilityRating.collectAsState()
 
     var isQrVisible by remember { mutableStateOf(false) }
     var showScanner by remember { mutableStateOf(false) }
-
-    var showRandomDialog by remember { mutableStateOf(false) }
-    var randomSelectedMovie by remember { mutableStateOf<Movie?>(null) }
-
     var selectedTabIndex by remember { mutableStateOf(0) }
+    var rolling by remember { mutableStateOf(false) }
+    var showMatchAnimation by remember { mutableStateOf(false) }
+    var isDiscoveryActive by remember { mutableStateOf(false) }
+
+    val scope = rememberCoroutineScope()
+    val context = LocalContext.current
+
+    val permissionsLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        val hasPermissions = permissions.values.any { it }
+        isDiscoveryActive = hasPermissions
+        if (hasPermissions) {
+            viewModel.clearDiscoveredDevices()
+            BleManager.start(context)
+        }
+    }
+
+    LaunchedEffect(Unit) {
+        BleManager.getData = { viewModel.generateWishlistQRData() }
+        BleManager.onReceive = { data -> viewModel.matchWishlists(data) }
+        BleManager.onDeviceFound = { device, deviceName ->
+            viewModel.addDiscoveredDevice(device, deviceName)
+        }
+    }
+
+    DisposableEffect(Unit) {
+        onDispose { BleManager.stop() }
+    }
+
+    LaunchedEffect(isConnected) {
+        if (isConnected) {
+            showMatchAnimation = true
+            delay(1500)
+            showMatchAnimation = false
+        }
+    }
 
     if (showScanner) {
-        Box(modifier = Modifier.fillMaxSize()) {
-            QrScannerView(
-                onCodeScanned = { scannedData ->
-                    showScanner = false
-                    viewModel.matchWishlists(scannedData)
-                }
-            )
-
-            IconButton(
-                onClick = { showScanner = false },
-                modifier = Modifier
-                    .align(Alignment.TopEnd)
-                    .padding(16.dp)
-                    .background(Color.Black.copy(alpha = 0.5f), shape = CircleShape)
-            ) {
-                Icon(Icons.Default.Close, contentDescription = "Закрыть сканер", tint = Color.White)
+        FriendsScannerOverlay(
+            onClose = { showScanner = false },
+            onCodeScanned = { scannedData ->
+                showScanner = false
+                viewModel.matchWishlists(scannedData)
             }
-        }
+        )
         return
     }
 
-    Box(modifier = Modifier.fillMaxSize().background(Color.Black)) {
-        Column(
-            modifier = Modifier.fillMaxSize().padding(top = 16.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Text(
-                text = "Друзья и Совпадения 🤝 👓",
-                style = MaterialTheme.typography.headlineSmall,
-                color = Color.White
-            )
-            Spacer(modifier = Modifier.height(16.dp))
+    val primarySection = if (selectedTabIndex == 0) {
+        FriendsSectionData("Ваши совпадения", "✨", matchedItems, 0)
+    } else {
+        FriendsSectionData("Все вместе", "👥", combinedItems, 1)
+    }
+    val secondarySection = if (selectedTabIndex == 0) {
+        FriendsSectionData("Все вместе", "👥", combinedItems, 1)
+    } else {
+        FriendsSectionData("Ваши совпадения", "✨", matchedItems, 0)
+    }
+    val heroMovie = primarySection.movies.firstOrNull() ?: secondarySection.movies.firstOrNull()
+    val qrBitmap = if (isQrVisible) viewModel.generateWishlistQR() else null
+    val stopDiscovery = {
+        BleManager.stop()
+        isDiscoveryActive = false
+    }
 
-            if (!isConnected) {
-                Row(
-                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
-                    horizontalArrangement = Arrangement.SpaceEvenly
-                ) {
-                    Button(onClick = { isQrVisible = !isQrVisible }) {
-                        Text(if (isQrVisible) "Скрыть мой QR" else "Показать мой QR")
+    BluredGradientBackground(noPadding = true) {
+        Box(modifier = Modifier.fillMaxSize()) {
+            if (isConnected) {
+                ConnectedFriendsContent(
+                    percent = percent,
+                    rating = rating,
+                    selectedTabIndex = selectedTabIndex,
+                    isQrVisible = isQrVisible,
+                    qrBitmap = qrBitmap,
+                    rolling = rolling,
+                    heroMovie = heroMovie,
+                    primarySection = primarySection,
+                    secondarySection = secondarySection,
+                    onToggleQr = { isQrVisible = !isQrVisible },
+                    onDisconnect = {
+                        isQrVisible = false
+                        isDiscoveryActive = false
+                        BleManager.stop()
+                        viewModel.disconnect()
+                    },
+                    onRandomMovie = {
+                        rolling = true
+                        val movie = if (selectedTabIndex == 0) {
+                            viewModel.getRandomMovieFromMatch()
+                        } else {
+                            viewModel.getRandomMovieFromCombined()
+                        }
+                        scope.launch {
+                            delay(800)
+                            rolling = false
+                            movie?.let {
+                                viewModel.selectedMovieForDetails.value = it
+                                viewModel.loadExtraDetails(it.id)
+                                onNavigateToDetails()
+                            }
+                        }
+                    },
+                    onSelectTab = { selectedTabIndex = it },
+                    onMovieClick = { movie ->
+                        viewModel.selectedMovieForDetails.value = movie
+                        viewModel.loadExtraDetails(movie.id)
+                        onNavigateToDetails()
                     }
-                    Button(onClick = { showScanner = true }) {
-                        Text("Сканировать")
-                    }
-                }
-
-                Spacer(modifier = Modifier.height(24.dp))
-
-                if (isQrVisible) {
-                    val qrBitmap: Bitmap? = viewModel.generateWishlistQR()
-                    if (qrBitmap != null) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text("Покажите этот код другу", color = Color.LightGray, textAlign = TextAlign.Center, modifier = Modifier.padding(bottom = 16.dp))
-                            Image(
-                                bitmap = qrBitmap.asImageBitmap(),
-                                contentDescription = "Ваш QR Code",
-                                modifier = Modifier.size(260.dp).background(Color.White).padding(8.dp)
+                )
+            } else {
+                DisconnectedFriendsContent(
+                    isQrVisible = isQrVisible,
+                    qrBitmap = qrBitmap,
+                    isDiscoveryActive = isDiscoveryActive,
+                    discoveredDevices = discoveredDevices,
+                    onToggleQr = { isQrVisible = !isQrVisible },
+                    onScan = { showScanner = true },
+                    onStopDiscovery = stopDiscovery,
+                    onStartDiscovery = {
+                        BleManager.stop()
+                        isDiscoveryActive = false
+                        viewModel.clearDiscoveredDevices()
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                            permissionsLauncher.launch(
+                                arrayOf(
+                                    Manifest.permission.BLUETOOTH_SCAN,
+                                    Manifest.permission.BLUETOOTH_ADVERTISE,
+                                    Manifest.permission.BLUETOOTH_CONNECT
+                                )
+                            )
+                        } else {
+                            permissionsLauncher.launch(
+                                arrayOf(
+                                    Manifest.permission.ACCESS_FINE_LOCATION,
+                                    Manifest.permission.ACCESS_COARSE_LOCATION
+                                )
                             )
                         }
-                    } else {
-                        Text("Добавьте хотя бы один фильм в вишлист,\nчтобы сгенерировать QR-код.", color = Color.Gray, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 32.dp))
-                    }
-                } else {
-                    Text("Нажмите «Показать мой QR»,\nили отсканируйте код друга.", color = Color.Gray, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 64.dp))
-                }
-
-            } else {
-                TabRow(
-                    selectedTabIndex = selectedTabIndex,
-                    containerColor = Color.DarkGray,
-                    contentColor = Color.White
-                ) {
-                    Tab(
-                        selected = selectedTabIndex == 0,
-                        onClick = { selectedTabIndex = 0 }
-                    ) {
-                        Text(
-                            text = "Совпадения (${matchedItems.size})",
-                            modifier = Modifier.padding(16.dp),
-                            fontWeight = if (selectedTabIndex == 0) FontWeight.Bold else FontWeight.Normal
-                        )
-                    }
-                    Tab(
-                        selected = selectedTabIndex == 1,
-                        onClick = { selectedTabIndex = 1 }
-                    ) {
-                        Text(
-                            text = "Все вместе (${combinedItems.size})",
-                            modifier = Modifier.padding(16.dp),
-                            fontWeight = if (selectedTabIndex == 1) FontWeight.Bold else FontWeight.Normal
-                        )
-                    }
-                }
-
-                val currentList = if (selectedTabIndex == 0) matchedItems else combinedItems
-
-                Row(
-                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    val titleText = if (selectedTabIndex == 0) {
-                        if (matchedItems.isEmpty()) "Нет совпадений 😢" else "Вы оба хотите посмотреть:"
-                    } else {
-                        "Ваш общий список:"
-                    }
-
-                    Text(titleText, style = MaterialTheme.typography.titleMedium, color = Color.White)
-
-                    IconButton(onClick = {
-                        if (currentList.isNotEmpty()) {
-                            randomSelectedMovie = currentList.random()
-                            showRandomDialog = true
-                        }
-                    }) {
-                        Text("🎲", style = MaterialTheme.typography.headlineMedium)
-                    }
-                }
-
-                LazyColumn(
-                    modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    items(currentList) { movie -> SharedMovieCard(movie = movie) }
-                }
-            }
-        }
-    }
-
-    if (showRandomDialog && randomSelectedMovie != null) {
-        RandomResultDialog(movie = randomSelectedMovie!!, onDismiss = { showRandomDialog = false })
-    }
-}
-
-@Composable
-fun SharedMovieCard(movie: Movie) {
-    Card(
-        modifier = Modifier.fillMaxWidth().height(100.dp).padding(bottom = 8.dp),
-        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            val fullPosterUrl = when {
-                movie.poster_path.isNullOrEmpty() -> null
-                movie.poster_path.startsWith("http") -> movie.poster_path
-                else -> "https://image.tmdb.org/t/p/w500${movie.poster_path}"
-            }
-
-            AsyncImage(
-                model = fullPosterUrl,
-                contentDescription = null,
-                modifier = Modifier.width(70.dp).fillMaxHeight(),
-                contentScale = ContentScale.Crop,
-                error = coil.compose.rememberAsyncImagePainter("https://via.placeholder.com/150?text=No+Image")
-            )
-
-            Column(modifier = Modifier.padding(12.dp)) {
-                Text(text = movie.title ?: "", color = Color.White, fontWeight = FontWeight.Bold, maxLines = 1)
-                Spacer(modifier = Modifier.height(4.dp))
-
-                // Используем свойство из модели
-                Text(text = "⭐ ${movie.formattedRating}", color = Color.Yellow)
-            }
-        }
-    }
-}
-
-@Composable
-fun RandomResultDialog(movie: Movie, onDismiss: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text(text = "🎲 Случайный выбор") },
-        text = {
-            Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-                AsyncImage(
-                    model = if (movie.poster_path?.startsWith("http") == true) movie.poster_path else "https://image.tmdb.org/t/p/w500${movie.poster_path}",
-                    contentDescription = null,
-                    modifier = Modifier.height(200.dp).padding(bottom = 16.dp),
-                    contentScale = ContentScale.Crop
+                    },
+                    onDeviceClick = { device -> viewModel.connectToFoundDevice(device) }
                 )
-                Text(movie.title ?: "", style = MaterialTheme.typography.headlineSmall)
             }
-        },
-        confirmButton = { Button(onClick = onDismiss) { Text("Ок") } }
-    )
+
+            FriendsMatchOverlay(
+                visible = showMatchAnimation,
+                modifier = Modifier.align(Alignment.Center)
+            )
+        }
+    }
+}
+
+@Composable
+private fun FriendsScannerOverlay(
+    onClose: () -> Unit,
+    onCodeScanned: (String) -> Unit
+) {
+    Box(modifier = Modifier.fillMaxSize()) {
+        QrScannerView(onCodeScanned = onCodeScanned)
+        IconButton(
+            onClick = onClose,
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .statusBarsPadding()
+                .padding(16.dp)
+                .background(Color.Black.copy(alpha = 0.55f), CircleShape)
+        ) {
+            Icon(Icons.Default.Close, null, tint = Color.White)
+        }
+    }
+}
+
+@Composable
+private fun FriendsMatchOverlay(
+    visible: Boolean,
+    modifier: Modifier = Modifier
+) {
+    AnimatedVisibility(visible = visible, modifier = modifier) {
+        Box(
+            modifier = Modifier
+                .clip(RoundedCornerShape(28.dp))
+                .background(
+                    Brush.horizontalGradient(
+                        listOf(Color(0xFF6727B3), Color(0xFFE14D86))
+                    )
+                )
+                .border(1.dp, FriendsCardBorder, RoundedCornerShape(28.dp))
+                .padding(horizontal = 30.dp, vertical = 22.dp)
+        ) {
+            Text(
+                text = "❤️ Совпадение найдено",
+                color = Color.White,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.SemiBold
+            )
+        }
+    }
+}
+
+@Composable
+private fun ConnectedFriendsContent(
+    percent: Int,
+    rating: Double,
+    selectedTabIndex: Int,
+    isQrVisible: Boolean,
+    qrBitmap: Bitmap?,
+    rolling: Boolean,
+    heroMovie: Movie?,
+    primarySection: FriendsSectionData,
+    secondarySection: FriendsSectionData,
+    onToggleQr: () -> Unit,
+    onDisconnect: () -> Unit,
+    onRandomMovie: () -> Unit,
+    onSelectTab: (Int) -> Unit,
+    onMovieClick: (Movie) -> Unit
+) {
+    LazyColumn(
+        modifier = Modifier.fillMaxSize().statusBarsPadding(),
+        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 14.dp, bottom = 28.dp),
+        verticalArrangement = Arrangement.spacedBy(18.dp)
+    ) {
+        item { FriendsHeader() }
+        item {
+            MatchHeroCard(
+                percent = percent,
+                rating = rating,
+                rolling = rolling,
+                heroMovie = heroMovie,
+                onToggleQr = onToggleQr,
+                onDisconnect = onDisconnect,
+                onRandomMovie = onRandomMovie
+            )
+        }
+        if (isQrVisible && qrBitmap != null) {
+            item {
+                QrPreviewCard(
+                    bitmap = qrBitmap,
+                    title = "Ваш QR-код",
+                    subtitle = null
+                )
+            }
+        }
+        item {
+            FriendsSegmentedTabs(
+                selectedTabIndex = selectedTabIndex,
+                onSelectTab = onSelectTab
+            )
+        }
+        item {
+            FriendsMovieSection(
+                section = primarySection,
+                highlighted = true,
+                onMovieClick = onMovieClick
+            )
+        }
+        item {
+            FriendsMovieSection(
+                section = secondarySection,
+                highlighted = false,
+                onMovieClick = onMovieClick
+            )
+        }
+    }
+}
+
+@Composable
+private fun DisconnectedFriendsContent(
+    isQrVisible: Boolean,
+    qrBitmap: Bitmap?,
+    isDiscoveryActive: Boolean,
+    discoveredDevices: List<ScannedDevice>,
+    onToggleQr: () -> Unit,
+    onScan: () -> Unit,
+    onStopDiscovery: () -> Unit,
+    onStartDiscovery: () -> Unit,
+    onDeviceClick: (ScannedDevice) -> Unit
+) {
+    LazyColumn(
+        modifier = Modifier.fillMaxSize().statusBarsPadding(),
+        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 14.dp, bottom = 28.dp),
+        verticalArrangement = Arrangement.spacedBy(18.dp)
+    ) {
+        item { FriendsHeader() }
+        item {
+            DiscoverHeroCard(
+                isQrVisible = isQrVisible,
+                onToggleQr = onToggleQr,
+                onScan = onScan
+            )
+        }
+        if (isQrVisible && qrBitmap != null) {
+            item {
+                QrPreviewCard(
+                    bitmap = qrBitmap,
+                    title = "Ваш QR-код",
+                    subtitle = null
+                )
+            }
+        }
+        item {
+            FriendsSectionHeader(
+                title = "Устройства поблизости",
+                icon = "\uD83D\uDCF1",
+                actionText = null,
+                onActionClick = null
+            )
+        }
+        item {
+            if (isDiscoveryActive) {
+                SearchingDevicesCard(
+                    hasDiscoveredDevices = discoveredDevices.isNotEmpty(),
+                    onClick = onStopDiscovery
+                )
+            } else {
+                StartDiscoveryCard(onClick = onStartDiscovery)
+            }
+        }
+        if (discoveredDevices.isNotEmpty()) {
+            item {
+                Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
+                    discoveredDevices.forEach { device ->
+                        NearbyDeviceCard(device = device, onClick = { onDeviceClick(device) })
+                    }
+                }
+            }
+        }
+    }
 }

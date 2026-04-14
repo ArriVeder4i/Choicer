@@ -52,8 +52,4 @@ class ClipRepository(private val client: OkHttpClient) {
         val driveId = clipsCache[movieId]
         return driveId?.let { "https://drive.google.com/uc?export=download&id=$it" }
     }
-
-    fun createDirectLink(driveId: String): String {
-        return "https://drive.google.com/uc?export=download&id=$driveId"
-    }
 }
