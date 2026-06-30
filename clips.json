@@ -15206,39 +15206,60 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:05.702119+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:30:54.514769+00:00",
         "tags": {
           "moods": [
             "light",
-            "epic",
-            "sad"
+            "romantic",
+            "epic"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "couple",
-            "friends",
-            "background"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "retro",
+            "nostalgic undertone"
           ],
           "themes": [
-            "love and attachment",
-            "chaos of everyday life"
+            "true story",
+            "personal legacy",
+            "love and attachment"
           ],
           "emotions": [
             "joy",
-            "melancholy",
-            "adrenaline"
+            "amusement",
+            "tenderness"
           ],
           "energy": "high",
           "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
-          ]
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
