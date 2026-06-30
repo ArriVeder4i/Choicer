@@ -16759,38 +16759,55 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:06.821457+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:32:57.957394+00:00",
         "tags": {
           "moods": [
-            "light",
+            "epic",
             "atmospheric",
-            "epic"
+            "tense"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
+            "superhero",
             "sense of wonder"
           ],
           "themes": [
-            "survival in conflict",
-            "humanity versus technology"
+            "survival",
+            "survival in conflict"
           ],
           "emotions": [
-            "joy",
             "adrenaline"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "worldbuilding lovers",
-            "adult audience"
-          ]
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: superhero."
         },
         "embedding": null
       }
