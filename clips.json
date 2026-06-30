@@ -3335,42 +3335,59 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:55.173973+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:44:16.074496+00:00",
         "tags": {
           "moods": [
             "dark",
-            "atmospheric",
-            "sad"
+            "romantic",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
             "couple",
-            "friends",
-            "alone"
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "sense of wonder",
-            "quiet emotional aftertaste",
-            "distinct auteur flavor"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "revenge",
-            "humanity versus technology"
+            "love and attachment",
+            "personal transformation"
           ],
           "emotions": [
-            "unease",
-            "melancholy"
+            "melancholy",
+            "tenderness",
+            "unease"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "worldbuilding lovers",
-            "adult audience"
-          ]
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
