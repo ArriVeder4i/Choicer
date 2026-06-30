@@ -20201,41 +20201,53 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:09.496304+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:38:04.281281+00:00",
         "tags": {
           "moods": [
             "tense",
-            "dark",
+            "sad",
             "epic"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "mystery-night energy",
-            "quiet emotional aftertaste",
-            "distinct auteur flavor"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal legacy",
-            "fear and uncertainty"
+            "fear and uncertainty",
+            "personal transformation"
           ],
           "emotions": [
             "anxiety",
-            "unease"
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "viewers seeking substance",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
