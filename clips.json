@@ -578,44 +578,66 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:53.129204+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:40:36.552688+00:00",
         "tags": {
           "moods": [
+            "atmospheric",
             "tense",
-            "dark",
-            "atmospheric"
+            "dark"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone"
+            "group",
+            "alone",
+            "background"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
             "sense of wonder",
-            "mystery-night energy",
-            "quiet emotional aftertaste"
+            "creeping dread",
+            "mystery-night energy"
           ],
           "themes": [
-            "revenge",
+            "fear and uncertainty",
             "search for truth",
-            "humanity versus technology",
-            "fear and uncertainty"
+            "humanity versus technology"
           ],
           "emotions": [
             "anxiety",
-            "unease"
+            "hope",
+            "melancholy"
           ],
-          "energy": "high",
-          "ending": "tragic",
+          "energy": "low",
+          "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
             "worldbuilding lovers",
-            "viewers seeking substance"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "загадочный фильм для ночного просмотра"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: sense of wonder."
         },
         "embedding": null
       }
