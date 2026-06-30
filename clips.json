@@ -21255,39 +21255,54 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.272397+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:39:44.127677+00:00",
         "tags": {
           "moods": [
             "light",
-            "dark",
             "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
+            "retro",
+            "nostalgic undertone",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "unease",
             "melancholy"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
