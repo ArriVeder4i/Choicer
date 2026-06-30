@@ -23904,19 +23904,18 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:12.193537+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:44:05.119517+00:00",
         "tags": {
           "moods": [
-            "tense",
             "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "creeping dread"
           ],
@@ -23924,14 +23923,25 @@
             "fear and uncertainty"
           ],
           "emotions": [
-            "anxiety",
             "unease"
           ],
           "energy": "medium",
-          "ending": "ambiguous",
+          "ending": "unexpected",
           "targetAudience": [
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "тихий вечер одному"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
         },
         "embedding": null
       }
