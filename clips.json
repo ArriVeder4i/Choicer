@@ -2867,15 +2867,14 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:54.828405+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:43:37.376592+00:00",
         "tags": {
           "moods": [
-            "sad",
             "inspiring"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "thought-provoking",
           "watchWith": [
             "alone"
           ],
@@ -2884,19 +2883,34 @@
             "cinematic mood piece"
           ],
           "themes": [
-            "personal legacy"
+            "personal legacy",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "melancholy",
             "hope"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "viewers seeking substance",
-            "adult audience"
-          ]
+            "viewers seeking substance"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "фильм для спокойного просмотра одному",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Вдохновляющее кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
