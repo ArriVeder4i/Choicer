@@ -20897,12 +20897,12 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.008406+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:39:07.970745+00:00",
         "tags": {
           "moods": [
-            "atmospheric"
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -20910,19 +20910,35 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "retro",
+            "nostalgic undertone"
           ],
           "themes": [
-            "personal transformation"
+            "love and attachment"
           ],
           "emotions": [
-            "curiosity"
+            "tenderness"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
