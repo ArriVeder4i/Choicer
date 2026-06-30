@@ -15896,39 +15896,61 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:06.208306+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:31:48.004019+00:00",
         "tags": {
           "moods": [
-            "light",
-            "tense",
-            "dark"
+            "epic",
+            "inspiring",
+            "light"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "friends",
-            "background"
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
-            "street-level grit"
+            "retro",
+            "street-level grit",
+            "nostalgic undertone"
           ],
           "themes": [
-            "pursuit of a dream",
-            "chaos of everyday life"
+            "crime",
+            "love and attachment",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "joy",
-            "anxiety",
-            "unease",
-            "adrenaline"
+            "hope",
+            "amusement",
+            "joy"
           ],
-          "energy": "high",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
+            "жесткое приземленное криминальное кино",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: retro."
         },
         "embedding": null
       }
