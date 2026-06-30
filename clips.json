@@ -22288,40 +22288,59 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.016199+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:41:27.420101+00:00",
         "tags": {
           "moods": [
-            "light",
-            "dark",
-            "epic"
+            "epic",
+            "inspiring",
+            "light"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
-            "friends",
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "revenge"
+            "family bonds",
+            "personal legacy",
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "unease",
-            "adrenaline"
+            "adrenaline",
+            "hope",
+            "joy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers",
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что-то легкое и приятное на вечер",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
