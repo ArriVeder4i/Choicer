@@ -17167,32 +17167,56 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:07.120888+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:33:32.308081+00:00",
         "tags": {
           "moods": [
-            "epic"
+            "dark",
+            "epic",
+            "tense"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends"
+            "group",
+            "background"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
             "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation"
+            "survival"
           ],
           "emotions": [
-            "adrenaline"
+            "adrenaline",
+            "unease"
           ],
-          "energy": "high",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "масштабное кино с большим размахом",
+            "напряженный фильм, который держит в тонусе",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
