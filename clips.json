@@ -2298,40 +2298,59 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:54.369048+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:42:48.886532+00:00",
         "tags": {
           "moods": [
-            "tense",
             "dark",
-            "sad"
+            "tense",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "background"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
-            "street-level grit"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "family bonds",
+            "crime",
+            "humanity versus technology",
             "love and attachment"
           ],
           "emotions": [
-            "anxiety",
             "unease",
-            "melancholy"
+            "melancholy",
+            "tenderness"
           ],
           "energy": "medium",
-          "ending": "tragic",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "атмосферный фильм, чтобы погрузиться",
+            "что-то, что можно включить фоном",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
