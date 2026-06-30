@@ -24763,45 +24763,63 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:12.846987+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:45:33.617312+00:00",
         "tags": {
           "moods": [
+            "epic",
             "light",
-            "tense",
-            "dark"
+            "atmospheric"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "family",
-            "friends",
-            "alone"
+            "group",
+            "alone",
+            "background"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
             "sense of wonder",
-            "creeping dread",
             "distinct auteur flavor"
           ],
           "themes": [
-            "love and attachment",
-            "fear and uncertainty"
+            "fear and uncertainty",
+            "survival",
+            "survival in conflict"
           ],
           "emotions": [
+            "adrenaline",
             "joy",
-            "anxiety",
-            "unease",
-            "adrenaline"
+            "unease"
           ],
-          "energy": "high",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unexpected",
           "targetAudience": [
-            "family movie night viewers",
-            "fans of tense genre cinema",
             "worldbuilding lovers",
-            "adult audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
