@@ -21924,39 +21924,62 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.752700+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:40:50.557504+00:00",
         "tags": {
           "moods": [
-            "tense",
             "dark",
-            "atmospheric"
+            "atmospheric",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone"
+            "group",
+            "alone",
+            "background"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder",
+            "creeping dread",
             "mystery-night energy",
-            "creeping dread"
+            "sense of wonder"
           ],
           "themes": [
-            "humanity versus technology",
-            "fear and uncertainty"
+            "fear and uncertainty",
+            "search for truth"
           ],
           "emotions": [
-            "anxiety",
             "unease"
           ],
           "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers"
-          ]
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "фильм с чувством чуда и открытия"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
         },
         "embedding": null
       }
