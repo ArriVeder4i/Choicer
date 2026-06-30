@@ -14563,39 +14563,48 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:05.187538+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:24:53.559696+00:00",
         "tags": {
           "moods": [
-            "light",
-            "tense",
-            "epic"
+            "atmospheric"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "background"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
+            "dialogue-heavy",
             "street-level grit"
           ],
           "themes": [
-            "revenge",
-            "chaos of everyday life"
+            "true story",
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
-            "joy",
-            "anxiety",
-            "adrenaline"
+            "curiosity"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: dialogue-heavy."
         },
         "embedding": null
       }
