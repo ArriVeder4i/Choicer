@@ -14864,16 +14864,15 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:05.421147+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:30:25.725582+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "sad",
-            "inspiring"
+            "inspiring",
+            "sad"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
@@ -14882,19 +14881,36 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal legacy"
+            "personal legacy",
+            "pursuit of a dream",
+            "true story"
           ],
           "emotions": [
-            "unease",
-            "melancholy",
-            "hope"
+            "hope",
+            "melancholy"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "viewers seeking substance"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
