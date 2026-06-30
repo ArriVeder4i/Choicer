@@ -20582,41 +20582,56 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:09.782476+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:38:40.137246+00:00",
         "tags": {
           "moods": [
             "light",
-            "tense",
-            "dark"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
-            "street-level grit"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "chaos of everyday life"
+            "crime",
+            "personal transformation"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "anxiety",
-            "unease"
+            "melancholy"
           ],
-          "energy": "medium",
-          "ending": "tragic",
+          "energy": "high",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
         },
         "embedding": null
       }
