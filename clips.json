@@ -21354,6 +21354,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 430,
+      "clips": [
+        {
+          "driveId": "1ljIBfXkORf7b8cepJUyNrVuPX4C7ckL4"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:34:08.227101+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "romantic",
+            "atmospheric"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy",
+            "love and attachment"
+          ],
+          "emotions": [
+            "joy",
+            "tenderness",
+            "amusement"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
