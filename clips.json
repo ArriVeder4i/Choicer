@@ -2415,42 +2415,48 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:54.458580+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:42:58.302106+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "dark",
             "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone",
             "background"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
             "street-level grit",
-            "nostalgic undertone"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "family bonds",
-            "confronting the past"
+            "crime",
+            "personal transformation"
           ],
           "emotions": [
-            "anxiety",
-            "unease",
             "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "что-то, что можно включить фоном",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "включить фоном во время отдыха"
+          ],
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
