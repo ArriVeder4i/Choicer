@@ -20426,6 +20426,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 7518867,
+      "clips": [
+        {
+          "driveId": "1wR0T3y6Plr6haQdUlsdF1h7pFSu3ruwS"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:28:48.114887+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "tense",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "street-level grit",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "crime",
+            "love and attachment",
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety",
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем вечером",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+        },
+        "embedding": null
+      }
     }
   ]
 }
