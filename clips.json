@@ -22459,19 +22459,19 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.146149+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:41:44.795724+00:00",
         "tags": {
           "moods": [
             "light",
+            "inspiring",
             "romantic"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "family",
-            "friends",
-            "background"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
@@ -22479,19 +22479,40 @@
           ],
           "themes": [
             "family bonds",
-            "friendship under pressure",
             "love and attachment",
-            "revenge"
+            "pursuit of a dream"
           ],
           "emotions": [
             "joy",
-            "tenderness"
+            "hope",
+            "amusement"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
