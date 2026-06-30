@@ -22230,40 +22230,52 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.974785+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:41:20.658488+00:00",
         "tags": {
           "moods": [
-            "light",
-            "inspiring"
+            "light"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "family",
-            "friends",
-            "background"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
             "cinematic mood piece"
           ],
           "themes": [
-            "family bonds",
-            "friendship under pressure",
-            "revenge",
-            "pursuit of a dream"
+            "family bonds"
           ],
           "emotions": [
             "joy",
-            "hope"
+            "amusement"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers",
-            "young adult viewers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
