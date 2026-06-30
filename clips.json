@@ -16390,44 +16390,60 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:06.556413+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:32:28.818304+00:00",
         "tags": {
           "moods": [
+            "epic",
             "light",
-            "tense",
             "atmospheric"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "family",
-            "friends",
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
             "mystery-night energy",
+            "sense of wonder",
             "street-level grit"
           ],
           "themes": [
+            "crime",
             "search for truth",
-            "humanity versus technology"
+            "survival"
           ],
           "emotions": [
-            "joy",
-            "anxiety",
-            "adrenaline"
+            "adrenaline",
+            "joy"
           ],
           "energy": "high",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers",
-            "fans of tense genre cinema",
-            "worldbuilding lovers",
-            "viewers seeking substance"
-          ]
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
+            "загадочный фильм для ночного просмотра",
+            "фильм с чувством чуда и открытия",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: mystery-night energy."
         },
         "embedding": null
       }
