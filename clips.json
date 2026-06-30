@@ -4089,41 +4089,56 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:55.707309+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:45:27.855571+00:00",
         "tags": {
           "moods": [
             "light",
-            "dark",
+            "romantic",
             "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
+            "group",
             "background"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "family bonds",
             "love and attachment",
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "unease",
             "melancholy"
           ],
-          "energy": "low",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
