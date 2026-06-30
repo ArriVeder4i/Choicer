@@ -3269,39 +3269,60 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:55.130254+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:44:11.300964+00:00",
         "tags": {
           "moods": [
             "light",
-            "atmospheric",
-            "epic"
+            "epic",
+            "atmospheric"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "family",
-            "friends"
+            "group",
+            "background"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
             "sense of wonder"
           ],
           "themes": [
-            "survival in conflict",
-            "humanity versus technology"
+            "family bonds",
+            "survival"
           ],
           "emotions": [
             "joy",
             "adrenaline"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers",
-            "fans of tense genre cinema",
-            "worldbuilding lovers"
-          ]
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
