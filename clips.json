@@ -843,39 +843,55 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:53.304356+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:40:54.526552+00:00",
         "tags": {
           "moods": [
-            "dark",
+            "romantic",
             "sad",
-            "romantic"
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "couple",
-            "alone"
+            "couple"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
             "love and attachment",
-            "revenge"
+            "personal transformation",
+            "survival in conflict"
           ],
           "emotions": [
-            "unease",
             "melancholy",
             "tenderness"
           ],
-          "energy": "low",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем вечером",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
