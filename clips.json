@@ -18059,41 +18059,49 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:07.784901+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:34:46.785450+00:00",
         "tags": {
           "moods": [
             "light",
-            "dark",
             "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "friendship under pressure",
-            "revenge",
-            "pursuit of a dream",
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "unease",
             "melancholy"
           ],
-          "energy": "low",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
