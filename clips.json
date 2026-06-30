@@ -20260,37 +20260,58 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:09.541151+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:38:09.997571+00:00",
         "tags": {
           "moods": [
-            "light",
             "atmospheric",
+            "tense",
             "epic"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "family",
-            "friends"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
             "sense of wonder"
           ],
           "themes": [
-            "love and attachment"
+            "family bonds"
           ],
           "emotions": [
             "joy",
-            "adrenaline"
+            "unease"
           ],
           "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers",
             "worldbuilding lovers"
-          ]
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
