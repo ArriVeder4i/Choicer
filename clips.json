@@ -19534,12 +19534,11 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:08.983639+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:37:00.369059+00:00",
         "tags": {
           "moods": [
-            "tense",
             "dark"
           ],
           "complexity": "balanced",
@@ -19554,14 +19553,28 @@
             "fear and uncertainty"
           ],
           "emotions": [
-            "anxiety",
             "unease"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unexpected",
           "targetAudience": [
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
         },
         "embedding": null
       }
