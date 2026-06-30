@@ -2168,40 +2168,61 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:54.275471+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:42:39.565425+00:00",
         "tags": {
           "moods": [
-            "light",
-            "dark",
+            "inspiring",
+            "epic",
             "atmospheric"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "friends",
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
+            "mind-bending",
             "sense of wonder",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "humanity versus technology"
+            "pursuit of a dream",
+            "humanity versus technology",
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "unease",
-            "adrenaline"
+            "hope",
+            "melancholy"
           ],
           "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "worldbuilding lovers",
-            "adult audience"
-          ]
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
+            "кино с неожиданными идеями и поворотами",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Вдохновляющее кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: mind-bending."
         },
         "embedding": null
       }
