@@ -20135,20 +20135,19 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:09.452580+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:37:58.782763+00:00",
         "tags": {
           "moods": [
-            "dark",
+            "tense",
             "epic",
-            "sad"
+            "romantic"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "thought-provoking",
           "watchWith": [
             "couple",
-            "friends",
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
@@ -20156,22 +20155,40 @@
           ],
           "themes": [
             "love and attachment",
-            "power and control",
-            "personal legacy"
+            "survival in conflict",
+            "humanity versus technology"
           ],
           "emotions": [
-            "unease",
-            "melancholy",
-            "adrenaline"
+            "tenderness",
+            "adrenaline",
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "viewers seeking substance",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
