@@ -15036,42 +15036,58 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:05.562762+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:30:40.148246+00:00",
         "tags": {
           "moods": [
-            "light",
+            "epic",
             "tense",
-            "dark"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
+            "group",
             "alone"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "mystery-night energy",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "revenge",
+            "true story",
+            "personal legacy",
             "fear and uncertainty"
           ],
           "emotions": [
-            "joy",
+            "adrenaline",
             "anxiety",
-            "unease",
-            "adrenaline"
+            "melancholy"
           ],
-          "energy": "high",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
