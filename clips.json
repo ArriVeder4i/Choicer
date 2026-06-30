@@ -4880,45 +4880,60 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:56.300956+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:46:41.490831+00:00",
         "tags": {
           "moods": [
+            "epic",
             "light",
-            "tense",
-            "dark"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
-            "street-level grit"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "friendship under pressure",
-            "love and attachment",
-            "revenge",
-            "chaos of everyday life"
+            "crime",
+            "personal transformation",
+            "survival"
           ],
           "emotions": [
-            "joy",
-            "anxiety",
-            "unease",
-            "adrenaline"
+            "adrenaline",
+            "amusement",
+            "joy"
           ],
           "energy": "high",
-          "ending": "tragic",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
         },
         "embedding": null
       }
