@@ -23426,39 +23426,51 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.845926+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:43:20.344226+00:00",
         "tags": {
           "moods": [
             "light",
-            "sad",
             "romantic"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "couple",
-            "friends",
-            "background"
+            "group"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "love and attachment",
-            "chaos of everyday life"
+            "love and attachment"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "melancholy",
             "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
