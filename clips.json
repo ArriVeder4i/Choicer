@@ -23843,38 +23843,55 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:12.150731+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:43:59.541242+00:00",
         "tags": {
           "moods": [
             "dark",
-            "sad",
-            "romantic"
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
             "couple",
-            "alone"
+            "background"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
             "love and attachment",
-            "revenge"
+            "personal transformation"
           ],
           "emotions": [
-            "unease",
             "melancholy",
-            "tenderness"
+            "tenderness",
+            "unease"
           ],
           "energy": "medium",
-          "ending": "tragic",
+          "ending": "happy",
           "targetAudience": [
-            "viewers who like character-driven stories"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем вечером",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "включить фоном во время отдыха"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
