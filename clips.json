@@ -24119,37 +24119,44 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:12.362798+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:44:28.284051+00:00",
         "tags": {
           "moods": [
-            "light",
-            "romantic"
+            "light"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "background"
+            "group"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "nostalgic undertone"
+            "cinematic mood piece"
           ],
           "themes": [
-            "love and attachment",
-            "confronting the past",
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "tenderness"
+            "amusement",
+            "joy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
-          ]
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
