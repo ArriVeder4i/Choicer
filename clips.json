@@ -14258,37 +14258,48 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:04.883502+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:24:21.792195+00:00",
         "tags": {
           "moods": [
-            "light",
-            "atmospheric",
-            "epic"
+            "dark",
+            "tense"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder",
-            "nostalgic undertone"
+            "cinematic mood piece"
           ],
           "themes": [
-            "revenge"
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "adrenaline"
+            "unease"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "worldbuilding lovers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
