@@ -8246,42 +8246,43 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:59.305428+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:52:19.419746+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "dark",
             "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder",
-            "mystery-night energy",
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "humanity versus technology",
-            "fear and uncertainty"
+            "personal transformation"
           ],
           "emotions": [
-            "anxiety",
-            "unease",
-            "adrenaline"
+            "curiosity"
           ],
-          "energy": "high",
-          "ending": "unexpected",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "worldbuilding lovers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
