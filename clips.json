@@ -13636,41 +13636,43 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:04.311413+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:02:09.503932+00:00",
         "tags": {
           "moods": [
-            "light",
-            "tense",
-            "sad"
+            "atmospheric"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "background"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "street-level grit"
+            "cinematic mood piece"
           ],
           "themes": [
-            "personal legacy",
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "anxiety",
-            "melancholy"
+            "curiosity"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "viewers seeking substance",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
