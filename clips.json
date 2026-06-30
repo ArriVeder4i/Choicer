@@ -23307,40 +23307,63 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.760370+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:43:09.255047+00:00",
         "tags": {
           "moods": [
             "tense",
-            "dark",
-            "atmospheric"
+            "inspiring",
+            "sad"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
             "mystery-night energy",
-            "quiet emotional aftertaste",
-            "street-level grit"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment",
+            "crime",
+            "search for truth",
             "fear and uncertainty"
           ],
           "emotions": [
             "anxiety",
-            "unease"
+            "hope",
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: mystery-night energy."
         },
         "embedding": null
       }
