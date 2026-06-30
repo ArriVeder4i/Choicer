@@ -225,40 +225,56 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:52.862259+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:40:07.727777+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "dark",
+            "inspiring",
+            "sad",
             "epic"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
             "street-level grit",
-            "distinct auteur flavor"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "survival in conflict",
-            "personal legacy"
+            "crime",
+            "personal transformation",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "anxiety",
-            "unease"
+            "hope",
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "tragic",
+          "ending": "unknown",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "viewers seeking substance"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
