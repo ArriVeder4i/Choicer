@@ -18280,41 +18280,55 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:07.956485+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:35:07.125343+00:00",
         "tags": {
           "moods": [
-            "light",
-            "tense",
-            "epic"
+            "epic",
+            "tense"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group",
+            "alone"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "mystery-night energy"
+            "cinematic mood piece"
           ],
           "themes": [
-            "family bonds",
             "fear and uncertainty",
-            "chaos of everyday life"
+            "survival"
           ],
           "emotions": [
-            "joy",
+            "adrenaline",
             "anxiety",
-            "adrenaline"
+            "amusement"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "напряженный фильм, который держит в тонусе",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
