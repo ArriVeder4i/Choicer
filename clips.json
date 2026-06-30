@@ -20547,6 +20547,64 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 12935649,
+      "clips": [
+        {
+          "driveId": "1Yr7zhLNbJ6syQfTSBhScX1z3XtfpDBtt"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:29:21.636111+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем вечером",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "включить фоном во время отдыха"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
     }
   ]
 }
