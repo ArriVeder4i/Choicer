@@ -20664,6 +20664,70 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 7026396,
+      "clips": [
+        {
+          "driveId": "1I3lUQSbOwP7wssVmhnnPyOeXjcJrarwM"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:30:04.016299+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "tense",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "street-level grit"
+          ],
+          "themes": [
+            "crime",
+            "love and attachment",
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety",
+            "tenderness"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем вечером",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+        },
+        "embedding": null
+      }
     }
   ]
 }
