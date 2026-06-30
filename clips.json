@@ -15639,16 +15639,16 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:06.020888+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:31:28.742665+00:00",
         "tags": {
           "moods": [
-            "dark",
+            "inspiring",
             "sad",
-            "inspiring"
+            "epic"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "thought-provoking",
           "watchWith": [
             "alone"
           ],
@@ -15657,19 +15657,38 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal legacy"
+            "personal legacy",
+            "true story",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "unease",
-            "melancholy",
-            "hope"
+            "hope",
+            "melancholy"
           ],
-          "energy": "low",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "viewers seeking substance"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Вдохновляющее кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
