@@ -16145,41 +16145,56 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:06.383093+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:32:08.830708+00:00",
         "tags": {
           "moods": [
+            "atmospheric",
             "light",
-            "dark",
-            "atmospheric"
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
+            "retro",
             "sense of wonder",
-            "quiet emotional aftertaste"
+            "nostalgic undertone"
           ],
           "themes": [
-            "revenge",
             "humanity versus technology",
-            "chaos of everyday life"
+            "love and attachment",
+            "personal transformation"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "unease"
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
             "worldbuilding lovers"
-          ]
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
