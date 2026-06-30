@@ -4564,43 +4564,62 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:56.069502+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:46:13.304091+00:00",
         "tags": {
           "moods": [
             "tense",
             "dark",
             "epic"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "friends",
+            "group",
             "alone"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "mystery-night energy",
-            "quiet emotional aftertaste",
-            "street-level grit"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "revenge",
-            "fear and uncertainty"
+            "crime",
+            "fear and uncertainty",
+            "personal transformation"
           ],
           "emotions": [
+            "adrenaline",
             "anxiety",
-            "unease",
-            "adrenaline"
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
-            "adult audience",
-            "young adult viewers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
         },
         "embedding": null
       }
