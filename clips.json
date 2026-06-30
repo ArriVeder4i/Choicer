@@ -21315,42 +21315,62 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.314779+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:39:50.163568+00:00",
         "tags": {
           "moods": [
             "tense",
-            "dark",
+            "epic",
             "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
+            "group",
             "alone"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
             "mystery-night energy",
-            "quiet emotional aftertaste"
+            "sense of wonder",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "humanity versus technology",
-            "fear and uncertainty"
+            "search for truth",
+            "fear and uncertainty",
+            "personal transformation"
           ],
           "emotions": [
+            "adrenaline",
             "anxiety",
-            "unease",
-            "adrenaline"
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories",
             "worldbuilding lovers"
-          ]
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: mystery-night energy."
         },
         "embedding": null
       }
