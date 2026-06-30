@@ -21005,38 +21005,54 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.097188+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:39:20.468473+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "sad",
-            "romantic"
+            "atmospheric",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "slow",
+          "pacing": "dynamic",
           "hiddenVibes": [
+            "retro",
+            "nostalgic undertone",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal transformation"
+            "true story",
+            "humanity versus technology",
+            "personal legacy"
           ],
           "emotions": [
-            "unease",
-            "melancholy",
-            "tenderness",
-            "amusement"
+            "melancholy"
           ],
-          "energy": "low",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
