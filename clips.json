@@ -23376,23 +23376,24 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.803163+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:43:14.614211+00:00",
         "tags": {
           "moods": [
             "inspiring"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "background"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation"
+            "personal legacy",
+            "pursuit of a dream"
           ],
           "emotions": [
             "hope"
@@ -23400,8 +23401,19 @@
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "включить фоном во время отдыха",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
