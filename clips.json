@@ -24891,37 +24891,56 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:12.936853+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:45:44.324521+00:00",
         "tags": {
           "moods": [
-            "light",
             "atmospheric",
-            "epic"
+            "epic",
+            "light"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "thought-provoking",
           "watchWith": [
             "family",
-            "friends"
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
             "sense of wonder"
           ],
           "themes": [
-            "personal transformation"
+            "family bonds"
           ],
           "emotions": [
-            "joy",
-            "adrenaline"
+            "joy"
           ],
-          "energy": "high",
-          "ending": "unexpected",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers",
             "worldbuilding lovers"
-          ]
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "масштабное кино с большим размахом",
+            "что-то легкое и приятное на вечер",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением"
+          ],
+          "avoidPhrases": [
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Атмосферное кино с идеями, которые остаются после просмотра; подойдет для семейного вечера. Неспешный ритм помогает погрузиться в настроение. Вайб: sense of wonder."
         },
         "embedding": null
       }
