@@ -57,43 +57,54 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:52.734038+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:39:52.854902+00:00",
         "tags": {
           "moods": [
+            "epic",
             "light",
-            "dark",
             "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "friends",
-            "alone",
-            "background"
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
             "sense of wonder",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "survival",
-            "loneliness",
-            "humanity versus technology",
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
+            "amusement",
             "joy",
-            "unease",
-            "adrenaline"
+            "melancholy"
           ],
-          "energy": "high",
-          "ending": "tragic",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
             "worldbuilding lovers"
-          ]
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "неспешное кино с настроением"
+          ],
+          "avoidPhrases": [
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: sense of wonder."
         },
         "embedding": null
       }
