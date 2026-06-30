@@ -17512,13 +17512,14 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:07.382715+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:34:01.587472+00:00",
         "tags": {
           "moods": [
             "tense",
-            "atmospheric"
+            "atmospheric",
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -17526,12 +17527,9 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "mystery-night energy",
-            "nostalgic undertone"
+            "sense of wonder"
           ],
           "themes": [
-            "confronting the past",
             "fear and uncertainty"
           ],
           "emotions": [
@@ -17540,10 +17538,28 @@
           "energy": "high",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "worldbuilding lovers",
-            "adult audience"
-          ]
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "атмосферный фильм, чтобы погрузиться",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
