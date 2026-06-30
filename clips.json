@@ -20887,6 +20887,55 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 7429055,
+      "clips": [
+        {
+          "driveId": "1bXhMHbAu9hxFOXmvxNHTUyGYqZ6G7Mhq"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:31:35.619753+00:00",
+        "tags": {
+          "moods": [
+            "atmospheric"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "cinematic mood piece"
+          ],
+          "themes": [
+            "personal transformation"
+          ],
+          "emotions": [
+            "curiosity"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+        },
+        "embedding": null
+      }
     }
   ]
 }
