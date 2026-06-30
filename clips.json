@@ -18819,39 +18819,54 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:08.348814+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:35:54.722925+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "epic",
-            "sad"
+            "sad",
+            "tense",
+            "epic"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "alone",
-            "background"
+            "alone"
           ],
-          "pacing": "slow",
+          "pacing": "dynamic",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "revenge",
-            "personal legacy"
+            "personal transformation",
+            "survival in conflict"
           ],
           "emotions": [
-            "unease",
             "melancholy"
           ],
-          "energy": "low",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "viewers seeking substance",
-            "adult audience"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
