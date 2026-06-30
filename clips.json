@@ -3400,34 +3400,53 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:55.218100+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:44:20.952264+00:00",
         "tags": {
           "moods": [
-            "light"
+            "dark",
+            "tense"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
+            "group",
             "background"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "cinematic mood piece"
           ],
           "themes": [
-            "family bonds",
-            "chaos of everyday life"
+            "personal transformation"
           ],
           "emotions": [
-            "joy"
+            "amusement",
+            "joy",
+            "unease"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
