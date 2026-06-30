@@ -5110,39 +5110,43 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:56.471543+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:47:01.526378+00:00",
         "tags": {
           "moods": [
-            "light",
-            "epic",
-            "romantic"
+            "atmospheric"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "family",
-            "friends"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "cinematic mood piece"
           ],
           "themes": [
-            "family bonds",
-            "love and attachment",
-            "revenge"
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "tenderness",
-            "adrenaline"
+            "curiosity"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
