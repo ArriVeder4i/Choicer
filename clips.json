@@ -4326,41 +4326,57 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:55.893634+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:45:50.854093+00:00",
         "tags": {
           "moods": [
-            "dark",
+            "romantic",
             "sad",
-            "inspiring"
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
             "couple",
-            "alone"
+            "background"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "family bonds",
             "love and attachment",
-            "revenge",
-            "pursuit of a dream"
+            "personal transformation",
+            "revenge"
           ],
           "emotions": [
-            "unease",
-            "melancholy",
-            "hope"
+            "tenderness",
+            "melancholy"
           ],
-          "energy": "low",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем вечером",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
