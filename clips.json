@@ -3706,37 +3706,44 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:55.439562+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:44:48.302578+00:00",
         "tags": {
           "moods": [
-            "dark",
             "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "background"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
-            "nostalgic undertone"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "family bonds",
-            "confronting the past"
+            "personal transformation"
           ],
           "emotions": [
-            "unease",
             "melancholy"
           ],
-          "energy": "low",
+          "energy": "medium",
           "ending": "tragic",
           "targetAudience": [
-            "viewers who like character-driven stories",
-            "adult audience"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "включить фоном во время отдыха"
+          ],
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
