@@ -23615,35 +23615,58 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.974929+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:43:37.819195+00:00",
         "tags": {
           "moods": [
+            "epic",
             "tense",
-            "epic"
+            "dark"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
-            "friends",
+            "group",
             "alone"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "mystery-night energy"
+            "cinematic mood piece"
           ],
           "themes": [
-            "fear and uncertainty"
+            "fear and uncertainty",
+            "survival"
           ],
           "emotions": [
-            "anxiety",
-            "adrenaline"
+            "adrenaline",
+            "anxiety"
           ],
           "energy": "high",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
