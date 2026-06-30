@@ -22952,37 +22952,50 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:11.495366+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:42:34.785816+00:00",
         "tags": {
           "moods": [
             "light",
             "epic"
           ],
-          "complexity": "turn_brain_off",
+          "complexity": "balanced",
           "watchWith": [
             "family",
-            "friends",
-            "background"
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "cinematic mood piece"
           ],
           "themes": [
-            "revenge",
-            "chaos of everyday life"
+            "family bonds"
           ],
           "emotions": [
             "joy",
-            "adrenaline"
+            "amusement"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "family movie night viewers"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "масштабное кино с большим размахом",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
