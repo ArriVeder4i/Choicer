@@ -21383,14 +21383,14 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:54:10.360173+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T21:39:56.139060+00:00",
         "tags": {
           "moods": [
             "tense",
             "dark",
-            "atmospheric"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -21399,22 +21399,45 @@
           "pacing": "dynamic",
           "hiddenVibes": [
             "mystery-night energy",
-            "quiet emotional aftertaste",
-            "street-level grit"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
+            "crime",
+            "search for truth",
             "fear and uncertainty"
           ],
           "emotions": [
             "anxiety",
+            "melancholy",
             "unease"
           ],
           "energy": "high",
           "ending": "unexpected",
           "targetAudience": [
-            "fans of tense genre cinema",
-            "viewers who like character-driven stories"
-          ]
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: mystery-night energy."
         },
         "embedding": null
       }
