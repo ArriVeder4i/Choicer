@@ -2363,35 +2363,46 @@
         }
       ],
       "ai": {
-        "version": 1,
-        "provider": "local-heuristic-v1",
-        "generatedAt": "2026-06-27T03:53:54.412840+00:00",
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:42:53.542221+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "atmospheric"
+            "tense"
           ],
-          "complexity": "thought_provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "background"
           ],
-          "pacing": "slow",
+          "pacing": "balanced",
           "hiddenVibes": [
             "mystery-night energy"
           ],
           "themes": [
-            "family bonds",
-            "revenge",
             "search for truth"
           ],
           "emotions": [
-            "anxiety"
+            "curiosity"
           ],
           "energy": "medium",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
-            "viewers seeking substance"
-          ]
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
