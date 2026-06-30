@@ -20788,6 +20788,56 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 9147455,
+      "clips": [
+        {
+          "driveId": "17gIw2PavL8KOeVWqRjl0qZDkT63NTqv3"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-06-30T20:30:58.546633+00:00",
+        "tags": {
+          "moods": [
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "cinematic mood piece"
+          ],
+          "themes": [
+            "personal transformation"
+          ],
+          "emotions": [
+            "amusement",
+            "joy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+        },
+        "embedding": null
+      }
     }
   ]
 }
