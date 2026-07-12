@@ -27553,6 +27553,67 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 94106,
+      "clips": [
+        {
+          "driveId": "1yNJJTr98V35bnGE2_1tc10xPIsB637HP"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:23:51.551356+00:00",
+        "tags": {
+          "moods": [
+            "sad",
+            "tense"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "street-level grit",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "crime",
+            "search for truth"
+          ],
+          "emotions": [
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
