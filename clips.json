@@ -26063,6 +26063,74 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 1312253,
+      "clips": [
+        {
+          "driveId": "1unh5i3buau5Bwca3lCeQ8kIaqTvbmW_R"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:17:12.708176+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "atmospheric",
+            "romantic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "love and attachment",
+            "personal legacy"
+          ],
+          "emotions": [
+            "joy",
+            "amusement",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
