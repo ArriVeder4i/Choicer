@@ -27614,6 +27614,66 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 7088374,
+      "clips": [
+        {
+          "driveId": "1SE5Nx-mOVXK-F8XJPyn4MxZ4IriVbScX"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:24:06.576893+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "dark",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "creeping dread",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "fear and uncertainty",
+            "personal transformation"
+          ],
+          "emotions": [
+            "tenderness",
+            "melancholy",
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "happy",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "тихий вечер одному"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
+        },
+        "embedding": null
+      }
     }
   ]
 }
