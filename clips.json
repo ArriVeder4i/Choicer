@@ -26838,6 +26838,62 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 6281573,
+      "clips": [
+        {
+          "driveId": "1Yw-1N1jaooj6INn_le-EpSHUe6PocMWo"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:20:34.009374+00:00",
+        "tags": {
+          "moods": [
+            "tense"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "street-level grit"
+          ],
+          "themes": [
+            "crime",
+            "search for truth"
+          ],
+          "emotions": [
+            "curiosity"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
