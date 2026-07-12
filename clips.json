@@ -27806,6 +27806,56 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 1019576,
+      "clips": [
+        {
+          "driveId": "1mnDn6O_8ekkLYJNjoXVCe6Qpu0kUHm2_"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:24:46.975078+00:00",
+        "tags": {
+          "moods": [
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "creeping dread"
+          ],
+          "themes": [
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "тихий вечер одному"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
+        },
+        "embedding": null
+      }
     }
   ]
 }
