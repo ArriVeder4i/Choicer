@@ -27674,6 +27674,68 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 1139965,
+      "clips": [
+        {
+          "driveId": "1wQ5g8Hhvgmr_im1iouLkzBYr04eDoWoc"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:24:19.693777+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "sad",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "amusement",
+            "joy",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
+        },
+        "embedding": null
+      }
     }
   ]
 }
