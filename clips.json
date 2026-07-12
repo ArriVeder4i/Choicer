@@ -26553,6 +26553,68 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 13015920,
+      "clips": [
+        {
+          "driveId": "1iCT7W2ywy8Ea_kJ3vsWX4cTi8sfi019x"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:19:14.854601+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "atmospheric",
+            "tense"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor"
+          ],
+          "themes": [
+            "love and attachment"
+          ],
+          "emotions": [
+            "joy",
+            "tenderness",
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
