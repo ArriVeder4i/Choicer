@@ -27257,6 +27257,74 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 335,
+      "clips": [
+        {
+          "driveId": "1benIvOQkw8F4xFOMgcbBrsT_uX37bKV5"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:22:37.049225+00:00",
+        "tags": {
+          "moods": [
+            "sad",
+            "tense",
+            "dark"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "quiet emotional aftertaste",
+            "mind-bending",
+            "superhero"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy",
+            "crime"
+          ],
+          "emotions": [
+            "melancholy",
+            "anxiety",
+            "unease"
+          ],
+          "energy": "high",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "кино с неожиданными идеями и поворотами",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Эмоционально тяжелое кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
     }
   ]
 }
