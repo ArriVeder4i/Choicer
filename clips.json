@@ -27198,6 +27198,65 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 1402701,
+      "clips": [
+        {
+          "driveId": "1dunBpq9iJbF9TXxjgN_MWkGrGr5XMV-h"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-12T13:22:20.201708+00:00",
+        "tags": {
+          "moods": [
+            "sad",
+            "tense"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "background"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "search for truth",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Быстрый темп не дает фильму просесть. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
