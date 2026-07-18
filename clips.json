@@ -30657,61 +30657,67 @@
       }
     },
     {
-      "movieId": 1253633,
+      "movieId": 13103986,
       "clips": [
         {
-          "driveId": "1oOSzit58NxWKFlj1b5nv0oxIz81MPiBR"
+          "driveId": "1-77-WCOI1nV3qXS4Cy37LXSCl6OoAzF9"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:43:51.462261+00:00",
+        "generatedAt": "2026-07-18T22:44:11.006429+00:00",
         "tags": {
           "moods": [
-            "romantic",
-            "dark",
-            "inspiring"
+            "epic",
+            "light",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "group",
+            "background"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "sense of wonder",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "love and attachment",
-            "personal legacy",
-            "personal transformation"
+            "betrayal and distrust",
+            "survival"
           ],
           "emotions": [
-            "tenderness",
-            "hope",
-            "melancholy"
+            "adrenaline",
+            "joy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers",
+            "binge-watchers"
           ],
           "searchPhrases": [
-            "что посмотреть вдвоем с романтичным вайбом",
-            "мрачное кино с тяжелой атмосферой",
-            "вдохновляющее кино, чтобы зарядиться",
-            "фильм для спокойного просмотра одному",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "масштабное кино с большим размахом",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "когда нужна мотивация или подъем"
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
