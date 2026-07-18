@@ -30591,24 +30591,25 @@
       }
     },
     {
-      "movieId": 12856517,
+      "movieId": 733419,
       "clips": [
         {
-          "driveId": "1ge3G4h34mL8ugCLZpMGsZtTJFuqlpf2k"
+          "driveId": "1qRXt5uAurhY0hMePwMRNUv2FJ-X5Vm1R"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:37:58.628891+00:00",
+        "generatedAt": "2026-07-18T22:38:14.973089+00:00",
         "tags": {
           "moods": [
-            "sad",
-            "tense"
+            "tense",
+            "dark",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "background"
+            "alone"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
@@ -30617,22 +30618,24 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "crime",
-            "search for truth",
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
+            "unease",
             "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "binge-watchers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
             "напряженный фильм, который держит в тонусе",
-            "что-то, что можно включить фоном",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
             "загадочный фильм для ночного просмотра",
             "жесткое приземленное криминальное кино",
             "фильм с ровным темпом на вечер",
@@ -30643,10 +30646,10 @@
             "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "включить фоном во время отдыха",
+            "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
