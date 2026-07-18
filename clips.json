@@ -31118,62 +31118,60 @@
       }
     },
     {
-      "movieId": 77333,
+      "movieId": 44238,
       "clips": [
         {
-          "driveId": "1_ca5juzuH5ZLjkRggLpuoqs36E3uie1k"
+          "driveId": "1LvuWpLG8RgCLDiPBK7uwU_FVMRxfYBal"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:22:00.930464+00:00",
+        "generatedAt": "2026-07-18T23:22:46.750563+00:00",
         "tags": {
           "moods": [
-            "inspiring",
-            "light",
-            "atmospheric"
+            "light"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family"
+            "family",
+            "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
             "retro",
-            "sense of wonder",
             "nostalgic undertone"
           ],
           "themes": [
-            "family bonds",
-            "pursuit of a dream"
+            "family bonds"
           ],
           "emotions": [
-            "hope",
-            "joy"
+            "joy",
+            "amusement"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "вдохновляющее кино, чтобы зарядиться",
             "что-то легкое и приятное на вечер",
-            "атмосферный фильм, чтобы погрузиться",
             "кино для семейного вечера",
-            "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
             "история про близких и отношения"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
           "situations": [
             "семейный вечер дома",
-            "поздний вечер, когда хочется погрузиться",
+            "просмотр с друзьями",
             "после тяжелого дня, чтобы разгрузиться",
-            "когда нужна мотивация или подъем"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: retro."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
