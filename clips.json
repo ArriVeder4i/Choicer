@@ -31118,39 +31118,39 @@
       }
     },
     {
-      "movieId": 933182,
+      "movieId": 77333,
       "clips": [
         {
-          "driveId": "1pQEMrdC8TpAHQNURXywGNxmg3CBCzsZE"
+          "driveId": "1_ca5juzuH5ZLjkRggLpuoqs36E3uie1k"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:21:29.212677+00:00",
+        "generatedAt": "2026-07-18T23:22:00.930464+00:00",
         "tags": {
           "moods": [
+            "inspiring",
             "light",
-            "atmospheric",
-            "epic"
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family",
-            "group"
+            "family"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder"
+            "retro",
+            "sense of wonder",
+            "nostalgic undertone"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "family bonds"
+            "family bonds",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "joy",
-            "amusement"
+            "hope",
+            "joy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -31158,11 +31158,10 @@
             "worldbuilding lovers"
           ],
           "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
             "что-то легкое и приятное на вечер",
             "атмосферный фильм, чтобы погрузиться",
-            "масштабное кино с большим размахом",
             "кино для семейного вечера",
-            "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
             "фильм с ровным темпом на вечер",
             "история про близких и отношения"
@@ -31170,11 +31169,11 @@
           "avoidPhrases": [],
           "situations": [
             "семейный вечер дома",
-            "просмотр с друзьями",
             "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться"
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
