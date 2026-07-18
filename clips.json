@@ -29254,65 +29254,63 @@
       }
     },
     {
-      "movieId": 1387128,
+      "movieId": 3561,
       "clips": [
         {
-          "driveId": "1EByWXdpMFHZOClbOXMcdJG2fuoO94d5Y"
+          "driveId": "1yzunXGd5HTYOUgO8XibCbylS_Z_7Owms"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T20:45:50.627476+00:00",
+        "generatedAt": "2026-07-18T20:46:15.543420+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "dark"
+            "romantic",
+            "inspiring",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone",
-            "background"
+            "couple"
           ],
-          "pacing": "balanced",
+          "pacing": "slow",
           "hiddenVibes": [
-            "mystery-night energy",
-            "street-level grit",
-            "distinct auteur flavor"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "crime",
-            "search for truth",
-            "fear and uncertainty"
+            "love and attachment",
+            "true story",
+            "personal legacy"
           ],
           "emotions": [
-            "anxiety"
+            "tenderness",
+            "hope",
+            "melancholy"
           ],
-          "energy": "medium",
-          "ending": "unexpected",
+          "energy": "low",
+          "ending": "unknown",
           "targetAudience": [
-            "binge-watchers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
-            "мрачное кино с тяжелой атмосферой",
-            "фильм для спокойного просмотра одному",
-            "что-то, что можно включить фоном",
-            "загадочный фильм для ночного просмотра",
-            "жесткое приземленное криминальное кино",
-            "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "что посмотреть вдвоем с романтичным вайбом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем вечером",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
-            "тихий вечер одному",
-            "включить фоном во время отдыха",
-            "когда хочется держаться в напряжении"
+            "вечер вдвоем",
+            "поздний вечер, когда хочется погрузиться",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
