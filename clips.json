@@ -31056,18 +31056,20 @@
       }
     },
     {
-      "movieId": 1206746,
+      "movieId": 2056,
       "clips": [
         {
-          "driveId": "1R9CquDjBIlUlnYTEApC5tarRTL3m043f"
+          "driveId": "1kwg8jpT4JwNJDZLiv_9qxPNSLkvKxMf9"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:14:30.737005+00:00",
+        "generatedAt": "2026-07-18T23:14:57.399196+00:00",
         "tags": {
           "moods": [
+            "inspiring",
+            "atmospheric",
             "light"
           ],
           "complexity": "balanced",
@@ -31076,13 +31078,17 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "quiet emotional aftertaste"
           ],
           "themes": [
+            "true story",
+            "personal legacy",
             "family bonds"
           ],
           "emotions": [
-            "joy"
+            "hope",
+            "joy",
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -31090,6 +31096,8 @@
             "broad movie audience"
           ],
           "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "атмосферный фильм, чтобы погрузиться",
             "что-то легкое и приятное на вечер",
             "кино для семейного вечера",
             "фильм с ровным темпом на вечер",
@@ -31098,9 +31106,11 @@
           "avoidPhrases": [],
           "situations": [
             "семейный вечер дома",
-            "после тяжелого дня, чтобы разгрузиться"
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
