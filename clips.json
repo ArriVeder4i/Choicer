@@ -28155,6 +28155,63 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 9932878,
+      "clips": [
+        {
+          "driveId": "1HVEEsYMF8cLh3cndPMB7lu5Io9FWgG0v"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T20:19:58.190803+00:00",
+        "tags": {
+          "moods": [
+            "dark",
+            "tense"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "creeping dread"
+          ],
+          "themes": [
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety",
+            "unease"
+          ],
+          "energy": "high",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+        },
+        "embedding": null
+      }
     }
   ]
 }
