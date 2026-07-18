@@ -29822,21 +29822,21 @@
       }
     },
     {
-      "movieId": 1209777,
+      "movieId": 44156,
       "clips": [
         {
-          "driveId": "14V7UijxgSw7o4VLg9G9DlJ_KSngRDiNL"
+          "driveId": "1DmiY5-_MCprZpYBwgnA-GzZZHfAxv_9K"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:35:26.792334+00:00",
+        "generatedAt": "2026-07-18T21:36:03.682707+00:00",
         "tags": {
           "moods": [
-            "sad",
             "tense",
-            "epic"
+            "dark",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -29844,27 +29844,34 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "retro",
+            "mystery-night energy",
+            "street-level grit"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "personal transformation"
+            "crime",
+            "search for truth",
+            "fear and uncertainty"
           ],
           "emotions": [
-            "melancholy"
+            "anxiety",
+            "tenderness",
+            "unease"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
             "напряженный фильм, который держит в тонусе",
-            "масштабное кино с большим размахом",
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм для спокойного просмотра одному",
-            "фильм с ровным темпом на вечер"
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
@@ -29874,7 +29881,7 @@
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
