@@ -30464,6 +30464,63 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 961720,
+      "clips": [
+        {
+          "driveId": "1HLXxNU1D-S6kynIg6YQzODoX0CAXaHGO"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T22:25:08.859318+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "epic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "mystery-night energy"
+          ],
+          "themes": [
+            "search for truth"
+          ],
+          "emotions": [
+            "curiosity"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
