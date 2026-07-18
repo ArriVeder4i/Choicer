@@ -30466,16 +30466,16 @@
       }
     },
     {
-      "movieId": 2000102,
+      "movieId": 1220920,
       "clips": [
         {
-          "driveId": "1hAiEbJMVdgcQxU7CcryiIBvwYaQANVUJ"
+          "driveId": "1TPnfxbTwQjpcJYDRp2AkqjqHPehGLGwB"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:26:18.236353+00:00",
+        "generatedAt": "2026-07-18T22:26:50.513865+00:00",
         "tags": {
           "moods": [
             "epic",
@@ -30494,9 +30494,9 @@
             "distinct auteur flavor"
           ],
           "themes": [
-            "true story",
             "family bonds",
-            "personal legacy"
+            "survival",
+            "survival in conflict"
           ],
           "emotions": [
             "adrenaline",
