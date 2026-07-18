@@ -31429,21 +31429,21 @@
       }
     },
     {
-      "movieId": 756799,
+      "movieId": 409118,
       "clips": [
         {
-          "driveId": "1qFDavaSCkD2X73tdJX0kT_CxCIw6RBmx"
+          "driveId": "1_Phcs3jl7A1AgwdcFrxzYsp3bL4cf9rT"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:48:47.094099+00:00",
+        "generatedAt": "2026-07-18T23:49:09.689105+00:00",
         "tags": {
           "moods": [
+            "atmospheric",
             "light",
-            "epic",
-            "atmospheric"
+            "inspiring"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31453,6 +31453,7 @@
           "pacing": "dynamic",
           "hiddenVibes": [
             "sense of wonder",
+            "superhero",
             "quiet emotional aftertaste"
           ],
           "themes": [
@@ -31462,18 +31463,18 @@
           ],
           "emotions": [
             "joy",
-            "adrenaline",
-            "amusement"
+            "hope",
+            "melancholy"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
             "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "масштабное кино с большим размахом",
             "атмосферный фильм, чтобы погрузиться",
+            "что-то легкое и приятное на вечер",
+            "вдохновляющее кино, чтобы зарядиться",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
@@ -31490,7 +31491,7 @@
             "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
