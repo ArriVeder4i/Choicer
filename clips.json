@@ -29444,68 +29444,62 @@
       }
     },
     {
-      "movieId": 843650,
+      "movieId": 4996,
       "clips": [
         {
-          "driveId": "1kvsV77I29gIgstqg0dYUEGOXCGAOJQre"
+          "driveId": "1Mw19gLVn3nXsub_T3hFxaRcn-oPXn6sY"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:02:39.091254+00:00",
+        "generatedAt": "2026-07-18T21:02:59.616468+00:00",
         "tags": {
           "moods": [
-            "epic",
-            "atmospheric",
-            "tense"
+            "dark",
+            "romantic",
+            "sad"
           ],
-          "complexity": "thought-provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "group"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "superhero",
-            "sense of wonder",
+            "retro",
+            "nostalgic undertone",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "survival in conflict"
+            "love and attachment"
           ],
           "emotions": [
-            "adrenaline",
             "melancholy",
-            "tenderness"
+            "tenderness",
+            "unease"
           ],
           "energy": "medium",
-          "ending": "happy",
+          "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "масштабное кино с большим размахом",
-            "атмосферный фильм, чтобы погрузиться",
-            "напряженный фильм, который держит в тонусе",
-            "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
-            "умный фильм, после которого хочется подумать",
-            "динамичный фильм без скучных пауз",
-            "напряженная история про выживание"
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если нужен расслабленный фон без тревоги",
-            "если не хочется думать и вникать",
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
-            "когда хочется держаться в напряжении"
+            "тихий вечер одному"
           ],
-          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: superhero."
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
