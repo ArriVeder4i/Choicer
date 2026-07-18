@@ -30272,21 +30272,21 @@
       }
     },
     {
-      "movieId": 5406956,
+      "movieId": 841152,
       "clips": [
         {
-          "driveId": "1LdvJ7FfygWzBIPfmc7nE7iUtw2ijXROX"
+          "driveId": "1ItqbA9c_qdTf78yoZpqXFirRqgMjeLrC"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:09:41.487515+00:00",
+        "generatedAt": "2026-07-18T22:10:07.458600+00:00",
         "tags": {
           "moods": [
-            "atmospheric",
-            "romantic",
-            "sad"
+            "tense",
+            "dark",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30294,42 +30294,44 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "quiet emotional aftertaste"
+            "street-level grit"
           ],
           "themes": [
-            "love and attachment",
-            "personal transformation"
+            "crime",
+            "survival",
+            "survival in conflict"
           ],
           "emotions": [
-            "melancholy",
-            "tenderness"
+            "unease",
+            "adrenaline",
+            "amusement"
           ],
           "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "атмосферный фильм, чтобы погрузиться",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "масштабное кино с большим размахом",
             "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
+            "жесткое приземленное криминальное кино",
             "динамичный фильм без скучных пауз",
-            "трогательная история про чувства"
+            "напряженная история про выживание",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
         },
         "embedding": null
       }
