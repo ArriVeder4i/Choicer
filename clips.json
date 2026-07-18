@@ -30466,21 +30466,21 @@
       }
     },
     {
-      "movieId": 1220920,
+      "movieId": 4445150,
       "clips": [
         {
-          "driveId": "1TPnfxbTwQjpcJYDRp2AkqjqHPehGLGwB"
+          "driveId": "1Z2ilkbtyp9ff0LxHTmqkFEKiu90Vg0qW"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:26:50.513865+00:00",
+        "generatedAt": "2026-07-18T22:27:14.821279+00:00",
         "tags": {
           "moods": [
-            "epic",
-            "light",
-            "atmospheric"
+            "atmospheric",
+            "tense",
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30491,14 +30491,16 @@
           "pacing": "dynamic",
           "hiddenVibes": [
             "sense of wonder",
-            "distinct auteur flavor"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "family bonds",
-            "survival",
-            "survival in conflict"
+            "true story",
+            "love and attachment"
           ],
           "emotions": [
+            "unease",
             "adrenaline",
             "joy"
           ],
@@ -30509,9 +30511,9 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "масштабное кино с большим размахом",
-            "что-то легкое и приятное на вечер",
             "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
@@ -30519,6 +30521,8 @@
             "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
@@ -30526,9 +30530,9 @@
             "просмотр с друзьями",
             "включить фоном во время отдыха",
             "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
