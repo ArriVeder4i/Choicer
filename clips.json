@@ -30925,66 +30925,60 @@
       }
     },
     {
-      "movieId": 794620,
+      "movieId": 1051470,
       "clips": [
         {
-          "driveId": "1ev8ce0v7cTv28ZiToXbv-dETkMZrqcno"
+          "driveId": "1sbkUbd5EKogiENcBizUQCj0lx0XhjnBB"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:04:30.380665+00:00",
+        "generatedAt": "2026-07-18T23:04:52.253263+00:00",
         "tags": {
           "moods": [
             "light",
-            "sad",
-            "tense"
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
             "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "distinct auteur flavor",
-            "quiet emotional aftertaste"
+            "distinct auteur flavor"
           ],
           "themes": [
-            "family bonds",
-            "true story",
-            "personal legacy"
+            "family bonds"
           ],
           "emotions": [
-            "joy",
-            "melancholy"
+            "joy"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "эмоциональный фильм, который тронет",
-            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
-            "фильм с ровным темпом на вечер",
+            "динамичный фильм без скучных пауз",
             "история про близких и отношения"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "семейный вечер дома",
             "просмотр с друзьями",
             "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
