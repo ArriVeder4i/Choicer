@@ -30789,6 +30789,73 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 4709237,
+      "clips": [
+        {
+          "driveId": "1KTLpYPJdz0nCLQexJ-ixWxz2qb-2ffBg"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T22:51:13.894080+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "atmospheric",
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "group",
+            "background"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder"
+          ],
+          "themes": [
+            "family bonds",
+            "survival"
+          ],
+          "emotions": [
+            "joy",
+            "adrenaline",
+            "amusement"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "что-то легкое и приятное на вечер",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
