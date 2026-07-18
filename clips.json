@@ -29822,16 +29822,16 @@
       }
     },
     {
-      "movieId": 406,
+      "movieId": 394,
       "clips": [
         {
-          "driveId": "1BRPIBvggICpdy-J9L3BDR5oPcStA32GG"
+          "driveId": "1tXOGbPOwd44hTlfaRlvome9Fqf3ZIpSa"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:32:24.677624+00:00",
+        "generatedAt": "2026-07-18T21:32:51.417373+00:00",
         "tags": {
           "moods": [
             "dark",
@@ -29840,51 +29840,47 @@
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "creeping dread",
-            "retro",
-            "sense of wonder"
+            "street-level grit",
+            "dialogue-heavy",
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
-            "love and attachment",
+            "crime",
             "personal legacy"
           ],
           "emotions": [
-            "tenderness",
             "unease",
-            "adrenaline"
+            "anxiety",
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
             "мрачное кино с тяжелой атмосферой",
             "напряженный фильм, который держит в тонусе",
             "что посмотреть вдвоем с романтичным вайбом",
-            "фильм под компанию без провисаний",
             "фильм для спокойного просмотра одному",
-            "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз",
-            "трогательная история про чувства"
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
-            "если хочется тихое и созерцательное кино"
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
