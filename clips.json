@@ -31370,6 +31370,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 4057,
+      "clips": [
+        {
+          "driveId": "1Tfmrb0xclE7ZJE3fS0KcGoAZ93xazbc8"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T23:43:28.940228+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "atmospheric",
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "family bonds",
+            "survival in conflict"
+          ],
+          "emotions": [
+            "joy",
+            "amusement",
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "атмосферный фильм, чтобы погрузиться",
+            "что-то легкое и приятное на вечер",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
