@@ -31056,25 +31056,26 @@
       }
     },
     {
-      "movieId": 252030,
+      "movieId": 4041,
       "clips": [
         {
-          "driveId": "1yaJH-G7yroX6D5yz9kOj3uE6vvCC2RIs"
+          "driveId": "13Hq-Ux3hxDPecSGdTamRedlHpLphPqCc"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:15:32.537023+00:00",
+        "generatedAt": "2026-07-18T23:16:10.653072+00:00",
         "tags": {
           "moods": [
-            "atmospheric",
             "light",
-            "epic"
+            "romantic",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
+            "couple",
             "group"
           ],
           "pacing": "balanced",
@@ -31082,10 +31083,13 @@
             "sense of wonder"
           ],
           "themes": [
-            "family bonds"
+            "family bonds",
+            "love and attachment",
+            "survival in conflict"
           ],
           "emotions": [
-            "joy"
+            "joy",
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -31093,23 +31097,24 @@
             "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "атмосферный фильм, чтобы погрузиться",
             "что-то легкое и приятное на вечер",
-            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
             "кино для семейного вечера",
+            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "история про близких и отношения"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [],
           "situations": [
             "семейный вечер дома",
+            "вечер вдвоем",
             "просмотр с друзьями",
             "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
