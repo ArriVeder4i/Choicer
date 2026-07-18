@@ -30657,33 +30657,34 @@
       }
     },
     {
-      "movieId": 863009,
+      "movieId": 5457981,
       "clips": [
         {
-          "driveId": "18bzTHUPvq5LWuXwKIcJzmqcZEG8o9KMF"
+          "driveId": "1lOyHtgApg7VGXATgWrTxstZ7bxv3k8G7"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:40:42.122679+00:00",
+        "generatedAt": "2026-07-18T22:41:02.147894+00:00",
         "tags": {
           "moods": [
-            "sad"
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "couple",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation"
+            "love and attachment"
           ],
           "emotions": [
-            "melancholy"
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30691,17 +30692,18 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что посмотреть вдвоем вечером",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер"
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
-          "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
-          ],
+          "avoidPhrases": [],
           "situations": [
+            "вечер вдвоем",
             "включить фоном во время отдыха"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
