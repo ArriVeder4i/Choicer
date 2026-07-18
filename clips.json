@@ -30135,64 +30135,67 @@
       }
     },
     {
-      "movieId": 10937064,
+      "movieId": 577,
       "clips": [
         {
-          "driveId": "19raRDFQkNPlBgTao36JZGV9ZfKpiCPfe"
+          "driveId": "1dsye4833AC0K7GNVP5_dsSnzmwK5X3kI"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:00:27.360229+00:00",
+        "generatedAt": "2026-07-18T22:00:50.360555+00:00",
         "tags": {
           "moods": [
+            "dark",
             "tense",
-            "sad",
-            "dark"
+            "inspiring"
           ],
           "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "street-level grit",
-            "distinct auteur flavor",
+            "creeping dread",
+            "superhero",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "crime",
             "fear and uncertainty",
+            "love and attachment",
             "personal transformation"
           ],
           "emotions": [
+            "unease",
             "anxiety",
-            "melancholy"
+            "hope"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unexpected",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
-            "эмоциональный фильм, который тронет",
             "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "вдохновляющее кино, чтобы зарядиться",
             "фильм для спокойного просмотра одному",
-            "жесткое приземленное криминальное кино",
-            "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
         },
         "embedding": null
       }
