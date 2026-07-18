@@ -30591,33 +30591,39 @@
       }
     },
     {
-      "movieId": 11804682,
+      "movieId": 6579800,
       "clips": [
         {
-          "driveId": "17kdseTsfiollc1eJ4vWaGor-fN4_MA9n"
+          "driveId": "1x180PGN_2vfGyZubXJ7JcMOAxCeetAUG"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:35:52.681161+00:00",
+        "generatedAt": "2026-07-18T22:36:13.021049+00:00",
         "tags": {
           "moods": [
-            "sad"
+            "inspiring",
+            "light"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "group",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "melancholy"
+            "hope",
+            "amusement",
+            "joy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30625,17 +30631,20 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
             "фильм с ровным темпом на вечер"
           ],
-          "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
-          ],
+          "avoidPhrases": [],
           "situations": [
-            "включить фоном во время отдыха"
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
