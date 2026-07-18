@@ -31372,16 +31372,16 @@
       }
     },
     {
-      "movieId": 1192848,
+      "movieId": 708278,
       "clips": [
         {
-          "driveId": "163aWiFNTsDAkvaMTHNqiqI6AtLSTZCd6"
+          "driveId": "1k5oK5rQiDQOrAczjlglIzDvJUTzbmEZZ"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:45:58.328261+00:00",
+        "generatedAt": "2026-07-18T23:46:21.198060+00:00",
         "tags": {
           "moods": [
             "light",
