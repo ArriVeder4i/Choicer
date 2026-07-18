@@ -29570,21 +29570,21 @@
       }
     },
     {
-      "movieId": 5167,
+      "movieId": 12198,
       "clips": [
         {
-          "driveId": "15-4eaEJ6OPnwFTt0aG4ub75RA-IwDKW4"
+          "driveId": "1jbiv3eZVsHSI6UT7C21BcbVdHDXnJqMU"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:12:20.864757+00:00",
+        "generatedAt": "2026-07-18T21:12:50.812550+00:00",
         "tags": {
           "moods": [
-            "sad",
             "tense",
-            "atmospheric"
+            "dark",
+            "inspiring"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -29593,29 +29593,31 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
-            "sense of wonder"
+            "mystery-night energy",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "fear and uncertainty",
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "search for truth"
           ],
           "emotions": [
-            "melancholy",
-            "anxiety"
+            "anxiety",
+            "hope",
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
             "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
+            "мрачное кино с тяжелой атмосферой",
+            "вдохновляющее кино, чтобы зарядиться",
             "фильм под компанию без провисаний",
             "фильм для спокойного просмотра одному",
-            "фильм с чувством чуда и открытия",
+            "загадочный фильм для ночного просмотра",
             "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
@@ -29625,10 +29627,10 @@
           "situations": [
             "просмотр с друзьями",
             "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
