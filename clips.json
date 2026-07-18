@@ -30657,21 +30657,21 @@
       }
     },
     {
-      "movieId": 749562,
+      "movieId": 1112513,
       "clips": [
         {
-          "driveId": "1xXxBVElD9PoHOL9sWcsbYY0feRzuYvoq"
+          "driveId": "1a_32NSir_WWbKbOHBR_ck4lhdnC3uSkv"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:42:09.032183+00:00",
+        "generatedAt": "2026-07-18T22:42:31.899670+00:00",
         "tags": {
           "moods": [
             "epic",
-            "dark",
-            "sad"
+            "romantic",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30680,41 +30680,45 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
+            "sense of wonder",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "personal transformation"
+            "love and attachment"
           ],
           "emotions": [
             "adrenaline",
             "melancholy",
-            "unease"
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
+            "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
             "масштабное кино с большим размахом",
-            "мрачное кино с тяжелой атмосферой",
-            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
             "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
-            "динамичный фильм без скучных пауз"
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
             "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
