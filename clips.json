@@ -30526,62 +30526,63 @@
       }
     },
     {
-      "movieId": 421897,
+      "movieId": 1101298,
       "clips": [
         {
-          "driveId": "1oH_AwPoiTJvJAW20gnKYiusDrO2Pe-YC"
+          "driveId": "1mOTqRLhfGY6PYy1j9Erx7LYnhIOqvprD"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:31:16.552723+00:00",
+        "generatedAt": "2026-07-18T22:31:52.363247+00:00",
         "tags": {
           "moods": [
-            "light",
-            "tense"
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
+            "couple",
             "background"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "quiet emotional aftertaste"
           ],
           "themes": [
+            "love and attachment",
             "true story",
-            "personal legacy",
-            "survival in conflict"
+            "personal legacy"
           ],
           "emotions": [
-            "amusement",
-            "joy"
+            "tenderness",
+            "melancholy"
           ],
-          "energy": "medium",
-          "ending": "unknown",
+          "energy": "high",
+          "ending": "happy",
           "targetAudience": [
             "binge-watchers"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "напряженный фильм, который держит в тонусе",
-            "фильм под компанию без провисаний",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем вечером",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер",
-            "напряженная история про выживание"
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если нужен расслабленный фон без тревоги"
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "просмотр с друзьями",
+            "вечер вдвоем",
             "включить фоном во время отдыха",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
