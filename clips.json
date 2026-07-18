@@ -30993,21 +30993,21 @@
       }
     },
     {
-      "movieId": 596318,
+      "movieId": 703187,
       "clips": [
         {
-          "driveId": "1j0l9YWWaq-FjRQ4ovrlzx0vvnMEHvYqz"
+          "driveId": "1CfZdpaQXQ_6i-v2ImSXYFBVowY28WQ9F"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:10:44.227578+00:00",
+        "generatedAt": "2026-07-18T23:12:26.141802+00:00",
         "tags": {
           "moods": [
+            "inspiring",
             "light",
-            "sad",
-            "epic"
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31016,15 +31016,15 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "distinct auteur flavor",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "family bonds",
-            "true story",
-            "personal legacy"
+            "love and attachment",
+            "personal transformation"
           ],
           "emotions": [
+            "hope",
             "joy",
             "melancholy"
           ],
@@ -31034,23 +31034,23 @@
             "broad movie audience"
           ],
           "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
             "что-то легкое и приятное на вечер",
-            "эмоциональный фильм, который тронет",
-            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем с романтичным вайбом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "фильм с ровным темпом на вечер",
+            "трогательная история про чувства",
             "история про близких и отношения"
           ],
-          "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
-          ],
+          "avoidPhrases": [],
           "situations": [
             "семейный вечер дома",
             "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться"
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
