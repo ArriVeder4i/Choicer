@@ -31492,25 +31492,27 @@
       }
     },
     {
-      "movieId": 723841,
+      "movieId": 49684,
       "clips": [
         {
-          "driveId": "1-EaWrmLuz3gZsSuFwqTL5HRktpoc7-cI"
+          "driveId": "1IopQz0N7RnQyX-hAHHNmjmzPI2aESMcK"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:55:27.944734+00:00",
+        "generatedAt": "2026-07-18T23:55:54.061966+00:00",
         "tags": {
           "moods": [
-            "light",
             "romantic",
+            "light",
             "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family"
+            "family",
+            "couple",
+            "group"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
@@ -31518,12 +31520,13 @@
             "distinct auteur flavor"
           ],
           "themes": [
-            "family bonds",
-            "love and attachment"
+            "love and attachment",
+            "family bonds"
           ],
           "emotions": [
+            "tenderness",
             "joy",
-            "tenderness"
+            "amusement"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -31531,22 +31534,24 @@
             "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
             "что посмотреть вдвоем с романтичным вайбом",
+            "что-то легкое и приятное на вечер",
             "атмосферный фильм, чтобы погрузиться",
             "кино для семейного вечера",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства",
-            "история про близких и отношения"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [],
           "situations": [
             "семейный вечер дома",
+            "вечер вдвоем",
+            "просмотр с друзьями",
             "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
