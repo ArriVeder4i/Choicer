@@ -30405,6 +30405,68 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 178710,
+      "clips": [
+        {
+          "driveId": "1v5DRD0VI0EaxwGn0rVBpmPizLblWqj8g"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T22:19:59.707931+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "sad",
+            "inspiring"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "quiet emotional aftertaste",
+            "mystery-night energy"
+          ],
+          "themes": [
+            "love and attachment",
+            "search for truth",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy",
+            "tenderness",
+            "hope"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "включить фоном во время отдыха",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
     }
   ]
 }
