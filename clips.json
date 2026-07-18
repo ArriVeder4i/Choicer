@@ -29131,6 +29131,63 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 5305423,
+      "clips": [
+        {
+          "driveId": "1ANiV-jjxDfauJUVCxtTTciV7Bg1Ffawv"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T20:26:11.529710+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "cinematic mood piece"
+          ],
+          "themes": [
+            "love and attachment"
+          ],
+          "emotions": [
+            "tenderness",
+            "amusement",
+            "joy"
+          ],
+          "energy": "medium",
+          "ending": "happy",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+        },
+        "embedding": null
+      }
     }
   ]
 }
