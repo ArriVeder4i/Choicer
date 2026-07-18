@@ -30858,25 +30858,26 @@
       }
     },
     {
-      "movieId": 281439,
+      "movieId": 496849,
       "clips": [
         {
-          "driveId": "1SPR5mhnkxQzVU726nzYka8Omq4bVELSM"
+          "driveId": "14Kd0cTAAn6tH0xS54dlPL0Gz4KrN7et7"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:59:07.225425+00:00",
+        "generatedAt": "2026-07-18T22:59:40.841480+00:00",
         "tags": {
           "moods": [
             "tense",
-            "atmospheric",
-            "dark"
+            "dark",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
+            "couple",
             "group"
           ],
           "pacing": "balanced",
@@ -30884,14 +30885,14 @@
             "sense of wonder"
           ],
           "themes": [
-            "family bonds",
-            "love and attachment",
-            "pursuit of a dream"
+            "true story",
+            "personal legacy",
+            "love and attachment"
           ],
           "emotions": [
             "unease",
-            "hope",
-            "joy"
+            "joy",
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30900,13 +30901,13 @@
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
             "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
             "кино для семейного вечера",
+            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
@@ -30914,8 +30915,8 @@
           ],
           "situations": [
             "семейный вечер дома",
+            "вечер вдвоем",
             "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении"
           ],
           "summary": "Напряженное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
