@@ -31056,26 +31056,25 @@
       }
     },
     {
-      "movieId": 4041,
+      "movieId": 808093,
       "clips": [
         {
-          "driveId": "13Hq-Ux3hxDPecSGdTamRedlHpLphPqCc"
+          "driveId": "1uEohpXXBDKq7Of0Zqc_MO3VNAGmzC3MD"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:16:10.653072+00:00",
+        "generatedAt": "2026-07-18T23:16:37.443417+00:00",
         "tags": {
           "moods": [
             "light",
-            "romantic",
-            "atmospheric"
+            "atmospheric",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
-            "couple",
             "group"
           ],
           "pacing": "balanced",
@@ -31084,12 +31083,12 @@
           ],
           "themes": [
             "family bonds",
-            "love and attachment",
-            "survival in conflict"
+            "true story",
+            "personal legacy"
           ],
           "emotions": [
             "joy",
-            "tenderness"
+            "amusement"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -31098,18 +31097,17 @@
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем с романтичным вайбом",
             "атмосферный фильм, чтобы погрузиться",
+            "масштабное кино с большим размахом",
             "кино для семейного вечера",
-            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер"
+            "фильм с ровным темпом на вечер",
+            "история про близких и отношения"
           ],
           "avoidPhrases": [],
           "situations": [
             "семейный вечер дома",
-            "вечер вдвоем",
             "просмотр с друзьями",
             "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться"
