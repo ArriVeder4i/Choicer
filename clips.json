@@ -29511,70 +29511,61 @@
       }
     },
     {
-      "movieId": 437410,
+      "movieId": 5501397,
       "clips": [
         {
-          "driveId": "1iitTIZtm8yN4kbH8YbW0SFHbgpU0I5qp"
+          "driveId": "1IM-b6D5sLuHr0hu2L0UuC-OYX3S5Pzex"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:07:57.445920+00:00",
+        "generatedAt": "2026-07-18T21:08:24.409473+00:00",
         "tags": {
           "moods": [
-            "tense",
+            "inspiring",
             "romantic",
-            "epic"
+            "sad"
           ],
-          "complexity": "thought-provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "group",
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "superhero",
-            "mind-bending",
-            "sense of wonder"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "true story",
+            "pursuit of a dream",
             "personal legacy",
             "love and attachment"
           ],
           "emotions": [
-            "tenderness",
-            "adrenaline",
-            "anxiety"
+            "hope",
+            "melancholy",
+            "tenderness"
           ],
-          "energy": "high",
-          "ending": "bittersweet",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
+            "вдохновляющее кино, чтобы зарядиться",
             "что посмотреть вдвоем с романтичным вайбом",
-            "масштабное кино с большим размахом",
-            "фильм под компанию без провисаний",
+            "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
-            "кино с неожиданными идеями и поворотами",
-            "фильм с чувством чуда и открытия",
-            "умный фильм, после которого хочется подумать"
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если нужен расслабленный фон без тревоги",
-            "если не хочется думать и вникать",
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "просмотр с друзьями",
             "тихий вечер одному",
-            "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Напряженное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: superhero."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
