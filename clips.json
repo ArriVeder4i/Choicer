@@ -30272,58 +30272,72 @@
       }
     },
     {
-      "movieId": 1355060,
+      "movieId": 1343318,
       "clips": [
         {
-          "driveId": "1DiCYTP96BTVi8owfZd_BzGLR3Tq2EQrD"
+          "driveId": "1r8hKOb370L4SfkQOAuT2hgcuVqT936wm"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:14:06.610957+00:00",
+        "generatedAt": "2026-07-18T22:14:28.681258+00:00",
         "tags": {
           "moods": [
             "tense",
-            "dark"
+            "dark",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "group",
             "alone",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "mystery-night energy",
+            "sense of wonder",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "fear and uncertainty"
+            "search for truth",
+            "fear and uncertainty",
+            "personal transformation"
           ],
           "emotions": [
-            "anxiety"
+            "anxiety",
+            "melancholy",
+            "unease"
           ],
           "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
+            "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
             "мрачное кино с тяжелой атмосферой",
+            "атмосферный фильм, чтобы погрузиться",
+            "фильм под компанию без провисаний",
             "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер"
+            "загадочный фильм для ночного просмотра",
+            "фильм с чувством чуда и открытия"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
             "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
+            "просмотр с друзьями",
             "тихий вечер одному",
             "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
