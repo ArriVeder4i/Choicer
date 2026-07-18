@@ -29630,57 +29630,60 @@
       }
     },
     {
-      "movieId": 7525290,
+      "movieId": 627,
       "clips": [
         {
-          "driveId": "1sSH7-KdV242y50lBxysepDC_0q3l0Wqa"
+          "driveId": "1lfmfctC9IKrWnQMJmxek491Qr6Qp8k1w"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:18:41.094912+00:00",
+        "generatedAt": "2026-07-18T21:18:57.272640+00:00",
         "tags": {
           "moods": [
-            "romantic",
-            "tense"
+            "sad",
+            "inspiring",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "couple"
+            "group"
           ],
-          "pacing": "balanced",
+          "pacing": "slow",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment",
-            "survival in conflict"
+            "personal transformation",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "tenderness"
+            "melancholy",
+            "hope"
           ],
-          "energy": "medium",
+          "energy": "low",
           "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "что посмотреть вдвоем с романтичным вайбом",
-            "напряженный фильм, который держит в тонусе",
-            "что посмотреть вдвоем вечером",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства",
-            "напряженная история про выживание"
+            "эмоциональный фильм, который тронет",
+            "вдохновляющее кино, чтобы зарядиться",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "неспешное кино с настроением"
           ],
           "avoidPhrases": [
-            "если нужен расслабленный фон без тревоги"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
-            "вечер вдвоем",
-            "когда хочется держаться в напряжении"
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
