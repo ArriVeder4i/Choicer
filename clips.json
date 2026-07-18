@@ -31181,52 +31181,68 @@
       }
     },
     {
-      "movieId": 94973,
+      "movieId": 77185,
       "clips": [
         {
-          "driveId": "1rSV2oMNg3tsAA19l9P4Q9ga8oVIFbzUz"
+          "driveId": "17vPZ3eTLKSxeQjY05qyiI3nCqD_PvGj9"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:25:34.945792+00:00",
+        "generatedAt": "2026-07-18T23:26:10.558187+00:00",
         "tags": {
           "moods": [
-            "light"
+            "light",
+            "atmospheric",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "family",
             "group"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
             "retro",
+            "sense of wonder",
             "nostalgic undertone"
           ],
           "themes": [
-            "personal transformation"
+            "family bonds",
+            "humanity versus technology",
+            "survival in conflict"
           ],
           "emotions": [
             "joy",
             "amusement"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "bittersweet",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "кино для семейного вечера",
             "фильм под компанию без провисаний",
-            "фильм с ровным темпом на вечер"
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "напряженная история про выживание"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
           "situations": [
+            "семейный вечер дома",
             "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться"
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: retro."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
