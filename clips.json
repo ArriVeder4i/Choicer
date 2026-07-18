@@ -30657,53 +30657,70 @@
       }
     },
     {
-      "movieId": 5457981,
+      "movieId": 738318,
       "clips": [
         {
-          "driveId": "1lOyHtgApg7VGXATgWrTxstZ7bxv3k8G7"
+          "driveId": "1GvIk5dUdtfJ2jY-QYPP_V6yDaO8OZ8xx"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:41:02.147894+00:00",
+        "generatedAt": "2026-07-18T22:41:16.641474+00:00",
         "tags": {
           "moods": [
-            "romantic"
+            "dark",
+            "romantic",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "couple",
+            "alone",
             "background"
           ],
-          "pacing": "balanced",
+          "pacing": "slow",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "creeping dread",
+            "sense of wonder",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment"
+            "true story",
+            "personal legacy",
+            "fear and uncertainty"
           ],
           "emotions": [
+            "anxiety",
+            "melancholy",
             "tenderness"
           ],
-          "energy": "medium",
-          "ending": "unknown",
+          "energy": "low",
+          "ending": "unexpected",
           "targetAudience": [
+            "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
             "что посмотреть вдвоем с романтичным вайбом",
-            "что посмотреть вдвоем вечером",
+            "напряженный фильм, который держит в тонусе",
+            "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "фильм с чувством чуда и открытия",
+            "неспешное кино с настроением"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
           "situations": [
-            "вечер вдвоем",
-            "включить фоном во время отдыха"
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: creeping dread."
         },
         "embedding": null
       }
