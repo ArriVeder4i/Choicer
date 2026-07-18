@@ -29570,69 +29570,65 @@
       }
     },
     {
-      "movieId": 86621,
+      "movieId": 5167,
       "clips": [
         {
-          "driveId": "11qqqQ27EM1bfu8p5IcdMsoJXPE5-SeBV"
+          "driveId": "15-4eaEJ6OPnwFTt0aG4ub75RA-IwDKW4"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:12:05.927492+00:00",
+        "generatedAt": "2026-07-18T21:12:20.864757+00:00",
         "tags": {
           "moods": [
-            "light",
+            "sad",
             "tense",
-            "sad"
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group"
+            "group",
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "aesthetic",
-            "quirky",
-            "street-level grit"
+            "quiet emotional aftertaste",
+            "sense of wonder"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "crime"
+            "fear and uncertainty",
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "amusement",
-            "melancholy"
+            "melancholy",
+            "anxiety"
           ],
-          "energy": "high",
-          "ending": "unknown",
+          "energy": "medium",
+          "ending": "unexpected",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "напряженный фильм, который держит в тонусе",
             "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "атмосферный фильм, чтобы погрузиться",
             "фильм под компанию без провисаний",
-            "визуально выразительное кино с авторским стилем",
-            "жесткое приземленное криминальное кино",
-            "динамичный фильм без скучных пауз",
-            "криминальная история с характером"
+            "фильм для спокойного просмотра одному",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
-            "если хочется тихое и созерцательное кино"
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
             "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: aesthetic."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
