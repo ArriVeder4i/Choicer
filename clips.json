@@ -29820,6 +29820,69 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 409507,
+      "clips": [
+        {
+          "driveId": "1R30ehcsGW4pENqCjsIr5dJ-2iOuqIFmI"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T21:31:09.962627+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "inspiring",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy",
+            "personal transformation"
+          ],
+          "emotions": [
+            "adrenaline",
+            "hope",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
