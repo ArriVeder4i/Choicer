@@ -31179,6 +31179,73 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 45463,
+      "clips": [
+        {
+          "driveId": "1potJpnlAoDkN4PnPF9kFrRd9Z3n3Nvyl"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T23:23:42.995737+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "romantic",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "slow",
+          "hiddenVibes": [
+            "retro",
+            "nostalgic undertone",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy",
+            "love and attachment"
+          ],
+          "emotions": [
+            "melancholy",
+            "amusement",
+            "joy"
+          ],
+          "energy": "low",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Неспешный ритм помогает погрузиться в настроение. Вайб: retro."
+        },
+        "embedding": null
+      }
     }
   ]
 }
