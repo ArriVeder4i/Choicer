@@ -28813,6 +28813,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 409424,
+      "clips": [
+        {
+          "driveId": "1BD2feCB9GCKCzZeIMEbW9tlqGuQH1JtN"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T20:24:20.877401+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "atmospheric",
+            "inspiring"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "humanity versus technology",
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "adrenaline",
+            "hope",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "вдохновляющее кино, чтобы зарядиться",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
