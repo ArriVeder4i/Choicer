@@ -30993,64 +30993,68 @@
       }
     },
     {
-      "movieId": 178580,
+      "movieId": 392928,
       "clips": [
         {
-          "driveId": "1AnLcntRFkNp5Y2O8t8XdSNvTJ0igVovN"
+          "driveId": "1w8YzbzYcanvjP0pPfsUOuDtM1d-xSzNv"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:08:42.250374+00:00",
+        "generatedAt": "2026-07-18T23:09:09.843042+00:00",
         "tags": {
           "moods": [
             "light",
-            "inspiring",
-            "atmospheric"
+            "tense",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
             "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
             "sense of wonder"
           ],
           "themes": [
             "family bonds",
-            "pursuit of a dream"
+            "survival in conflict",
+            "true story"
           ],
           "emotions": [
             "joy",
-            "hope",
-            "amusement"
+            "amusement",
+            "tenderness"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
             "worldbuilding lovers"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "вдохновляющее кино, чтобы зарядиться",
-            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "история про близких и отношения"
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
           "situations": [
             "семейный вечер дома",
             "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться",
-            "когда нужна мотивация или подъем"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
