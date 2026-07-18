@@ -30526,22 +30526,24 @@
       }
     },
     {
-      "movieId": 7411625,
+      "movieId": 421897,
       "clips": [
         {
-          "driveId": "13asW8NS7l8wVNBslXbZsLDf_TLz81acV"
+          "driveId": "1oH_AwPoiTJvJAW20gnKYiusDrO2Pe-YC"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:30:46.015080+00:00",
+        "generatedAt": "2026-07-18T22:31:16.552723+00:00",
         "tags": {
           "moods": [
-            "atmospheric"
+            "light",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "group",
             "background"
           ],
           "pacing": "balanced",
@@ -30549,10 +30551,13 @@
             "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "survival in conflict"
           ],
           "emotions": [
-            "curiosity"
+            "amusement",
+            "joy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30560,16 +30565,23 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "атмосферный фильм, чтобы погрузиться",
+            "что-то легкое и приятное на вечер",
+            "напряженный фильм, который держит в тонусе",
+            "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер"
+            "фильм с ровным темпом на вечер",
+            "напряженная история про выживание"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
           "situations": [
+            "просмотр с друзьями",
             "включить фоном во время отдыха",
-            "поздний вечер, когда хочется погрузиться"
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
