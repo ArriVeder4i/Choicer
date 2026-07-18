@@ -30135,54 +30135,65 @@
       }
     },
     {
-      "movieId": 7530286,
+      "movieId": 944708,
       "clips": [
         {
-          "driveId": "1zgkTRpHIuY9pH3XVdiEPuYiom4BK6XVI"
+          "driveId": "1wadlBL5GjWfK1jWv2Vm_waf5eNlXoCSF"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:01:44.835254+00:00",
+        "generatedAt": "2026-07-18T22:02:13.470736+00:00",
         "tags": {
           "moods": [
-            "light"
+            "tense",
+            "dark",
+            "romantic"
           ],
-          "complexity": "thought-provoking",
+          "complexity": "balanced",
           "watchWith": [
-            "group"
+            "alone"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "creeping dread",
+            "mystery-night energy",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "personal transformation"
+            "fear and uncertainty",
+            "search for truth",
+            "love and attachment"
           ],
           "emotions": [
-            "amusement",
-            "joy"
+            "unease",
+            "anxiety",
+            "tenderness"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "happy",
           "targetAudience": [
-            "viewers who like character-driven stories"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "фильм под компанию без провисаний",
-            "умный фильм, после которого хочется подумать",
-            "фильм с ровным темпом на вечер"
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если не хочется думать и вникать"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться"
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с идеями, которые остаются после просмотра; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
         },
         "embedding": null
       }
