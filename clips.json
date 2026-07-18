@@ -27972,6 +27972,71 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 13136552,
+      "clips": [
+        {
+          "driveId": "1Kz0YLwZIVZHrV-X_sRw4W3WM1YbXMn3I"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T20:18:44.806246+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "atmospheric",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "personal transformation"
+          ],
+          "emotions": [
+            "joy",
+            "amusement",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
