@@ -29758,67 +29758,62 @@
       }
     },
     {
-      "movieId": 3793,
+      "movieId": 944098,
       "clips": [
         {
-          "driveId": "1SQzCrL7HMNgY8KYYjdErYfXH3IecLbZ5"
+          "driveId": "1-w0b12LXNoVaAXUe_GbSD1fHDAOmVkJ0"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:26:13.163686+00:00",
+        "generatedAt": "2026-07-18T21:26:32.943032+00:00",
         "tags": {
           "moods": [
-            "tense",
             "dark",
-            "epic"
+            "sad",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "creeping dread",
-            "superhero",
-            "mystery-night energy"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "fear and uncertainty"
+            "crime",
+            "personal transformation"
           ],
           "emotions": [
-            "unease",
-            "adrenaline"
+            "melancholy",
+            "unease"
           ],
           "energy": "medium",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
             "мрачное кино с тяжелой атмосферой",
-            "масштабное кино с большим размахом",
-            "фильм под компанию без провисаний",
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
             "фильм для спокойного просмотра одному",
-            "загадочный фильм для ночного просмотра",
-            "динамичный фильм без скучных пауз"
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
-            "если хочется тихое и созерцательное кино"
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
