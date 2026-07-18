@@ -29630,55 +29630,51 @@
       }
     },
     {
-      "movieId": 395,
+      "movieId": 1179501,
       "clips": [
         {
-          "driveId": "1fDDJkUoPp6qSGgWKapFIVjXCSj3wh3E0"
+          "driveId": "1cGmqW2sZxo37jYNAwm0bQOCKRaAgbT41"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:15:44.880954+00:00",
+        "generatedAt": "2026-07-18T21:16:02.785747+00:00",
         "tags": {
           "moods": [
             "tense",
-            "atmospheric",
-            "dark"
+            "dark",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
             "alone"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder",
             "mystery-night energy",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
-            "personal legacy",
-            "search for truth"
+            "search for truth",
+            "fear and uncertainty"
           ],
           "emotions": [
             "anxiety",
             "melancholy",
-            "unease"
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
             "мрачное кино с тяжелой атмосферой",
-            "фильм под компанию без провисаний",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм для спокойного просмотра одному",
-            "фильм с чувством чуда и открытия",
             "загадочный фильм для ночного просмотра",
             "фильм с ровным темпом на вечер"
           ],
@@ -29687,12 +29683,10 @@
             "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
             "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
