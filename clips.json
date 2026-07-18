@@ -31054,6 +31054,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 846875,
+      "clips": [
+        {
+          "driveId": "1NoUDkWqWfW6mi3YCwmCSo8YGr742hchD"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T23:13:10.308685+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "light",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "couple",
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "family bonds",
+            "personal transformation"
+          ],
+          "emotions": [
+            "tenderness",
+            "joy",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
+            "кино для семейного вечера",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
     }
   ]
 }
