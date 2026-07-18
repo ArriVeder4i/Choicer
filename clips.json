@@ -29954,67 +29954,65 @@
       }
     },
     {
-      "movieId": 7103,
+      "movieId": 1236063,
       "clips": [
         {
-          "driveId": "116cc_jUqo9VJNaiTwsHPqEMt7bu7DRcS"
+          "driveId": "1h4ER5YMJjV85AdEdGuCW4AILINzPzV2f"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:46:58.003826+00:00",
+        "generatedAt": "2026-07-18T21:47:17.517735+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "romantic",
-            "sad"
+            "epic",
+            "inspiring",
+            "atmospheric"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "family",
             "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "quiet emotional aftertaste"
+            "mind-bending",
+            "sense of wonder"
           ],
           "themes": [
-            "family bonds",
-            "love and attachment",
-            "revenge"
+            "pursuit of a dream",
+            "survival"
           ],
           "emotions": [
-            "joy",
-            "unease",
-            "melancholy"
+            "adrenaline",
+            "hope"
           ],
           "energy": "medium",
-          "ending": "tragic",
+          "ending": "unknown",
           "targetAudience": [
             "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
-            "кино для семейного вечера",
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "атмосферный фильм, чтобы погрузиться",
             "фильм под компанию без провисаний",
+            "кино с неожиданными идеями и поворотами",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "семейный вечер дома",
             "просмотр с друзьями",
-            "когда хочется держаться в напряжении"
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: mind-bending."
         },
         "embedding": null
       }
