@@ -29379,21 +29379,21 @@
       }
     },
     {
-      "movieId": 571,
+      "movieId": 63991,
       "clips": [
         {
-          "driveId": "1eYp2XxdWheQHfH2iZK0k2v5WHJkXsiPo"
+          "driveId": "1Tg1iWtgbDVvwbdqkzxEG7pelTXdfBhq2"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T20:58:29.772277+00:00",
+        "generatedAt": "2026-07-18T20:59:11.489412+00:00",
         "tags": {
           "moods": [
             "tense",
-            "dark",
-            "romantic"
+            "epic",
+            "dark"
           ],
           "complexity": "thought-provoking",
           "watchWith": [
@@ -29401,30 +29401,29 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "street-level grit",
-            "quiet emotional aftertaste"
+            "sense of wonder"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "love and attachment"
+            "love and attachment",
+            "survival",
+            "survival in conflict"
           ],
           "emotions": [
-            "tenderness",
             "unease",
-            "adrenaline"
+            "adrenaline",
+            "tenderness"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "happy",
           "targetAudience": [
-            "viewers who like character-driven stories"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
             "мрачное кино с тяжелой атмосферой",
-            "что посмотреть вдвоем с романтичным вайбом",
             "фильм под компанию без провисаний",
-            "жесткое приземленное криминальное кино",
+            "фильм с чувством чуда и открытия",
             "умный фильм, после которого хочется подумать",
             "динамичный фильм без скучных пауз",
             "трогательная история про чувства"
@@ -29439,7 +29438,7 @@
             "просмотр с друзьями",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
