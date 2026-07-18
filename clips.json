@@ -29188,6 +29188,70 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 5305583,
+      "clips": [
+        {
+          "driveId": "1j4QvcUWQTUVzjGlbmowbWITB9EpPxdmT"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T20:26:32.829501+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "sad",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "search for truth",
+            "fear and uncertainty",
+            "personal transformation"
+          ],
+          "emotions": [
+            "anxiety",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
