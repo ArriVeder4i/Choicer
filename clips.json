@@ -29511,69 +29511,64 @@
       }
     },
     {
-      "movieId": 5502,
+      "movieId": 45314,
       "clips": [
         {
-          "driveId": "1hsjCuF3RjOSnt5jNTTuj2JZFk8_JoFaL"
+          "driveId": "11y2eFdy62F51q9dMWSsvwqJ4mmFHnctH"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:05:04.838439+00:00",
+        "generatedAt": "2026-07-18T21:05:51.120581+00:00",
         "tags": {
           "moods": [
-            "light",
-            "epic",
-            "atmospheric"
+            "romantic",
+            "sad",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family",
-            "group"
+            "couple"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
+            "quiet emotional aftertaste",
             "retro",
-            "sense of wonder",
             "nostalgic undertone"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "family bonds"
+            "love and attachment",
+            "betrayal and distrust",
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "adrenaline",
-            "amusement"
+            "melancholy",
+            "tenderness",
+            "unease"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "масштабное кино с большим размахом",
-            "атмосферный фильм, чтобы погрузиться",
-            "кино для семейного вечера",
-            "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз",
-            "история про близких и отношения"
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем вечером",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "семейный вечер дома",
-            "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться",
+            "вечер вдвоем",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: retro."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
