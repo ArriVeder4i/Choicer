@@ -29630,21 +29630,21 @@
       }
     },
     {
-      "movieId": 382,
+      "movieId": 470553,
       "clips": [
         {
-          "driveId": "1HmF9sUQFJM9MHmXUYZbr-GACPQUR2GWA"
+          "driveId": "1NOyNmzOB0teM5Hpym6SBb5N1w-ReRonX"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:17:59.909554+00:00",
+        "generatedAt": "2026-07-18T21:18:21.688443+00:00",
         "tags": {
           "moods": [
             "dark",
-            "sad",
-            "tense"
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -29652,16 +29652,16 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "street-level grit",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
-            "crime",
+            "love and attachment",
             "personal legacy"
           ],
           "emotions": [
             "melancholy",
+            "tenderness",
             "unease"
           ],
           "energy": "medium",
@@ -29671,22 +29671,19 @@
           ],
           "searchPhrases": [
             "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем с романтичным вайбом",
             "эмоциональный фильм, который тронет",
-            "напряженный фильм, который держит в тонусе",
             "фильм для спокойного просмотра одному",
-            "жесткое приземленное криминальное кино",
             "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "тихий вечер одному"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
