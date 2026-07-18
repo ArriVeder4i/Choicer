@@ -29887,57 +29887,67 @@
       }
     },
     {
-      "movieId": 442568,
+      "movieId": 408876,
       "clips": [
         {
-          "driveId": "1uSqOVu5k1WkxY3qVjsfjUqL5yWXm0QWX"
+          "driveId": "1c9cMe-ZrDioRuWakj_nkssl5bftpnQi0"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:37:13.325042+00:00",
+        "generatedAt": "2026-07-18T21:37:52.924417+00:00",
         "tags": {
           "moods": [
-            "inspiring",
-            "sad"
+            "epic",
+            "atmospheric",
+            "dark"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "alone"
+            "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "sense of wonder"
           ],
           "themes": [
+            "true story",
             "personal legacy",
-            "personal transformation",
-            "pursuit of a dream"
+            "love and attachment"
           ],
           "emotions": [
-            "hope",
-            "melancholy"
+            "adrenaline",
+            "tenderness",
+            "unease"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "вдохновляющее кино, чтобы зарядиться",
-            "эмоциональный фильм, который тронет",
-            "фильм для спокойного просмотра одному",
-            "фильм с ровным темпом на вечер"
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "когда нужна мотивация или подъем"
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
