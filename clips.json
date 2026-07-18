@@ -31181,21 +31181,20 @@
       }
     },
     {
-      "movieId": 44386,
+      "movieId": 43104,
       "clips": [
         {
-          "driveId": "1HPM9cyyVmOq63x5Jedak81qZRHGT8dLr"
+          "driveId": "1PNxR4bdIxZMhylaYfNbmRyajA43ru1hs"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:24:36.778232+00:00",
+        "generatedAt": "2026-07-18T23:25:08.016434+00:00",
         "tags": {
           "moods": [
             "light",
-            "romantic",
-            "sad"
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31204,36 +31203,28 @@
           "pacing": "dynamic",
           "hiddenVibes": [
             "retro",
-            "mystery-night energy",
-            "street-level grit"
+            "nostalgic undertone"
           ],
           "themes": [
             "true story",
-            "personal legacy",
-            "crime"
+            "personal legacy"
           ],
           "emotions": [
             "joy",
-            "amusement",
-            "melancholy"
+            "amusement"
           ],
           "energy": "high",
-          "ending": "bittersweet",
+          "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
             "фильм под компанию без провисаний",
-            "загадочный фильм для ночного просмотра",
-            "жесткое приземленное криминальное кино",
-            "динамичный фильм без скучных пауз",
-            "криминальная история с характером"
+            "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
