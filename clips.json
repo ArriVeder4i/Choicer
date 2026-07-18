@@ -30202,57 +30202,57 @@
       }
     },
     {
-      "movieId": 5283168,
+      "movieId": 8915212,
       "clips": [
         {
-          "driveId": "1cfL3hJwor95miItiAQwOiiKKrSge7qx8"
+          "driveId": "1fORuRxUxLaeZQI__HMSU8HZ65k-AL1aS"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:07:15.999064+00:00",
+        "generatedAt": "2026-07-18T22:07:40.351892+00:00",
         "tags": {
           "moods": [
-            "sad",
-            "atmospheric"
+            "tense",
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "distinct auteur flavor",
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation"
+            "fear and uncertainty"
           ],
           "emotions": [
-            "melancholy"
+            "anxiety"
           ],
-          "energy": "medium",
-          "ending": "unknown",
+          "energy": "high",
+          "ending": "unexpected",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
-            "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
             "фильм для спокойного просмотра одному",
-            "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер"
+            "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
