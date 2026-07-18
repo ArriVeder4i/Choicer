@@ -30072,21 +30072,21 @@
       }
     },
     {
-      "movieId": 1446132,
+      "movieId": 568289,
       "clips": [
         {
-          "driveId": "1tr0U_E0KutVv3b_Do6QiBzuGgPeM-Z60"
+          "driveId": "1ngnBm64JjQoBBS65H9aUhxE-mgyfzArN"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:57:13.873399+00:00",
+        "generatedAt": "2026-07-18T21:57:35.977314+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "tense",
-            "inspiring"
+            "inspiring",
+            "atmospheric",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30094,38 +30094,38 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "creeping dread"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "fear and uncertainty",
-            "pursuit of a dream"
+            "personal legacy",
+            "pursuit of a dream",
+            "true story"
           ],
           "emotions": [
-            "unease",
-            "hope"
+            "hope",
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
-            "напряженный фильм, который держит в тонусе",
             "вдохновляющее кино, чтобы зарядиться",
+            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
             "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
             "тихий вечер одному",
-            "когда хочется держаться в напряжении",
+            "поздний вечер, когда хочется погрузиться",
             "когда нужна мотивация или подъем"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
