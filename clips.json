@@ -29698,66 +29698,59 @@
       }
     },
     {
-      "movieId": 46063,
+      "movieId": 44691,
       "clips": [
         {
-          "driveId": "1r4AjyLErW2HJeQlIlpgYG0qY6ACJD2wj"
+          "driveId": "14SFhWHiiOPMNZ1BFRGnuFGmGoPUW-JFE"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:22:21.631036+00:00",
+        "generatedAt": "2026-07-18T21:22:40.204800+00:00",
         "tags": {
           "moods": [
-            "inspiring",
-            "romantic",
-            "sad"
+            "sad",
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "retro",
             "nostalgic undertone",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment",
-            "personal transformation",
-            "pursuit of a dream"
+            "true story",
+            "personal legacy",
+            "personal transformation"
           ],
           "emotions": [
-            "hope",
-            "melancholy",
-            "tenderness"
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "вдохновляющее кино, чтобы зарядиться",
-            "что посмотреть вдвоем с романтичным вайбом",
             "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
             "фильм для спокойного просмотра одному",
-            "динамичный фильм без скучных пауз",
-            "трогательная история про чувства"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если хочется тихое и созерцательное кино"
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
             "тихий вечер одному",
-            "когда хочется держаться в напряжении",
-            "когда нужна мотивация или подъем",
-            "когда нужен эмоциональный заряд"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: retro."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
