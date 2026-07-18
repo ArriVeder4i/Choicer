@@ -31372,68 +31372,58 @@
       }
     },
     {
-      "movieId": 693126,
+      "movieId": 86566,
       "clips": [
         {
-          "driveId": "1ATslHFxAde2hOEQco3JUBVv3aRiL7ohx"
+          "driveId": "1TSwERRJr8JQMD8e7zJfcIovul2HLZatk"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:44:03.073979+00:00",
+        "generatedAt": "2026-07-18T23:44:37.418897+00:00",
         "tags": {
           "moods": [
             "light",
-            "atmospheric",
-            "epic"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family",
-            "group"
+            "family"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "superhero",
-            "sense of wonder"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "family bonds",
-            "true story",
-            "personal legacy"
+            "personal transformation"
           ],
           "emotions": [
             "joy",
-            "adrenaline",
-            "hope"
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "атмосферный фильм, чтобы погрузиться",
-            "масштабное кино с большим размахом",
+            "эмоциональный фильм, который тронет",
             "кино для семейного вечера",
-            "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз",
+            "фильм с ровным темпом на вечер",
             "история про близких и отношения"
           ],
           "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
             "семейный вечер дома",
-            "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении"
+            "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: superhero."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
