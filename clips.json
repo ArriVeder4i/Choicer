@@ -30925,21 +30925,21 @@
       }
     },
     {
-      "movieId": 279102,
+      "movieId": 38903,
       "clips": [
         {
-          "driveId": "1B48Pezzc_mt9H0D9QTVEQNKDq3Whq-Mq"
+          "driveId": "1BKKOVpZkZtpVbodWoH1aNx3UkXNsmLLh"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:06:00.389209+00:00",
+        "generatedAt": "2026-07-18T23:06:33.905545+00:00",
         "tags": {
           "moods": [
             "atmospheric",
             "light",
-            "romantic"
+            "tense"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30948,26 +30948,28 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
+            "superhero",
             "sense of wonder"
           ],
           "themes": [
             "true story",
             "family bonds",
-            "personal legacy"
+            "humanity versus technology"
           ],
           "emotions": [
             "joy",
+            "adrenaline",
             "tenderness"
           ],
           "energy": "high",
-          "ending": "unknown",
+          "ending": "happy",
           "targetAudience": [
             "worldbuilding lovers"
           ],
           "searchPhrases": [
             "атмосферный фильм, чтобы погрузиться",
             "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем с романтичным вайбом",
+            "напряженный фильм, который держит в тонусе",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
@@ -30975,6 +30977,7 @@
             "история про близких и отношения"
           ],
           "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
@@ -30984,7 +30987,7 @@
             "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: superhero."
         },
         "embedding": null
       }
