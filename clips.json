@@ -30004,65 +30004,69 @@
       }
     },
     {
-      "movieId": 6034,
+      "movieId": 102838,
       "clips": [
         {
-          "driveId": "1ToyX5u42E0_JdyF5j4S8mEUoLwQjrVry"
+          "driveId": "1qKuOPwFgbDPgLSsALMzaEU-u6Usk9eND"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:53:10.962668+00:00",
+        "generatedAt": "2026-07-18T21:53:44.339648+00:00",
         "tags": {
           "moods": [
-            "romantic",
-            "inspiring",
-            "light"
+            "tense",
+            "dark",
+            "romantic"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "couple",
-            "group"
+            "alone"
           ],
-          "pacing": "balanced",
+          "pacing": "slow",
           "hiddenVibes": [
+            "mystery-night energy",
             "sense of wonder",
-            "quiet emotional aftertaste"
+            "street-level grit"
           ],
           "themes": [
             "true story",
-            "love and attachment",
-            "personal legacy"
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
-            "tenderness",
-            "hope",
-            "amusement"
+            "unease",
+            "anxiety",
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
             "что посмотреть вдвоем с романтичным вайбом",
-            "вдохновляющее кино, чтобы зарядиться",
-            "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем вечером",
-            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "жесткое приземленное криминальное кино",
+            "умный фильм, после которого хочется подумать"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
           "situations": [
-            "вечер вдвоем",
-            "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда нужна мотивация или подъем"
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: mystery-night energy."
         },
         "embedding": null
       }
