@@ -31307,21 +31307,20 @@
       }
     },
     {
-      "movieId": 1256482,
+      "movieId": 1032308,
       "clips": [
         {
-          "driveId": "1tO_2UpTWeQwMQNNCQClO8LzwHQyTqXPo"
+          "driveId": "11hpOrNjQi2mEH7KfNyjySgZDIBNEysL8"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:40:44.750463+00:00",
+        "generatedAt": "2026-07-18T23:41:11.642807+00:00",
         "tags": {
           "moods": [
             "light",
-            "sad",
-            "epic"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31335,10 +31334,12 @@
           ],
           "themes": [
             "family bonds",
-            "personal transformation"
+            "true story",
+            "personal legacy"
           ],
           "emotions": [
             "joy",
+            "amusement",
             "melancholy"
           ],
           "energy": "medium",
@@ -31349,7 +31350,6 @@
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
             "эмоциональный фильм, который тронет",
-            "масштабное кино с большим размахом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "фильм с ровным темпом на вечер",
