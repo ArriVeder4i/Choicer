@@ -30526,20 +30526,21 @@
       }
     },
     {
-      "movieId": 5080554,
+      "movieId": 9416511,
       "clips": [
         {
-          "driveId": "12i7jVtIiXoVHXjnbImmdi_u-ydMkUFTa"
+          "driveId": "1rnWCZMP9zaN4rj2G8zbte9I2gmg5RBKR"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:34:49.751749+00:00",
+        "generatedAt": "2026-07-18T22:35:17.188139+00:00",
         "tags": {
           "moods": [
-            "sad",
-            "tense"
+            "tense",
+            "dark",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30554,19 +30555,22 @@
           "themes": [
             "crime",
             "search for truth",
-            "personal transformation"
+            "fear and uncertainty"
           ],
           "emotions": [
-            "melancholy"
+            "anxiety",
+            "melancholy",
+            "unease"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
             "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
             "загадочный фильм для ночного просмотра",
             "жесткое приземленное криминальное кино",
@@ -30581,7 +30585,7 @@
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
