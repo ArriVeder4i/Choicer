@@ -30791,20 +30791,18 @@
       }
     },
     {
-      "movieId": 1407744,
+      "movieId": 12570840,
       "clips": [
         {
-          "driveId": "1fnfa48hx4zFGRNWfsl6J9QT2W-UElYwx"
+          "driveId": "12BZCTSQT-kF0g4P3hmea1v9xIeo3Rog1"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:51:56.419901+00:00",
+        "generatedAt": "2026-07-18T22:52:20.965080+00:00",
         "tags": {
           "moods": [
-            "inspiring",
-            "romantic",
             "sad"
           ],
           "complexity": "balanced",
@@ -30813,18 +30811,13 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "street-level grit",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal legacy",
-            "true story",
-            "crime"
+            "personal transformation"
           ],
           "emotions": [
-            "hope",
-            "melancholy",
-            "tenderness"
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30832,22 +30825,17 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "вдохновляющее кино, чтобы зарядиться",
-            "что посмотреть вдвоем с романтичным вайбом",
             "эмоциональный фильм, который тронет",
             "что-то, что можно включить фоном",
-            "жесткое приземленное криминальное кино",
-            "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "включить фоном во время отдыха",
-            "когда нужна мотивация или подъем"
+            "включить фоном во время отдыха"
           ],
-          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
