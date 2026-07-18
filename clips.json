@@ -29444,69 +29444,68 @@
       }
     },
     {
-      "movieId": 327,
+      "movieId": 738,
       "clips": [
         {
-          "driveId": "1HnNKZOnD54Syp856b5QQyS3H-_-ETnIb"
+          "driveId": "14mfdMebSuObNzpDmkVsVgtDrQdJnRr6i"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:01:19.850704+00:00",
+        "generatedAt": "2026-07-18T21:01:39.187078+00:00",
         "tags": {
           "moods": [
-            "dark",
             "tense",
-            "romantic"
+            "dark",
+            "sad"
           ],
-          "complexity": "thought-provoking",
+          "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
-          "pacing": "slow",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "retro",
+            "mystery-night energy",
             "street-level grit",
-            "nostalgic undertone"
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
-            "crime",
-            "love and attachment"
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
             "unease",
-            "melancholy",
-            "tenderness"
+            "anxiety",
+            "melancholy"
           ],
-          "energy": "medium",
-          "ending": "unknown",
+          "energy": "high",
+          "ending": "unexpected",
           "targetAudience": [
-            "viewers who like character-driven stories"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
             "напряженный фильм, который держит в тонусе",
-            "что посмотреть вдвоем с романтичным вайбом",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
             "жесткое приземленное криминальное кино",
-            "умный фильм, после которого хочется подумать",
-            "неспешное кино с настроением",
-            "трогательная история про чувства"
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
             "если нужен расслабленный фон без тревоги",
-            "если не хочется думать и вникать",
-            "если нужен быстрый экшен без медленных сцен"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Мрачное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: retro."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: mystery-night energy."
         },
         "embedding": null
       }
