@@ -31427,6 +31427,73 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 756799,
+      "clips": [
+        {
+          "driveId": "1qFDavaSCkD2X73tdJX0kT_CxCIw6RBmx"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T23:48:47.094099+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "epic",
+            "atmospheric"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "family bonds",
+            "true story",
+            "personal legacy"
+          ],
+          "emotions": [
+            "joy",
+            "adrenaline",
+            "amusement"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
