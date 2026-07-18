@@ -30135,67 +30135,69 @@
       }
     },
     {
-      "movieId": 5098653,
+      "movieId": 591792,
       "clips": [
         {
-          "driveId": "1AH1rgsQwOcpCN3V_A_6geTqLg--my5Bc"
+          "driveId": "1A4oyIHB8BRFV_y-qFNaflmyRr1-UXils"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:03:03.225971+00:00",
+        "generatedAt": "2026-07-18T22:03:26.523581+00:00",
         "tags": {
           "moods": [
-            "epic",
-            "romantic",
-            "sad"
+            "tense",
+            "dark",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "couple",
-            "group"
+            "group",
+            "alone"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "quiet emotional aftertaste"
+            "superhero",
+            "street-level grit",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "love and attachment",
-            "survival",
-            "survival in conflict"
+            "crime",
+            "fear and uncertainty",
+            "survival"
           ],
           "emotions": [
             "adrenaline",
-            "melancholy",
-            "tenderness"
+            "anxiety",
+            "unease"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
             "масштабное кино с большим размахом",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
-            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
             "динамичный фильм без скучных пауз",
-            "трогательная история про чувства"
+            "напряженная история про выживание"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "вечер вдвоем",
             "просмотр с друзьями",
+            "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: superhero."
         },
         "embedding": null
       }
