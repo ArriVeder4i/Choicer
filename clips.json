@@ -29758,65 +29758,65 @@
       }
     },
     {
-      "movieId": 1091,
+      "movieId": 77203,
       "clips": [
         {
-          "driveId": "1slaCys_36ZW9TplH3afu9RmTE4pTRhKx"
+          "driveId": "1JDgVlbMO8F49oFJqqne64oALRSED0M4T"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:29:16.736705+00:00",
+        "generatedAt": "2026-07-18T21:29:48.440944+00:00",
         "tags": {
           "moods": [
-            "atmospheric",
-            "epic",
+            "romantic",
+            "inspiring",
             "light"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "couple",
             "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "superhero",
-            "sense of wonder"
+            "retro",
+            "nostalgic undertone",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "true story",
-            "humanity versus technology",
-            "personal legacy"
+            "love and attachment",
+            "personal transformation",
+            "pursuit of a dream"
           ],
           "emotions": [
-            "adrenaline",
+            "joy",
             "amusement",
-            "joy"
+            "tenderness"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "атмосферный фильм, чтобы погрузиться",
-            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "вдохновляющее кино, чтобы зарядиться",
             "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз"
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
-          "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
-          ],
+          "avoidPhrases": [],
           "situations": [
+            "вечер вдвоем",
             "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: superhero."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
