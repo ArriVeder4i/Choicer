@@ -30858,16 +30858,16 @@
       }
     },
     {
-      "movieId": 1007049,
+      "movieId": 2361,
       "clips": [
         {
-          "driveId": "1L-HeTYOviWpfHaH548tmijVgh39cf-6p"
+          "driveId": "1AsXaoEQ5iFQxWtvKEjDlMTJD3lie1oZ-"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:00:53.735309+00:00",
+        "generatedAt": "2026-07-18T23:01:15.860475+00:00",
         "tags": {
           "moods": [
             "light",
@@ -30880,15 +30880,13 @@
             "couple",
             "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "dialogue-heavy",
-            "sense of wonder",
-            "street-level grit"
+            "sense of wonder"
           ],
           "themes": [
             "family bonds",
-            "crime",
+            "true story",
             "love and attachment"
           ],
           "emotions": [
@@ -30896,7 +30894,7 @@
             "amusement",
             "tenderness"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
             "worldbuilding lovers"
@@ -30909,9 +30907,11 @@
             "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "жесткое приземленное криминальное кино"
+            "динамичный фильм без скучных пауз"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
           "situations": [
             "семейный вечер дома",
             "вечер вдвоем",
@@ -30919,7 +30919,7 @@
             "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: dialogue-heavy."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
