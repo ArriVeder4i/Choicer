@@ -29379,63 +29379,64 @@
       }
     },
     {
-      "movieId": 986788,
+      "movieId": 522941,
       "clips": [
         {
-          "driveId": "1NrJHAf3eoCcz9Snvcv79LpCqBULFyrt0"
+          "driveId": "1tjrp60NNjoXmwCAepmIihP5NRCCzflYU"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T20:55:52.860772+00:00",
+        "generatedAt": "2026-07-18T20:56:22.078562+00:00",
         "tags": {
           "moods": [
-            "light",
-            "romantic",
-            "sad"
+            "epic",
+            "sad",
+            "dark"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "group",
-            "background"
+            "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "betrayal and distrust"
+            "love and attachment"
           ],
           "emotions": [
-            "amusement",
-            "joy",
-            "melancholy"
+            "melancholy",
+            "adrenaline",
+            "hope"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "binge-watchers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем с романтичным вайбом",
+            "масштабное кино с большим размахом",
             "эмоциональный фильм, который тронет",
+            "мрачное кино с тяжелой атмосферой",
             "фильм под компанию без провисаний",
-            "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер"
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
-            "включить фоном во время отдыха",
-            "после тяжелого дня, чтобы разгрузиться"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
