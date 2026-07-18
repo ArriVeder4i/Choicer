@@ -31429,69 +31429,65 @@
       }
     },
     {
-      "movieId": 409118,
+      "movieId": 837530,
       "clips": [
         {
-          "driveId": "1_Phcs3jl7A1AgwdcFrxzYsp3bL4cf9rT"
+          "driveId": "1POhwECtVsQvScS8kn5ySr3ahvH5wSLYm"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:49:09.689105+00:00",
+        "generatedAt": "2026-07-18T23:49:35.025077+00:00",
         "tags": {
           "moods": [
-            "atmospheric",
             "light",
-            "inspiring"
+            "atmospheric",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "family",
             "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
-            "sense of wonder",
-            "superhero",
-            "quiet emotional aftertaste"
+            "sense of wonder"
           ],
           "themes": [
-            "family bonds",
             "true story",
+            "family bonds",
             "personal legacy"
           ],
           "emotions": [
             "joy",
-            "hope",
-            "melancholy"
+            "amusement"
           ],
-          "energy": "high",
+          "energy": "low",
           "ending": "unknown",
           "targetAudience": [
             "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "атмосферный фильм, чтобы погрузиться",
             "что-то легкое и приятное на вечер",
-            "вдохновляющее кино, чтобы зарядиться",
+            "атмосферный фильм, чтобы погрузиться",
+            "масштабное кино с большим размахом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз",
+            "неспешное кино с настроением",
             "история про близких и отношения"
           ],
           "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
+            "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
             "семейный вечер дома",
             "просмотр с друзьями",
             "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении"
+            "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Неспешный ритм помогает погрузиться в настроение. Вайб: sense of wonder."
         },
         "embedding": null
       }
