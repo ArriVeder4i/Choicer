@@ -31372,21 +31372,20 @@
       }
     },
     {
-      "movieId": 586260,
+      "movieId": 1192848,
       "clips": [
         {
-          "driveId": "1w0yn805ijbk-3AChm2f4zoyjqhhS0XA3"
+          "driveId": "163aWiFNTsDAkvaMTHNqiqI6AtLSTZCd6"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:45:28.949108+00:00",
+        "generatedAt": "2026-07-18T23:45:58.328261+00:00",
         "tags": {
           "moods": [
             "light",
-            "atmospheric",
-            "inspiring"
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31395,30 +31394,27 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder"
+            "distinct auteur flavor"
           ],
           "themes": [
             "family bonds",
-            "personal legacy",
-            "true story"
+            "true story",
+            "personal legacy"
           ],
           "emotions": [
             "joy",
-            "hope",
             "amusement"
           ],
           "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "атмосферный фильм, чтобы погрузиться",
-            "вдохновляющее кино, чтобы зарядиться",
+            "масштабное кино с большим размахом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
             "динамичный фильм без скучных пауз",
             "история про близких и отношения"
           ],
@@ -31428,11 +31424,11 @@
           "situations": [
             "семейный вечер дома",
             "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
