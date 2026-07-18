@@ -29570,55 +29570,65 @@
       }
     },
     {
-      "movieId": 7653,
+      "movieId": 522892,
       "clips": [
         {
-          "driveId": "11bU3iQisXbxffLnGVCrGFXWVgk_rO_09"
+          "driveId": "1nkEl-s7b_aATJopacgt5E9GSqTzkiNQ8"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:13:13.925197+00:00",
+        "generatedAt": "2026-07-18T21:13:38.760606+00:00",
         "tags": {
           "moods": [
-            "light"
+            "tense",
+            "atmospheric",
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "sense of wonder",
+            "mystery-night energy",
+            "street-level grit"
           ],
           "themes": [
-            "personal transformation"
+            "crime",
+            "search for truth",
+            "fear and uncertainty"
           ],
           "emotions": [
-            "amusement",
-            "joy"
+            "anxiety"
           ],
-          "energy": "high",
-          "ending": "unknown",
+          "energy": "medium",
+          "ending": "unexpected",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "фильм под компанию без провисаний",
-            "динамичный фильм без скучных пауз"
+            "напряженный фильм, который держит в тонусе",
+            "атмосферный фильм, чтобы погрузиться",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "фильм с чувством чуда и открытия",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
