@@ -29377,6 +29377,61 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 1236393,
+      "clips": [
+        {
+          "driveId": "1UjXIekuNVJ6sxweZKlltGPfomjHKfrb2"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T20:54:29.607175+00:00",
+        "tags": {
+          "moods": [
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "street-level grit"
+          ],
+          "themes": [
+            "crime"
+          ],
+          "emotions": [
+            "amusement",
+            "joy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+        },
+        "embedding": null
+      }
     }
   ]
 }
