@@ -29630,60 +29630,66 @@
       }
     },
     {
-      "movieId": 368936,
+      "movieId": 278522,
       "clips": [
         {
-          "driveId": "12fJjr27RS8gEv7wNOG-UkQgZvWh62C5v"
+          "driveId": "1qJDdaOs6-9mPhMr6eKauxQHFDhC9bbOj"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:16:51.442850+00:00",
+        "generatedAt": "2026-07-18T21:17:11.899957+00:00",
         "tags": {
           "moods": [
+            "epic",
+            "atmospheric",
             "tense"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "retro",
-            "mystery-night energy",
-            "street-level grit"
+            "sense of wonder"
           ],
           "themes": [
-            "crime",
-            "search for truth"
+            "true story",
+            "personal legacy",
+            "survival"
           ],
           "emotions": [
-            "curiosity"
+            "adrenaline",
+            "unease"
           ],
           "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
             "напряженный фильм, который держит в тонусе",
-            "фильм для спокойного просмотра одному",
-            "загадочный фильм для ночного просмотра",
-            "жесткое приземленное криминальное кино",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
             "динамичный фильм без скучных пауз",
-            "криминальная история с характером"
+            "напряженная история про выживание"
           ],
           "avoidPhrases": [
             "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "тихий вечер одному",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: retro."
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
