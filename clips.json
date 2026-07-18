@@ -30526,63 +30526,62 @@
       }
     },
     {
-      "movieId": 1101298,
+      "movieId": 1306640,
       "clips": [
         {
-          "driveId": "1mOTqRLhfGY6PYy1j9Erx7LYnhIOqvprD"
+          "driveId": "1r7wNxTF3EmSUJli-MLcJSP_3wn11CayW"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:31:52.363247+00:00",
+        "generatedAt": "2026-07-18T22:32:16.512996+00:00",
         "tags": {
           "moods": [
             "romantic",
-            "sad"
+            "light"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "couple",
+            "group",
             "background"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "love and attachment",
-            "true story",
-            "personal legacy"
+            "love and attachment"
           ],
           "emotions": [
             "tenderness",
-            "melancholy"
+            "amusement",
+            "joy"
           ],
           "energy": "high",
-          "ending": "happy",
+          "ending": "unknown",
           "targetAudience": [
             "binge-watchers"
           ],
           "searchPhrases": [
             "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
-            "что посмотреть вдвоем вечером",
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
             "динамичный фильм без скучных пауз",
             "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "вечер вдвоем",
+            "просмотр с друзьями",
             "включить фоном во время отдыха",
+            "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
