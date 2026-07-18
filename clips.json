@@ -29954,21 +29954,21 @@
       }
     },
     {
-      "movieId": 253761,
+      "movieId": 839954,
       "clips": [
         {
-          "driveId": "1DypipOdb9YvzK4HgO5O9PcNjhjm2elj_"
+          "driveId": "1qgaO-M9dQEDFwacuX8fd27onNoORm9_A"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:47:37.603580+00:00",
+        "generatedAt": "2026-07-18T21:47:57.785959+00:00",
         "tags": {
           "moods": [
             "tense",
             "dark",
-            "romantic"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -29976,17 +29976,19 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
+            "street-level grit",
+            "distinct auteur flavor",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "fear and uncertainty",
-            "love and attachment",
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
             "anxiety",
             "melancholy",
-            "tenderness"
+            "unease"
           ],
           "energy": "medium",
           "ending": "unexpected",
@@ -29996,10 +29998,11 @@
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
             "мрачное кино с тяжелой атмосферой",
-            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
             "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
@@ -30009,7 +30012,7 @@
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
