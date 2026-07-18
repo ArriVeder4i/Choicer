@@ -31307,21 +31307,20 @@
       }
     },
     {
-      "movieId": 589657,
+      "movieId": 707,
       "clips": [
         {
-          "driveId": "19HIPlzrehOx6OjOjwVVPQVM9QmKMLwLl"
+          "driveId": "1CqdkALl9iSZpytrM6lN4NMFYNRzB0R8V"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:41:45.612343+00:00",
+        "generatedAt": "2026-07-18T23:42:25.435583+00:00",
         "tags": {
           "moods": [
             "light",
-            "romantic",
-            "sad"
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31330,19 +31329,16 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "distinct auteur flavor",
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
             "family bonds",
             "true story",
-            "love and attachment"
+            "personal legacy"
           ],
           "emotions": [
             "joy",
-            "amusement",
-            "melancholy"
+            "amusement"
           ],
           "energy": "high",
           "ending": "unknown",
@@ -31351,16 +31347,13 @@
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
             "кино для семейного вечера",
             "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
             "динамичный фильм без скучных пауз",
-            "трогательная история про чувства"
+            "история про близких и отношения"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
@@ -31370,7 +31363,7 @@
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
