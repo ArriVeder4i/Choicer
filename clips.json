@@ -31490,6 +31490,70 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 492366,
+      "clips": [
+        {
+          "driveId": "1XzlqjqWFkWfDlBHiYZMU9hFE3guHTX2h"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T23:54:08.601376+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "romantic",
+            "atmospheric"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor"
+          ],
+          "themes": [
+            "true story",
+            "family bonds",
+            "personal legacy"
+          ],
+          "emotions": [
+            "joy",
+            "tenderness"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
+            "кино для семейного вечера",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
