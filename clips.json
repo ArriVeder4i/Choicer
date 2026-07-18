@@ -30133,6 +30133,61 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 426004,
+      "clips": [
+        {
+          "driveId": "1rjdXXQBkxHAD_34KEcF1VDaEZx_PYgQ7"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T21:59:31.894278+00:00",
+        "tags": {
+          "moods": [
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "cinematic mood piece"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy"
+          ],
+          "emotions": [
+            "amusement",
+            "joy"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
+        },
+        "embedding": null
+      }
     }
   ]
 }
