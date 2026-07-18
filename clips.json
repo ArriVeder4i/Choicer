@@ -30591,55 +30591,46 @@
       }
     },
     {
-      "movieId": 1108682,
+      "movieId": 11741103,
       "clips": [
         {
-          "driveId": "10zf4uScsofBlfsaEetCf0z1pej2O3jSB"
+          "driveId": "1wzIDAUXCFRe645ilmUVGE0vVf5uGfR-v"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:36:49.375693+00:00",
+        "generatedAt": "2026-07-18T22:37:29.347435+00:00",
         "tags": {
           "moods": [
             "tense",
-            "atmospheric",
-            "sad"
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
             "alone",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder",
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "fear and uncertainty",
-            "personal transformation"
+            "fear and uncertainty"
           ],
           "emotions": [
-            "anxiety",
-            "melancholy"
+            "anxiety"
           ],
           "energy": "medium",
           "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
-            "эмоциональный фильм, который тронет",
-            "фильм под компанию без провисаний",
+            "мрачное кино с тяжелой атмосферой",
             "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
-            "фильм с чувством чуда и открытия",
             "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
@@ -30647,13 +30638,11 @@
             "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
             "тихий вечер одному",
             "включить фоном во время отдыха",
-            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
