@@ -30923,6 +30923,74 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 8225,
+      "clips": [
+        {
+          "driveId": "1eXB2YYfDWzVpQLga1mOMpsWc2tETiYrk"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-18T23:01:48.756996+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "atmospheric",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "retro",
+            "sense of wonder",
+            "nostalgic undertone"
+          ],
+          "themes": [
+            "family bonds",
+            "true story",
+            "personal legacy"
+          ],
+          "emotions": [
+            "joy",
+            "melancholy"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: retro."
+        },
+        "embedding": null
+      }
     }
   ]
 }
