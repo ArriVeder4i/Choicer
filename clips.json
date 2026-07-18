@@ -29444,40 +29444,38 @@
       }
     },
     {
-      "movieId": 346,
+      "movieId": 45822,
       "clips": [
         {
-          "driveId": "1FL46_U0VQtgeyT9oNBHIKzypI5ptyWWb"
+          "driveId": "1jAwHcezCWTOBOYBREYATaKB5SYex4pam"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:03:40.872963+00:00",
+        "generatedAt": "2026-07-18T21:04:05.629632+00:00",
         "tags": {
           "moods": [
-            "sad",
-            "tense",
-            "dark"
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "couple"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
             "retro",
-            "mystery-night energy"
+            "nostalgic undertone",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "crime",
-            "search for truth",
+            "love and attachment",
             "personal transformation"
           ],
           "emotions": [
-            "melancholy",
-            "unease"
+            "tenderness",
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -29485,23 +29483,19 @@
             "broad movie audience"
           ],
           "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
             "эмоциональный фильм, который тронет",
-            "напряженный фильм, который держит в тонусе",
-            "мрачное кино с тяжелой атмосферой",
-            "фильм для спокойного просмотра одному",
-            "загадочный фильм для ночного просмотра",
+            "что посмотреть вдвоем вечером",
             "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "вечер вдвоем"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: retro."
         },
         "embedding": null
       }
