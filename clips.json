@@ -31307,39 +31307,41 @@
       }
     },
     {
-      "movieId": 1029333,
+      "movieId": 460089,
       "clips": [
         {
-          "driveId": "1usmcbRMLHnAha80SU5_7hz5oboMUzq0G"
+          "driveId": "1s3EMO6yd4n8p8FHj1HVxsWf00qErwDmQ"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T23:38:04.976890+00:00",
+        "generatedAt": "2026-07-18T23:38:32.993607+00:00",
         "tags": {
           "moods": [
             "atmospheric",
             "light",
-            "tense"
+            "sad"
           ],
           "complexity": "thought-provoking",
           "watchWith": [
             "family"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "family bonds",
-            "humanity versus technology",
-            "survival in conflict"
+            "true story",
+            "humanity versus technology"
           ],
           "emotions": [
-            "joy"
+            "joy",
+            "melancholy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
             "viewers seeking substance"
@@ -31347,26 +31349,22 @@
           "searchPhrases": [
             "атмосферный фильм, чтобы погрузиться",
             "что-то легкое и приятное на вечер",
-            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
             "кино для семейного вечера",
             "умный фильм, после которого хочется подумать",
-            "динамичный фильм без скучных пауз",
-            "напряженная история про выживание",
+            "фильм с ровным темпом на вечер",
             "история про близких и отношения"
           ],
           "avoidPhrases": [
-            "если нужен расслабленный фон без тревоги",
-            "если не хочется думать и вникать",
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать"
           ],
           "situations": [
             "семейный вечер дома",
             "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Атмосферное кино с идеями, которые остаются после просмотра; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: cinematic mood piece."
+          "summary": "Атмосферное кино с идеями, которые остаются после просмотра; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
