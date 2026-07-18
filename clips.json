@@ -30466,24 +30466,25 @@
       }
     },
     {
-      "movieId": 8873913,
+      "movieId": 13165242,
       "clips": [
         {
-          "driveId": "1SvykolSxkChBYLIl-UbcX9iO0FhFKLCG"
+          "driveId": "1A86ss7-jKA4dYoryogXvPyWehOSvZEnU"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:29:04.112979+00:00",
+        "generatedAt": "2026-07-18T22:29:40.644655+00:00",
         "tags": {
           "moods": [
-            "dark",
             "romantic",
-            "sad"
+            "sad",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "couple",
             "background"
           ],
           "pacing": "balanced",
@@ -30491,14 +30492,12 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "true story",
             "love and attachment",
-            "personal legacy"
+            "personal transformation"
           ],
           "emotions": [
             "melancholy",
-            "tenderness",
-            "unease"
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30506,9 +30505,10 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
             "что посмотреть вдвоем с романтичным вайбом",
             "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем вечером",
             "что-то, что можно включить фоном",
             "фильм с ровным темпом на вечер",
             "трогательная история про чувства"
@@ -30517,9 +30517,10 @@
             "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
+            "вечер вдвоем",
             "включить фоном во время отдыха"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
