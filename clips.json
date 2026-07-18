@@ -30407,71 +30407,66 @@
       }
     },
     {
-      "movieId": 4693201,
+      "movieId": 1118138,
       "clips": [
         {
-          "driveId": "1lz7q4g3S_NDKqyZGn-_F7VYiR_MYoDbG"
+          "driveId": "1BhNIeMT73lp-5p3QDiahnoEg8LSOMyDL"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:22:20.653933+00:00",
+        "generatedAt": "2026-07-18T22:22:38.313051+00:00",
         "tags": {
           "moods": [
             "atmospheric",
-            "tense",
-            "sad"
+            "epic",
+            "inspiring"
           ],
           "complexity": "balanced",
           "watchWith": [
             "group",
-            "alone",
             "background"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "mystery-night energy",
-            "sense of wonder",
-            "quiet emotional aftertaste"
+            "sense of wonder"
           ],
           "themes": [
+            "true story",
             "humanity versus technology",
-            "search for truth",
-            "fear and uncertainty"
+            "personal legacy"
           ],
           "emotions": [
-            "anxiety",
-            "melancholy"
+            "adrenaline",
+            "hope"
           ],
           "energy": "medium",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
             "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
             "атмосферный фильм, чтобы погрузиться",
-            "напряженный фильм, который держит в тонусе",
-            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
             "фильм под компанию без провисаний",
-            "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
-            "загадочный фильм для ночного просмотра",
-            "фильм с чувством чуда и открытия"
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
-            "тихий вечер одному",
             "включить фоном во время отдыха",
             "поздний вечер, когда хочется погрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
