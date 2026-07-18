@@ -30791,65 +30791,54 @@
       }
     },
     {
-      "movieId": 1395460,
+      "movieId": 9321705,
       "clips": [
         {
-          "driveId": "1FThjA1wnUWfRH5k3X-FS7RI33v0D5DdN"
+          "driveId": "1irCqoiyMGqEOpNJ9snQb7Anu5korxfsq"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:53:06.531142+00:00",
+        "generatedAt": "2026-07-18T22:53:23.267989+00:00",
         "tags": {
           "moods": [
-            "romantic",
-            "tense",
-            "sad"
+            "light"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone",
+            "group",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "fear and uncertainty",
-            "love and attachment",
             "personal transformation"
           ],
           "emotions": [
-            "anxiety",
-            "melancholy",
-            "tenderness"
+            "amusement",
+            "joy"
           ],
           "energy": "medium",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
             "binge-watchers"
           ],
           "searchPhrases": [
-            "что посмотреть вдвоем с романтичным вайбом",
-            "напряженный фильм, который держит в тонусе",
-            "эмоциональный фильм, который тронет",
-            "фильм для спокойного просмотра одному",
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "фильм с ровным темпом на вечер"
           ],
-          "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
-          ],
+          "avoidPhrases": [],
           "situations": [
-            "тихий вечер одному",
+            "просмотр с друзьями",
             "включить фоном во время отдыха",
-            "когда хочется держаться в напряжении"
+            "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
