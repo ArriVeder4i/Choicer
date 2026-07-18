@@ -29698,68 +29698,68 @@
       }
     },
     {
-      "movieId": 8366,
+      "movieId": 4695,
       "clips": [
         {
-          "driveId": "1mjbaoir84KqcAndix6Lo5GKNPIMH8J3F"
+          "driveId": "1oXORwkfWxI_r5qGcgqvEYdHq6pzk1JQc"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T21:24:11.509255+00:00",
+        "generatedAt": "2026-07-18T21:24:35.514301+00:00",
         "tags": {
           "moods": [
+            "epic",
             "dark",
-            "tense",
-            "atmospheric"
+            "inspiring"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "group",
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "creeping dread",
             "retro",
-            "sense of wonder"
+            "street-level grit",
+            "nostalgic undertone"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "humanity versus technology"
+            "crime"
           ],
           "emotions": [
-            "unease"
+            "adrenaline",
+            "hope",
+            "melancholy"
           ],
-          "energy": "high",
-          "ending": "unexpected",
+          "energy": "medium",
+          "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
+            "масштабное кино с большим размахом",
             "мрачное кино с тяжелой атмосферой",
-            "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
+            "вдохновляющее кино, чтобы зарядиться",
             "фильм под компанию без провисаний",
-            "фильм для спокойного просмотра одному",
-            "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз"
+            "жесткое приземленное криминальное кино",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
-            "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
