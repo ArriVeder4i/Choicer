@@ -30407,66 +30407,71 @@
       }
     },
     {
-      "movieId": 1118138,
+      "movieId": 1209850,
       "clips": [
         {
-          "driveId": "1BhNIeMT73lp-5p3QDiahnoEg8LSOMyDL"
+          "driveId": "1bprpTtsSvivU2l_aH_-Zir8NoqTMhhDG"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:22:38.313051+00:00",
+        "generatedAt": "2026-07-18T22:23:05.685412+00:00",
         "tags": {
           "moods": [
+            "tense",
             "atmospheric",
-            "epic",
-            "inspiring"
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "group",
+            "alone",
             "background"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder"
+            "sense of wonder",
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
-            "humanity versus technology",
+            "fear and uncertainty",
             "personal legacy"
           ],
           "emotions": [
             "adrenaline",
-            "hope"
+            "anxiety",
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
             "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
             "атмосферный фильм, чтобы погрузиться",
             "масштабное кино с большим размахом",
-            "вдохновляющее кино, чтобы зарядиться",
             "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
             "фильм с чувством чуда и открытия",
             "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
+            "тихий вечер одному",
             "включить фоном во время отдыха",
             "поздний вечер, когда хочется погрузиться",
-            "когда хочется держаться в напряжении",
-            "когда нужна мотивация или подъем"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
