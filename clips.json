@@ -30407,21 +30407,21 @@
       }
     },
     {
-      "movieId": 178710,
+      "movieId": 6058297,
       "clips": [
         {
-          "driveId": "1v5DRD0VI0EaxwGn0rVBpmPizLblWqj8g"
+          "driveId": "108KFiqW955nrXh9W9jvSsQiE1C_jwoKF"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-18T22:19:59.707931+00:00",
+        "generatedAt": "2026-07-18T22:20:17.637513+00:00",
         "tags": {
           "moods": [
-            "romantic",
-            "sad",
-            "inspiring"
+            "tense",
+            "dark",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -30429,18 +30429,17 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste",
-            "mystery-night energy"
+            "street-level grit",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment",
-            "search for truth",
-            "personal transformation"
+            "crime",
+            "personal transformation",
+            "survival in conflict"
           ],
           "emotions": [
             "melancholy",
-            "tenderness",
-            "hope"
+            "unease"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -30448,22 +30447,24 @@
             "binge-watchers"
           ],
           "searchPhrases": [
-            "что посмотреть вдвоем с романтичным вайбом",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
             "эмоциональный фильм, который тронет",
-            "вдохновляющее кино, чтобы зарядиться",
             "что-то, что можно включить фоном",
-            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
             "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "напряженная история про выживание",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
             "включить фоном во время отдыха",
-            "когда нужна мотивация или подъем"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; можно включить даже более фоново. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
