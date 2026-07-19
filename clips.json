@@ -31692,66 +31692,70 @@
       }
     },
     {
-      "movieId": 1047883,
+      "movieId": 7226,
       "clips": [
         {
-          "driveId": "1KywGwukRvI6djLL6BFgIjixx2HVtPeXE"
+          "driveId": "1eVGi_WkVQq_bbmd8-pywCObUS3kTTctj"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:45:14.972272+00:00",
+        "generatedAt": "2026-07-19T00:45:36.615878+00:00",
         "tags": {
           "moods": [
+            "tense",
             "sad",
-            "dark",
-            "epic"
+            "inspiring"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "group"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
-            "dialogue-heavy",
             "quiet emotional aftertaste",
-            "street-level grit"
+            "mystery-night energy",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "crime"
+            "search for truth",
+            "fear and uncertainty",
+            "love and attachment"
           ],
           "emotions": [
-            "amusement",
-            "joy",
-            "melancholy"
+            "melancholy",
+            "anxiety",
+            "hope"
           ],
-          "energy": "high",
-          "ending": "unknown",
+          "energy": "medium",
+          "ending": "unexpected",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
             "эмоциональный фильм, который тронет",
-            "мрачное кино с тяжелой атмосферой",
-            "масштабное кино с большим размахом",
-            "фильм под компанию без провисаний",
-            "жесткое приземленное криминальное кино",
-            "динамичный фильм без скучных пауз",
-            "криминальная история с характером"
+            "вдохновляющее кино, чтобы зарядиться",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если хочется тихое и созерцательное кино"
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
-            "просмотр с друзьями",
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении",
-            "когда нужен эмоциональный заряд"
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: dialogue-heavy."
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
