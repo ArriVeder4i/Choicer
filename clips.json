@@ -32193,21 +32193,21 @@
       }
     },
     {
-      "movieId": 394,
+      "movieId": 910353,
       "clips": [
         {
-          "driveId": "1exg4D84heNvAkZFpaOdqaOSbjZfWrPad"
+          "driveId": "1Izd8fH2hU-mvtE4I6RY6ag6zI4u49ZYi"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:41:05.929109+00:00",
+        "generatedAt": "2026-07-19T01:41:30.162058+00:00",
         "tags": {
           "moods": [
-            "dark",
             "tense",
-            "romantic"
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -32216,18 +32216,17 @@
           "pacing": "balanced",
           "hiddenVibes": [
             "street-level grit",
-            "dialogue-heavy",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "crime",
-            "personal legacy"
+            "fear and uncertainty"
           ],
           "emotions": [
-            "unease",
             "anxiety",
-            "melancholy"
+            "melancholy",
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unexpected",
@@ -32235,9 +32234,9 @@
             "broad movie audience"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
             "напряженный фильм, который держит в тонусе",
             "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
             "жесткое приземленное криминальное кино",
             "фильм с ровным темпом на вечер",
@@ -32251,7 +32250,7 @@
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
         },
         "embedding": null
       }
