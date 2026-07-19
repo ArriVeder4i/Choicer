@@ -32062,6 +32062,71 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 46063,
+      "clips": [
+        {
+          "driveId": "1EhOhvlUlS6j3W0zLC_dfKXgYWYJX8oxL"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T01:30:05.636360+00:00",
+        "tags": {
+          "moods": [
+            "inspiring",
+            "romantic",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "retro",
+            "nostalgic undertone",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "personal transformation",
+            "pursuit of a dream"
+          ],
+          "emotions": [
+            "hope",
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: retro."
+        },
+        "embedding": null
+      }
     }
   ]
 }
