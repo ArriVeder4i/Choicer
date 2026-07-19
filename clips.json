@@ -32004,65 +32004,56 @@
       }
     },
     {
-      "movieId": 5492,
+      "movieId": 495518,
       "clips": [
         {
-          "driveId": "1Z8S86H-HDBUzKOoHUeu48PCu8g_9qj1i"
+          "driveId": "1wqwyZ56-AcZIirnccm64nZNqFEO7Ofn1"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:24:31.557233+00:00",
+        "generatedAt": "2026-07-19T01:24:56.089081+00:00",
         "tags": {
           "moods": [
             "romantic",
-            "inspiring",
-            "atmospheric"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "couple",
-            "group"
+            "couple"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder",
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "love and attachment"
+            "love and attachment",
+            "personal transformation"
           ],
           "emotions": [
             "tenderness",
-            "hope",
             "melancholy"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "happy",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
             "что посмотреть вдвоем с романтичным вайбом",
-            "вдохновляющее кино, чтобы зарядиться",
-            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
             "что посмотреть вдвоем вечером",
-            "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
             "фильм с ровным темпом на вечер",
             "трогательная история про чувства"
           ],
-          "avoidPhrases": [],
-          "situations": [
-            "вечер вдвоем",
-            "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
-            "когда нужна мотивация или подъем"
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "situations": [
+            "вечер вдвоем"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
