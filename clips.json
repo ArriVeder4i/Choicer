@@ -32441,65 +32441,62 @@
       }
     },
     {
-      "movieId": 1189787,
+      "movieId": 6462564,
       "clips": [
         {
-          "driveId": "1LKG62xvvPcGTPm7v-oLUe8C6xhLLN5x3"
+          "driveId": "1NEseE_sWJT5OjCMALziRy-unS6kaq8V0"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:34:29.616504+00:00",
+        "generatedAt": "2026-07-19T02:34:54.398418+00:00",
         "tags": {
           "moods": [
-            "atmospheric",
-            "epic",
-            "light"
+            "tense",
+            "sad",
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
+            "alone",
             "background"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "survival"
+            "fear and uncertainty",
+            "personal transformation"
           ],
           "emotions": [
-            "adrenaline",
-            "joy"
+            "anxiety",
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
-            "worldbuilding lovers",
             "binge-watchers"
           ],
           "searchPhrases": [
-            "атмосферный фильм, чтобы погрузиться",
-            "масштабное кино с большим размахом",
-            "что-то легкое и приятное на вечер",
-            "фильм под компанию без провисаний",
+            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
-            "фильм с чувством чуда и открытия",
-            "динамичный фильм без скучных пауз",
-            "напряженная история про выживание"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
-            "просмотр с друзьями",
+            "тихий вечер одному",
             "включить фоном во время отдыха",
-            "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
