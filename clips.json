@@ -32064,68 +32064,60 @@
       }
     },
     {
-      "movieId": 8366,
+      "movieId": 4542189,
       "clips": [
         {
-          "driveId": "1Z0_O81DNp70v9k3RB0ZLIp9bBJY8LlLm"
+          "driveId": "1yKnAuX5PhweXNK0AbHfWX4WuF1fU_fxu"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:31:53.245226+00:00",
+        "generatedAt": "2026-07-19T01:32:22.090016+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "tense",
-            "atmospheric"
+            "light",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
-            "alone"
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "creeping dread",
-            "retro",
-            "sense of wonder"
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "humanity versus technology"
+            "personal transformation"
           ],
           "emotions": [
-            "unease"
+            "amusement",
+            "joy",
+            "melancholy"
           ],
           "energy": "high",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
-            "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
             "фильм под компанию без провисаний",
-            "фильм для спокойного просмотра одному",
-            "фильм с чувством чуда и открытия",
             "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
-            "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
