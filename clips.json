@@ -31879,6 +31879,68 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 43602,
+      "clips": [
+        {
+          "driveId": "18Hx6-IM9WosUMvBvOhw1zXWyWNKbMFQK"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T00:57:48.107247+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "retro",
+            "nostalgic undertone"
+          ],
+          "themes": [
+            "love and attachment"
+          ],
+          "emotions": [
+            "tenderness",
+            "joy",
+            "amusement"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: retro."
+        },
+        "embedding": null
+      }
     }
   ]
 }
