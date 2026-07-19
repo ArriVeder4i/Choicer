@@ -15854,13 +15854,13 @@
       "movieId": 43423,
       "clips": [
         {
-          "driveId": "143CRbJEClcWJc_D42xqeuYBcsTuMLA9j"
+          "driveId": "1_K072hYCHUV0QtPaiX4J7MYX0sD0ydG6"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:31:38.536077+00:00",
+        "generatedAt": "2026-07-19T11:59:23.977080+00:00",
         "tags": {
           "moods": [
             "light",
@@ -15879,8 +15879,9 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment",
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "love and attachment"
           ],
           "emotions": [
             "amusement",
@@ -15989,24 +15990,24 @@
       "movieId": 46789,
       "clips": [
         {
-          "driveId": "1fjuaihkyn4TzhnW_yBs3P0TWpbYl45ey"
+          "driveId": "1NYOAedxVsevUyDH5ufgAN_3U6FCSC2fN"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:31:48.004019+00:00",
+        "generatedAt": "2026-07-19T11:59:52.437917+00:00",
         "tags": {
           "moods": [
             "epic",
             "inspiring",
-            "light"
+            "romantic"
           ],
           "complexity": "thought-provoking",
           "watchWith": [
             "group"
           ],
-          "pacing": "slow",
+          "pacing": "dynamic",
           "hiddenVibes": [
             "retro",
             "street-level grit",
@@ -16019,10 +16020,10 @@
           ],
           "emotions": [
             "hope",
-            "amusement",
-            "joy"
+            "melancholy",
+            "amusement"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
@@ -16030,24 +16031,24 @@
           "searchPhrases": [
             "масштабное кино с большим размахом",
             "вдохновляющее кино, чтобы зарядиться",
-            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм под компанию без провисаний",
             "жесткое приземленное криминальное кино",
             "умный фильм, после которого хочется подумать",
-            "неспешное кино с настроением",
+            "динамичный фильм без скучных пауз",
             "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если не хочется думать и вникать",
-            "если нужен быстрый экшен без медленных сцен"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
             "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда нужна мотивация или подъем"
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: retro."
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
@@ -16056,16 +16057,17 @@
       "movieId": 725190,
       "clips": [
         {
-          "driveId": "1v7UxOzFbXf5q74Oko2zkgKgNTwH5PcrX"
+          "driveId": "1edKYrJLs6DWKR5_GGkuirymN2itNe9Ke"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:31:52.854804+00:00",
+        "generatedAt": "2026-07-19T12:00:22.440851+00:00",
         "tags": {
           "moods": [
             "inspiring",
+            "dark",
             "sad"
           ],
           "complexity": "balanced",
@@ -16077,12 +16079,14 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal transformation",
+            "true story",
+            "personal legacy",
             "pursuit of a dream"
           ],
           "emotions": [
             "hope",
-            "melancholy"
+            "melancholy",
+            "unease"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -16091,6 +16095,7 @@
           ],
           "searchPhrases": [
             "вдохновляющее кино, чтобы зарядиться",
+            "мрачное кино с тяжелой атмосферой",
             "эмоциональный фильм, который тронет",
             "фильм для спокойного просмотра одному",
             "фильм с ровным темпом на вечер"
@@ -16363,18 +16368,18 @@
       "movieId": 3797,
       "clips": [
         {
-          "driveId": "1MWpBZaD_eJ0dgMspMIyh9OZgECKgmiki"
+          "driveId": "18Zpo3EBDwp5qCvRyLAnHDpkgaAya4sFV"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:32:18.795505+00:00",
+        "generatedAt": "2026-07-19T12:00:49.597835+00:00",
         "tags": {
           "moods": [
             "tense",
-            "atmospheric",
-            "sad"
+            "inspiring",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -16393,6 +16398,7 @@
           ],
           "emotions": [
             "anxiety",
+            "hope",
             "melancholy"
           ],
           "energy": "medium",
@@ -16402,21 +16408,20 @@
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
-            "атмосферный фильм, чтобы погрузиться",
-            "эмоциональный фильм, который тронет",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм для спокойного просмотра одному",
             "загадочный фильм для ночного просмотра",
             "фильм с чувством чуда и открытия",
             "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
             "если нужен расслабленный фон без тревоги"
           ],
           "situations": [
             "тихий вечер одному",
-            "поздний вечер, когда хочется погрузиться",
-            "когда хочется держаться в напряжении"
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
           ],
           "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
@@ -20926,18 +20931,18 @@
       "movieId": 461939,
       "clips": [
         {
-          "driveId": "1ZTsWdmQZT9aqIXFHBfOTn6GIDOUqiDUV"
+          "driveId": "1aZs4dlWemn4my3kWXbqmQgz-8c-uT1Fc"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:39:02.475465+00:00",
+        "generatedAt": "2026-07-19T12:01:22.288434+00:00",
         "tags": {
           "moods": [
             "tense",
-            "sad",
-            "dark"
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -20945,18 +20950,19 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
+            "sense of wonder",
             "mystery-night energy",
-            "street-level grit",
-            "quiet emotional aftertaste"
+            "street-level grit"
           ],
           "themes": [
-            "crime",
-            "search for truth",
-            "fear and uncertainty"
+            "true story",
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
             "anxiety",
-            "melancholy"
+            "melancholy",
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unexpected",
@@ -20965,13 +20971,13 @@
           ],
           "searchPhrases": [
             "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
             "эмоциональный фильм, который тронет",
-            "мрачное кино с тяжелой атмосферой",
             "фильм для спокойного просмотра одному",
+            "фильм с чувством чуда и открытия",
             "загадочный фильм для ночного просмотра",
             "жесткое приземленное криминальное кино",
-            "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
@@ -20981,7 +20987,7 @@
             "тихий вечер одному",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
