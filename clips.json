@@ -32382,6 +32382,69 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 5406956,
+      "clips": [
+        {
+          "driveId": "1x5SgOSxRPRPj4EuVwdvjMXwOz0w2436s"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T02:28:20.156154+00:00",
+        "tags": {
+          "moods": [
+            "atmospheric",
+            "romantic",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
