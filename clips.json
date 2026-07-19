@@ -32004,37 +32004,38 @@
       }
     },
     {
-      "movieId": 627,
+      "movieId": 371,
       "clips": [
         {
-          "driveId": "1mAsRlQIpcCxTOSiiWab4Rab8CAy3OxrQ"
+          "driveId": "1XthAO9WJMFJOK7Mev_zGelUGxOY34N9J"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:23:12.804896+00:00",
+        "generatedAt": "2026-07-19T01:23:37.321571+00:00",
         "tags": {
           "moods": [
-            "sad",
-            "inspiring",
-            "epic"
+            "tense",
+            "epic",
+            "dark"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
             "group"
           ],
           "pacing": "slow",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "personal transformation",
-            "pursuit of a dream"
+            "true story",
+            "personal legacy",
+            "survival in conflict"
           ],
           "emotions": [
-            "melancholy",
-            "hope"
+            "adrenaline",
+            "unease"
           ],
           "energy": "low",
           "ending": "unknown",
@@ -32042,22 +32043,26 @@
             "broad movie audience"
           ],
           "searchPhrases": [
-            "эмоциональный фильм, который тронет",
-            "вдохновляющее кино, чтобы зарядиться",
+            "напряженный фильм, который держит в тонусе",
             "масштабное кино с большим размахом",
+            "мрачное кино с тяжелой атмосферой",
             "фильм под компанию без провисаний",
-            "неспешное кино с настроением"
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением",
+            "напряженная история про выживание"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
             "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
             "просмотр с друзьями",
             "поздний вечер, когда хочется погрузиться",
-            "когда нужна мотивация или подъем"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
