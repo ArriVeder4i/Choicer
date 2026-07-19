@@ -32002,6 +32002,65 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 627,
+      "clips": [
+        {
+          "driveId": "1mAsRlQIpcCxTOSiiWab4Rab8CAy3OxrQ"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T01:23:12.804896+00:00",
+        "tags": {
+          "moods": [
+            "sad",
+            "inspiring",
+            "epic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "slow",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "personal transformation",
+            "pursuit of a dream"
+          ],
+          "emotions": [
+            "melancholy",
+            "hope"
+          ],
+          "energy": "low",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "вдохновляющее кино, чтобы зарядиться",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "неспешное кино с настроением"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
     }
   ]
 }
