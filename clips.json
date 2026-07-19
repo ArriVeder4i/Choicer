@@ -31814,65 +31814,53 @@
       }
     },
     {
-      "movieId": 958519,
+      "movieId": 808639,
       "clips": [
         {
-          "driveId": "1auSd_YHdc7NByNDBYGmXcWKsX6x0Ta8I"
+          "driveId": "1z7xonpWYhiRnR6kQHPeFBrSoThBwTbTe"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:53:58.386912+00:00",
+        "generatedAt": "2026-07-19T00:54:21.834343+00:00",
         "tags": {
           "moods": [
-            "sad",
-            "epic",
-            "tense"
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
             "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "fear and uncertainty"
+            "personal transformation"
           ],
           "emotions": [
-            "melancholy",
-            "adrenaline",
-            "anxiety"
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "tragic",
+          "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
             "эмоциональный фильм, который тронет",
-            "масштабное кино с большим размахом",
-            "напряженный фильм, который держит в тонусе",
-            "фильм под компанию без провисаний",
             "фильм для спокойного просмотра одному",
-            "динамичный фильм без скучных пауз"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "просмотр с друзьями",
-            "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "тихий вечер одному"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
