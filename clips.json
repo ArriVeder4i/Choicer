@@ -32125,65 +32125,57 @@
       }
     },
     {
-      "movieId": 7466,
+      "movieId": 233084,
       "clips": [
         {
-          "driveId": "18pgFJU91dOeCrlafDWyjh2P9q0iauph9"
+          "driveId": "14bXKrui4F4LyEOG63XsUDGlShp60HP_h"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:38:35.748950+00:00",
+        "generatedAt": "2026-07-19T01:38:57.769728+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "sad",
-            "tense"
+            "inspiring",
+            "sad"
           ],
-          "complexity": "thought-provoking",
+          "complexity": "balanced",
           "watchWith": [
             "alone"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "street-level grit",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "crime"
+            "personal transformation"
           ],
           "emotions": [
-            "melancholy",
-            "unease"
+            "hope",
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "viewers who like character-driven stories"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
+            "вдохновляющее кино, чтобы зарядиться",
             "эмоциональный фильм, который тронет",
-            "напряженный фильм, который держит в тонусе",
             "фильм для спокойного просмотра одному",
-            "жесткое приземленное криминальное кино",
-            "умный фильм, после которого хочется подумать",
-            "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
-            "если не хочется думать и вникать"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
             "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Мрачное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
