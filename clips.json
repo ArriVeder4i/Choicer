@@ -31557,59 +31557,65 @@
       }
     },
     {
-      "movieId": 1372775,
+      "movieId": 1387128,
       "clips": [
         {
-          "driveId": "1doUIBjARrXr8zQU2Cro8H2NCEEoxFORS"
+          "driveId": "1SYvcwZ41acAcuh-8_8UMkNR0JHie-QHa"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:35:09.541704+00:00",
+        "generatedAt": "2026-07-19T00:35:32.508506+00:00",
         "tags": {
           "moods": [
-            "light"
+            "tense",
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family",
-            "group",
+            "alone",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "retro",
-            "nostalgic undertone"
+            "mystery-night energy",
+            "street-level grit",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "family bonds"
+            "crime",
+            "search for truth",
+            "fear and uncertainty"
           ],
           "emotions": [
-            "joy",
-            "amusement"
+            "anxiety"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "unexpected",
           "targetAudience": [
             "binge-watchers"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "кино для семейного вечера",
-            "фильм под компанию без провисаний",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
             "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
             "фильм с ровным темпом на вечер",
-            "история про близких и отношения"
+            "криминальная история с характером"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
           "situations": [
-            "семейный вечер дома",
-            "просмотр с друзьями",
+            "тихий вечер одному",
             "включить фоном во время отдыха",
-            "после тяжелого дня, чтобы разгрузиться"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: retro."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
         },
         "embedding": null
       }
