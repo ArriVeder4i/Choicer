@@ -31746,19 +31746,21 @@
       }
     },
     {
-      "movieId": 4888980,
+      "movieId": 986788,
       "clips": [
         {
-          "driveId": "12X_-z8anMX53Ou9BJ4XQsb9wpnA5V_xx"
+          "driveId": "1fTTNBUKwRhdITiyySTYoeeJ9m-vD48NW"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:47:31.016570+00:00",
+        "generatedAt": "2026-07-19T00:47:57.895877+00:00",
         "tags": {
           "moods": [
-            "light"
+            "light",
+            "romantic",
+            "sad"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -31767,14 +31769,17 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "betrayal and distrust"
           ],
           "emotions": [
             "amusement",
-            "joy"
+            "joy",
+            "melancholy"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -31783,17 +31788,21 @@
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
             "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
             "фильм с ровным темпом на вечер"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
           "situations": [
             "просмотр с друзьями",
             "включить фоном во время отдыха",
             "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
