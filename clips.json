@@ -32193,62 +32193,62 @@
       }
     },
     {
-      "movieId": 880,
+      "movieId": 4871,
       "clips": [
         {
-          "driveId": "1ZcHJRFBHGEsQymoAQm-6R2Zp0TS5vBGh"
+          "driveId": "10zUBfnwLDmZzcDUjAeeSqTxbpvu_bdao"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:42:42.387204+00:00",
+        "generatedAt": "2026-07-19T01:43:09.020696+00:00",
         "tags": {
           "moods": [
             "romantic",
-            "light",
-            "atmospheric"
+            "sad",
+            "epic"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "couple",
-            "group"
+            "alone"
           ],
-          "pacing": "balanced",
+          "pacing": "slow",
           "hiddenVibes": [
-            "sense of wonder"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "love and attachment"
+            "love and attachment",
+            "personal transformation"
           ],
           "emotions": [
-            "tenderness",
-            "amusement",
-            "joy"
+            "melancholy",
+            "tenderness"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "broad movie audience"
           ],
           "searchPhrases": [
             "что посмотреть вдвоем с романтичным вайбом",
-            "что-то легкое и приятное на вечер",
-            "атмосферный фильм, чтобы погрузиться",
-            "что посмотреть вдвоем вечером",
-            "фильм под компанию без провисаний",
-            "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
+            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением",
             "трогательная история про чувства"
           ],
-          "avoidPhrases": [],
-          "situations": [
-            "вечер вдвоем",
-            "просмотр с друзьями",
-            "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться"
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
           ],
-          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Романтичное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
