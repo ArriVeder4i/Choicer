@@ -31557,60 +31557,65 @@
       }
     },
     {
-      "movieId": 11901604,
+      "movieId": 971114,
       "clips": [
         {
-          "driveId": "1lo0eO4TZ25aS0ycQP9qBIx1yNMY1Lmfj"
+          "driveId": "1zjlxLQTpxZqhd2ioVEWXILWX24T5npV2"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:32:42.435109+00:00",
+        "generatedAt": "2026-07-19T00:33:17.381607+00:00",
         "tags": {
           "moods": [
-            "light",
             "atmospheric",
+            "tense",
             "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family",
-            "group"
+            "group",
+            "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "sense of wonder"
+            "sense of wonder",
+            "distinct auteur flavor"
           ],
           "themes": [
-            "family bonds"
+            "true story",
+            "personal legacy"
           ],
           "emotions": [
-            "joy"
+            "joy",
+            "unease"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "worldbuilding lovers"
+            "worldbuilding lovers",
+            "binge-watchers"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
             "атмосферный фильм, чтобы погрузиться",
+            "напряженный фильм, который держит в тонусе",
             "масштабное кино с большим размахом",
-            "кино для семейного вечера",
             "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
             "фильм с чувством чуда и открытия",
-            "фильм с ровным темпом на вечер",
-            "история про близких и отношения"
+            "фильм с ровным темпом на вечер"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги"
+          ],
           "situations": [
-            "семейный вечер дома",
             "просмотр с друзьями",
+            "включить фоном во время отдыха",
             "поздний вечер, когда хочется погрузиться",
-            "после тяжелого дня, чтобы разгрузиться"
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
