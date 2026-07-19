@@ -32384,62 +32384,66 @@
       }
     },
     {
-      "movieId": 468994,
+      "movieId": 401177,
       "clips": [
         {
-          "driveId": "1awWNyyW7UK11hztwjvNN_8uHZl8xSGYZ"
+          "driveId": "1BCkY4GLhuohaRbsQ_FaWy5qFM3jkEOoP"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:29:41.697041+00:00",
+        "generatedAt": "2026-07-19T02:30:06.071157+00:00",
         "tags": {
           "moods": [
-            "dark",
+            "romantic",
             "tense",
-            "romantic"
+            "dark"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "couple"
           ],
-          "pacing": "balanced",
+          "pacing": "slow",
           "hiddenVibes": [
-            "creeping dread",
-            "mystery-night energy"
+            "sense of wonder",
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
-            "personal legacy",
-            "fear and uncertainty"
+            "love and attachment",
+            "personal legacy"
           ],
           "emotions": [
+            "tenderness",
             "unease",
-            "tenderness"
+            "melancholy"
           ],
-          "energy": "medium",
-          "ending": "unexpected",
+          "energy": "low",
+          "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
-            "напряженный фильм, который держит в тонусе",
             "что посмотреть вдвоем с романтичным вайбом",
-            "фильм для спокойного просмотра одному",
-            "загадочный фильм для ночного просмотра",
-            "фильм с ровным темпом на вечер"
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем вечером",
+            "фильм с чувством чуда и открытия",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если нужен расслабленный фон без тревоги",
+            "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
-            "тихий вечер одному",
+            "вечер вдвоем",
+            "поздний вечер, когда хочется погрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Неспешный ритм помогает погрузиться в настроение. Вайб: sense of wonder."
         },
         "embedding": null
       }
