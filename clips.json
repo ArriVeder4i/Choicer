@@ -32191,6 +32191,74 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 406,
+      "clips": [
+        {
+          "driveId": "1sn-nup_3lFhUKQekLjL1R4WukEzJSe0e"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T01:40:43.860503+00:00",
+        "tags": {
+          "moods": [
+            "dark",
+            "tense",
+            "romantic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "creeping dread",
+            "retro",
+            "sense of wonder"
+          ],
+          "themes": [
+            "true story",
+            "love and attachment",
+            "personal legacy"
+          ],
+          "emotions": [
+            "tenderness",
+            "unease",
+            "adrenaline"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+        },
+        "embedding": null
+      }
     }
   ]
 }
