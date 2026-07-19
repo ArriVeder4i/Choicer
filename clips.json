@@ -32064,41 +32064,39 @@
       }
     },
     {
-      "movieId": 4695,
+      "movieId": 645276,
       "clips": [
         {
-          "driveId": "17dczxMF9hOvyESoobAErN5BHujcyHov2"
+          "driveId": "1tcVcPumnzkyiM5P21PaJpLlX-3rdBoPp"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:32:46.694064+00:00",
+        "generatedAt": "2026-07-19T01:33:13.002976+00:00",
         "tags": {
           "moods": [
+            "sad",
             "epic",
-            "dark",
-            "inspiring"
+            "dark"
           ],
           "complexity": "thought-provoking",
           "watchWith": [
             "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "slow",
           "hiddenVibes": [
-            "retro",
-            "street-level grit",
-            "nostalgic undertone"
+            "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "crime"
+            "love and attachment"
           ],
           "emotions": [
-            "adrenaline",
-            "hope",
-            "melancholy"
+            "melancholy",
+            "tenderness",
+            "unease"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -32106,26 +32104,24 @@
             "broad movie audience"
           ],
           "searchPhrases": [
+            "эмоциональный фильм, который тронет",
             "масштабное кино с большим размахом",
             "мрачное кино с тяжелой атмосферой",
-            "вдохновляющее кино, чтобы зарядиться",
             "фильм под компанию без провисаний",
-            "жесткое приземленное криминальное кино",
             "умный фильм, после которого хочется подумать",
-            "динамичный фильм без скучных пауз",
-            "криминальная история с характером"
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
             "если не хочется думать и вникать",
-            "если хочется тихое и созерцательное кино"
+            "если нужен быстрый экшен без медленных сцен"
           ],
           "situations": [
             "просмотр с друзьями",
-            "когда хочется держаться в напряжении",
-            "когда нужна мотивация или подъем"
+            "поздний вечер, когда хочется погрузиться"
           ],
-          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: retro."
+          "summary": "Эмоционально тяжелое кино с идеями, которые остаются после просмотра; может зайти в компании. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
