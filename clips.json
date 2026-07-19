@@ -32324,62 +32324,66 @@
       }
     },
     {
-      "movieId": 1405778,
+      "movieId": 8613385,
       "clips": [
         {
-          "driveId": "12S-BTuoqHU5YtymNlX44irnPWXOoN544"
+          "driveId": "1oux5b_ba8KhfJrZAG3kwfcclonQEddTD"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:25:51.897979+00:00",
+        "generatedAt": "2026-07-19T02:26:21.803651+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "dark"
+            "light",
+            "epic",
+            "inspiring"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "family",
+            "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "mystery-night energy",
-            "street-level grit"
+            "distinct auteur flavor"
           ],
           "themes": [
-            "crime",
-            "search for truth",
-            "fear and uncertainty"
+            "family bonds",
+            "personal legacy",
+            "true story"
           ],
           "emotions": [
-            "unease",
-            "anxiety"
+            "joy",
+            "adrenaline",
+            "hope"
           ],
           "energy": "medium",
-          "ending": "unexpected",
+          "ending": "unknown",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
-            "мрачное кино с тяжелой атмосферой",
-            "фильм для спокойного просмотра одному",
-            "загадочный фильм для ночного просмотра",
-            "жесткое приземленное криминальное кино",
-            "фильм с ровным темпом на вечер",
-            "криминальная история с характером"
+            "что-то легкое и приятное на вечер",
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
         },
         "embedding": null
       }
