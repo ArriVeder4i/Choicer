@@ -32322,6 +32322,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 4540126,
+      "clips": [
+        {
+          "driveId": "1C8MGlEPAr_TQM84WOaAIDrfURulCzG8v"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T02:23:09.701507+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "atmospheric",
+            "sad"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "quiet emotional aftertaste",
+            "sense of wonder"
+          ],
+          "themes": [
+            "humanity versus technology",
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy",
+            "adrenaline",
+            "hope"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
     }
   ]
 }
