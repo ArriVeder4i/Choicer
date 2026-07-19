@@ -32324,66 +32324,59 @@
       }
     },
     {
-      "movieId": 8613385,
+      "movieId": 432791,
       "clips": [
         {
-          "driveId": "1oux5b_ba8KhfJrZAG3kwfcclonQEddTD"
+          "driveId": "1zW1ezg63ZvTX-bDaP73KRrtY30Dhu9eI"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:26:21.803651+00:00",
+        "generatedAt": "2026-07-19T02:26:48.073831+00:00",
         "tags": {
           "moods": [
-            "light",
-            "epic",
-            "inspiring"
+            "inspiring",
+            "sad",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family",
-            "group"
+            "alone"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "distinct auteur flavor"
+            "quiet emotional aftertaste"
           ],
           "themes": [
-            "family bonds",
+            "pursuit of a dream",
             "personal legacy",
-            "true story"
+            "personal transformation"
           ],
           "emotions": [
-            "joy",
-            "adrenaline",
-            "hope"
+            "hope",
+            "melancholy"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "tragic",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
-            "масштабное кино с большим размахом",
             "вдохновляющее кино, чтобы зарядиться",
-            "кино для семейного вечера",
-            "фильм под компанию без провисаний",
-            "динамичный фильм без скучных пауз",
-            "история про близких и отношения"
+            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется тихое и созерцательное кино"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "семейный вечер дома",
-            "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться",
-            "когда хочется держаться в напряжении",
+            "тихий вечер одному",
             "когда нужна мотивация или подъем"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
