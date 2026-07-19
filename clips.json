@@ -32324,66 +32324,67 @@
       }
     },
     {
-      "movieId": 977288,
+      "movieId": 432724,
       "clips": [
         {
-          "driveId": "1U5VWTyJwhqhKiA7779yQNbMMb11eVorA"
+          "driveId": "1hCh4kT5rQCoabyMBO32_mBmKVXluAk22"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:23:35.419934+00:00",
+        "generatedAt": "2026-07-19T02:24:08.539365+00:00",
         "tags": {
           "moods": [
-            "dark",
-            "epic",
-            "tense"
+            "light",
+            "atmospheric",
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "group",
-            "alone"
+            "family",
+            "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "creeping dread",
+            "sense of wonder",
+            "street-level grit",
             "distinct auteur flavor"
           ],
           "themes": [
-            "fear and uncertainty",
-            "survival",
-            "survival in conflict"
+            "family bonds",
+            "crime"
           ],
           "emotions": [
-            "adrenaline",
-            "unease"
+            "joy",
+            "amusement"
           ],
-          "energy": "medium",
-          "ending": "unexpected",
+          "energy": "high",
+          "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "мрачное кино с тяжелой атмосферой",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
             "масштабное кино с большим размахом",
-            "напряженный фильм, который держит в тонусе",
+            "кино для семейного вечера",
             "фильм под компанию без провисаний",
-            "фильм для спокойного просмотра одному",
-            "динамичный фильм без скучных пауз",
-            "напряженная история про выживание"
+            "фильм с чувством чуда и открытия",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
+            "семейный вечер дома",
             "просмотр с друзьями",
-            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении"
           ],
-          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
