@@ -33638,6 +33638,316 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 2602,
+      "clips": [
+        {
+          "driveId": "1fy9jAsYX61mUhzinFKznGVMb-9Q8ghwp"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T08:45:58.513638+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "epic",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "survival in conflict",
+            "personal transformation",
+            "revenge"
+          ],
+          "emotions": [
+            "adrenaline",
+            "melancholy",
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 13141986,
+      "clips": [
+        {
+          "driveId": "1mAStVezFYdT5Q5Ec5iOKwmGOhZRTYwGy"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T08:46:34.347489+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "tense",
+            "inspiring"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "background"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor"
+          ],
+          "themes": [
+            "survival in conflict",
+            "pursuit of a dream",
+            "survival"
+          ],
+          "emotions": [
+            "adrenaline",
+            "hope",
+            "joy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "напряженный фильм, который держит в тонусе",
+            "вдохновляющее кино, чтобы зарядиться",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 9913944,
+      "clips": [
+        {
+          "driveId": "1LjwBTBwA917Hul4x8jxLP2DfqvLsDc9g"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T08:47:03.111974+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "dark",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "search for truth",
+            "fear and uncertainty",
+            "personal transformation"
+          ],
+          "emotions": [
+            "unease",
+            "anxiety",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 424970,
+      "clips": [
+        {
+          "driveId": "1I_9CDO_cSSNSW4Amk4ZYWokLvQOyjiEB"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T08:47:23.725516+00:00",
+        "tags": {
+          "moods": [
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "background"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "cinematic mood piece"
+          ],
+          "themes": [
+            "personal transformation"
+          ],
+          "emotions": [
+            "joy",
+            "amusement"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 13117127,
+      "clips": [
+        {
+          "driveId": "15GERsSs2KDfoL-VTJwNt8rbSeZf9n5oO"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T08:47:48.483618+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "atmospheric",
+            "epic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder"
+          ],
+          "themes": [
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety"
+          ],
+          "energy": "high",
+          "ending": "unexpected",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "атмосферный фильм, чтобы погрузиться",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
