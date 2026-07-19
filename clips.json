@@ -32628,13 +32628,13 @@
       "movieId": 5024113,
       "clips": [
         {
-          "driveId": "18QbNVO2kTLmc99GGoD7LnLaAVJUGJJoH"
+          "driveId": "1m9nGlpwoVtQkoPdunCviCtydQE1BAnek"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T03:21:40.693051+00:00",
+        "generatedAt": "2026-07-19T12:15:11.633456+00:00",
         "tags": {
           "moods": [
             "tense",
@@ -32696,13 +32696,13 @@
       "movieId": 3561,
       "clips": [
         {
-          "driveId": "1jUFArq8zMfDx81Sxm28Iv2W8yRNJoH--"
+          "driveId": "1qjpmdfMwAFDNH4PR76Q9uRZKxj2DUW_t"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T06:38:31.037211+00:00",
+        "generatedAt": "2026-07-19T12:15:46.582590+00:00",
         "tags": {
           "moods": [
             "romantic",
@@ -32758,13 +32758,13 @@
       "movieId": 1309707,
       "clips": [
         {
-          "driveId": "1gKhg0CshmYcQQI53nIuZ8kqMwh3sexHv"
+          "driveId": "1NucfPWLEZlfQNBOaxALPp-2kbL6QhKXl"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T06:39:42.220174+00:00",
+        "generatedAt": "2026-07-19T12:16:24.356538+00:00",
         "tags": {
           "moods": [
             "light",
@@ -32820,13 +32820,13 @@
       "movieId": 6020597,
       "clips": [
         {
-          "driveId": "1rR3DPo7JrrHXQgz3pxR3IAmXId5KGAHI"
+          "driveId": "1sLiu9oHmp4rH7INsYFNcEYaLvIE6l11U"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T08:39:59.206875+00:00",
+        "generatedAt": "2026-07-19T12:16:58.176882+00:00",
         "tags": {
           "moods": [
             "light",
@@ -32883,13 +32883,13 @@
       "movieId": 11901604,
       "clips": [
         {
-          "driveId": "1lqhFtH--iOuGz37pOk7-8iipH2o7JgKt"
+          "driveId": "1plVm9DtxPEtrk4_V7LfiQEHqYfAzpmaS"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T08:40:21.985625+00:00",
+        "generatedAt": "2026-07-19T12:17:31.179901+00:00",
         "tags": {
           "moods": [
             "light",
