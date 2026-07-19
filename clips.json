@@ -31746,63 +31746,65 @@
       }
     },
     {
-      "movieId": 14349,
+      "movieId": 46368,
       "clips": [
         {
-          "driveId": "1ZJoRxCdvhy-r1_fSWlSQrhvTdCKtSDC4"
+          "driveId": "1Y-ZSWwV-AobNAYXHJ-pqTono0Wqx1v_y"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:50:46.911065+00:00",
+        "generatedAt": "2026-07-19T00:51:12.025874+00:00",
         "tags": {
           "moods": [
-            "epic",
+            "romantic",
             "light"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "couple",
             "group"
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
-            "street-level grit",
-            "distinct auteur flavor"
+            "retro",
+            "nostalgic undertone"
           ],
           "themes": [
-            "crime",
-            "survival"
+            "true story",
+            "love and attachment",
+            "personal legacy"
           ],
           "emotions": [
-            "adrenaline",
+            "tenderness",
             "amusement",
             "joy"
           ],
           "energy": "high",
-          "ending": "unknown",
+          "ending": "happy",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "масштабное кино с большим размахом",
+            "что посмотреть вдвоем с романтичным вайбом",
             "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
-            "жесткое приземленное криминальное кино",
             "динамичный фильм без скучных пауз",
-            "напряженная история про выживание",
-            "криминальная история с характером"
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется тихое и созерцательное кино"
           ],
           "situations": [
+            "вечер вдвоем",
             "просмотр с друзьями",
             "после тяжелого дня, чтобы разгрузиться",
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: retro."
         },
         "embedding": null
       }
