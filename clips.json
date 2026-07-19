@@ -21229,13 +21229,13 @@
       "movieId": 77265,
       "clips": [
         {
-          "driveId": "1sr6N5-E9BogozjL48MgdRC5oYIJx1Rct"
+          "driveId": "1C0TrgCBjHLAZbYIzu8Ot_T2AafTmCzla"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:39:32.551306+00:00",
+        "generatedAt": "2026-07-19T12:01:54.094190+00:00",
         "tags": {
           "moods": [
             "tense",
@@ -21354,17 +21354,18 @@
       "movieId": 46638,
       "clips": [
         {
-          "driveId": "1KyovFFZpABl4SW-3uRj_6AJDRNistMUn"
+          "driveId": "18IROjMhwejyOnlCqjhj-9kBScuOJTfAg"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:39:44.127677+00:00",
+        "generatedAt": "2026-07-19T12:02:21.028329+00:00",
         "tags": {
           "moods": [
+            "sad",
             "light",
-            "sad"
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -21372,17 +21373,19 @@
           ],
           "pacing": "dynamic",
           "hiddenVibes": [
+            "quiet emotional aftertaste",
             "retro",
-            "nostalgic undertone",
-            "quiet emotional aftertaste"
+            "nostalgic undertone"
           ],
           "themes": [
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "love and attachment"
           ],
           "emotions": [
+            "melancholy",
             "amusement",
-            "joy",
-            "melancholy"
+            "joy"
           ],
           "energy": "high",
           "ending": "unknown",
@@ -21390,10 +21393,12 @@
             "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
             "эмоциональный фильм, который тронет",
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм под компанию без провисаний",
-            "динамичный фильм без скучных пауз"
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
@@ -21405,7 +21410,7 @@
             "когда хочется держаться в напряжении",
             "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: retro."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
@@ -22452,25 +22457,26 @@
       "movieId": 9005078,
       "clips": [
         {
-          "driveId": "1ZcEbFec7rEDMkRm1i0WtQ_QfeN6F7agx"
+          "driveId": "1bldC-KkqPE-NAdDRD_TEe6qf2LL1H1Qv"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:41:33.352851+00:00",
+        "generatedAt": "2026-07-19T12:02:54.061233+00:00",
         "tags": {
           "moods": [
             "light",
+            "atmospheric",
             "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
             "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "cinematic mood piece"
+            "sense of wonder"
           ],
           "themes": [
             "personal transformation"
@@ -22479,23 +22485,30 @@
             "amusement",
             "joy"
           ],
-          "energy": "medium",
+          "energy": "high",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
             "масштабное кино с большим размахом",
             "фильм под компанию без провисаний",
-            "фильм с ровным темпом на вечер"
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз"
           ],
-          "avoidPhrases": [],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
           "situations": [
             "просмотр с друзьями",
-            "после тяжелого дня, чтобы разгрузиться"
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
         },
         "embedding": null
       }
@@ -23889,16 +23902,17 @@
       "movieId": 11269452,
       "clips": [
         {
-          "driveId": "1k11RLGLl2AHmO92AsZ9quRfh_I_v4wu7"
+          "driveId": "1zMw-_M-LZ0LFKFYNAMN6ZioGHth6xXZY"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T21:43:54.188415+00:00",
+        "generatedAt": "2026-07-19T12:03:21.808695+00:00",
         "tags": {
           "moods": [
-            "sad"
+            "sad",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -23909,20 +23923,24 @@
             "quiet emotional aftertaste"
           ],
           "themes": [
+            "love and attachment",
             "personal transformation"
           ],
           "emotions": [
-            "melancholy"
+            "melancholy",
+            "tenderness"
           ],
           "energy": "high",
-          "ending": "happy",
+          "ending": "tragic",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
             "эмоциональный фильм, который тронет",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм для спокойного просмотра одному",
-            "динамичный фильм без скучных пауз"
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
@@ -25923,13 +25941,13 @@
       "movieId": 5230825,
       "clips": [
         {
-          "driveId": "1BpEB7Dx20_lFb77naOpCskFwzHhKyMxB"
+          "driveId": "1YP_ik0H-PFdgKF0UooiV5SnmEpIgB2_8"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-06-30T20:33:27.130046+00:00",
+        "generatedAt": "2026-07-19T12:04:00.019801+00:00",
         "tags": {
           "moods": [
             "epic",
