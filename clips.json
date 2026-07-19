@@ -32125,62 +32125,69 @@
       }
     },
     {
-      "movieId": 722951,
+      "movieId": 47015,
       "clips": [
         {
-          "driveId": "130G4gSSjKaM7GyQf7jqYCVBoTOH5r-HZ"
+          "driveId": "1kbXQkAS9IxbtTl0zB3OlfKw7Vem8uDJh"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:39:52.301388+00:00",
+        "generatedAt": "2026-07-19T01:40:18.653528+00:00",
         "tags": {
           "moods": [
-            "light",
-            "romantic",
-            "sad"
+            "tense",
+            "dark",
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "family"
+            "group",
+            "alone"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "street-level grit",
+            "dialogue-heavy",
+            "superhero"
           ],
           "themes": [
-            "family bonds",
-            "love and attachment",
-            "personal transformation"
+            "true story",
+            "personal legacy",
+            "crime"
           ],
           "emotions": [
-            "joy",
-            "melancholy",
-            "tenderness"
+            "tenderness",
+            "unease",
+            "adrenaline"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "happy",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
-            "что-то легкое и приятное на вечер",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
             "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
-            "кино для семейного вечера",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства",
-            "история про близких и отношения"
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "семейный вечер дома",
-            "после тяжелого дня, чтобы разгрузиться"
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
         },
         "embedding": null
       }
