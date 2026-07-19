@@ -32255,6 +32255,72 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 577,
+      "clips": [
+        {
+          "driveId": "1_BrhiN4jSJAYRRmGIERW5467B-NmCNLh"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T02:17:45.840668+00:00",
+        "tags": {
+          "moods": [
+            "dark",
+            "tense",
+            "inspiring"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "creeping dread",
+            "superhero",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "fear and uncertainty",
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "unease",
+            "anxiety",
+            "hope"
+          ],
+          "energy": "high",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "вдохновляющее кино, чтобы зарядиться",
+            "фильм для спокойного просмотра одному",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: creeping dread."
+        },
+        "embedding": null
+      }
     }
   ]
 }
