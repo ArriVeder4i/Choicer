@@ -32064,20 +32064,20 @@
       }
     },
     {
-      "movieId": 44691,
+      "movieId": 647671,
       "clips": [
         {
-          "driveId": "1LeMJkoJpdqnLS04UrrVom_hhZukrLHD6"
+          "driveId": "1rRPD6J96AcSKdQGCd8X6jA4OLzB33UYa"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:30:30.950904+00:00",
+        "generatedAt": "2026-07-19T01:31:00.194545+00:00",
         "tags": {
           "moods": [
             "sad",
-            "tense"
+            "romantic"
           ],
           "complexity": "balanced",
           "watchWith": [
@@ -32085,38 +32085,36 @@
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "retro",
-            "nostalgic undertone",
             "quiet emotional aftertaste"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "personal transformation"
+            "love and attachment"
           ],
           "emotions": [
-            "melancholy"
+            "melancholy",
+            "tenderness"
           ],
           "energy": "medium",
-          "ending": "unknown",
+          "ending": "tragic",
           "targetAudience": [
             "broad movie audience"
           ],
           "searchPhrases": [
             "эмоциональный фильм, который тронет",
-            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
             "фильм для спокойного просмотра одному",
-            "фильм с ровным темпом на вечер"
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется совсем легкое и веселое кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "когда хочется держаться в напряжении"
+            "тихий вечер одному"
           ],
-          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: retro."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
         },
         "embedding": null
       }
