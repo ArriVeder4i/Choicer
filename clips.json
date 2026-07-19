@@ -31623,6 +31623,74 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 455194,
+      "clips": [
+        {
+          "driveId": "1GicbdROFUFw68xYLncmbtFQfv-Li2ezi"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-19T00:36:53.140242+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "dark",
+            "sad"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "slow",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "street-level grit",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "crime",
+            "search for truth",
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety",
+            "melancholy",
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
