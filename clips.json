@@ -31692,68 +31692,66 @@
       }
     },
     {
-      "movieId": 502838,
+      "movieId": 1047883,
       "clips": [
         {
-          "driveId": "1Kbw7y9StjC19zmHfeO49VDu6Gi3wb80s"
+          "driveId": "1KywGwukRvI6djLL6BFgIjixx2HVtPeXE"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T00:44:51.634506+00:00",
+        "generatedAt": "2026-07-19T00:45:14.972272+00:00",
         "tags": {
           "moods": [
-            "tense",
+            "sad",
             "dark",
-            "romantic"
+            "epic"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone",
-            "background"
+            "group"
           ],
-          "pacing": "balanced",
+          "pacing": "dynamic",
           "hiddenVibes": [
-            "sense of wonder",
-            "superhero",
-            "mystery-night energy"
+            "dialogue-heavy",
+            "quiet emotional aftertaste",
+            "street-level grit"
           ],
           "themes": [
             "true story",
             "personal legacy",
-            "survival in conflict"
+            "crime"
           ],
           "emotions": [
-            "unease",
-            "anxiety",
+            "amusement",
+            "joy",
             "melancholy"
           ],
-          "energy": "medium",
-          "ending": "unexpected",
+          "energy": "high",
+          "ending": "unknown",
           "targetAudience": [
-            "binge-watchers"
+            "broad movie audience"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
+            "эмоциональный фильм, который тронет",
             "мрачное кино с тяжелой атмосферой",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "фильм для спокойного просмотра одному",
-            "что-то, что можно включить фоном",
-            "фильм с чувством чуда и открытия",
-            "загадочный фильм для ночного просмотра",
-            "фильм с ровным темпом на вечер"
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз",
+            "криминальная история с характером"
           ],
           "avoidPhrases": [
             "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги"
+            "если хочется тихое и созерцательное кино"
           ],
           "situations": [
-            "тихий вечер одному",
-            "включить фоном во время отдыха",
-            "когда хочется держаться в напряжении"
+            "просмотр с друзьями",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+          "summary": "Эмоционально тяжелое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: dialogue-heavy."
         },
         "embedding": null
       }
