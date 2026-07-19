@@ -32257,66 +32257,54 @@
       }
     },
     {
-      "movieId": 979438,
+      "movieId": 7530286,
       "clips": [
         {
-          "driveId": "1TqJXQnXqyTwvX77ClblPiOPCCK5tTl1H"
+          "driveId": "1F-SLaGBtHi8-WnT5azUkpimC2YUxSpYY"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:18:15.262170+00:00",
+        "generatedAt": "2026-07-19T02:18:44.092661+00:00",
         "tags": {
           "moods": [
-            "light",
-            "romantic",
-            "sad"
+            "light"
           ],
-          "complexity": "balanced",
+          "complexity": "thought-provoking",
           "watchWith": [
-            "couple",
             "group"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "street-level grit",
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
-            "crime",
-            "love and attachment",
             "personal transformation"
           ],
           "emotions": [
             "amusement",
-            "joy",
-            "melancholy"
+            "joy"
           ],
           "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "viewers who like character-driven stories"
           ],
           "searchPhrases": [
             "что-то легкое и приятное на вечер",
-            "что посмотреть вдвоем с романтичным вайбом",
-            "эмоциональный фильм, который тронет",
-            "что посмотреть вдвоем вечером",
             "фильм под компанию без провисаний",
-            "жесткое приземленное криминальное кино",
-            "фильм с ровным темпом на вечер",
-            "трогательная история про чувства"
+            "умный фильм, после которого хочется подумать",
+            "фильм с ровным темпом на вечер"
           ],
           "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
+            "если не хочется думать и вникать"
           ],
           "situations": [
-            "вечер вдвоем",
             "просмотр с друзьями",
             "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+          "summary": "Легкое кино с идеями, которые остаются после просмотра; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
