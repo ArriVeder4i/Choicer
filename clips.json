@@ -32193,66 +32193,62 @@
       }
     },
     {
-      "movieId": 939411,
+      "movieId": 880,
       "clips": [
         {
-          "driveId": "1mt84P64poS7uNncGFBV5YpD_DrtDMwkt"
+          "driveId": "1ZcHJRFBHGEsQymoAQm-6R2Zp0TS5vBGh"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T01:42:17.755094+00:00",
+        "generatedAt": "2026-07-19T01:42:42.387204+00:00",
         "tags": {
           "moods": [
-            "tense",
-            "dark",
-            "inspiring"
+            "romantic",
+            "light",
+            "atmospheric"
           ],
           "complexity": "balanced",
           "watchWith": [
-            "alone"
+            "couple",
+            "group"
           ],
-          "pacing": "dynamic",
+          "pacing": "balanced",
           "hiddenVibes": [
-            "street-level grit",
-            "quiet emotional aftertaste"
+            "sense of wonder"
           ],
           "themes": [
-            "true story",
-            "personal legacy",
-            "pursuit of a dream"
+            "love and attachment"
           ],
           "emotions": [
-            "hope",
-            "unease",
-            "melancholy"
+            "tenderness",
+            "amusement",
+            "joy"
           ],
-          "energy": "high",
+          "energy": "medium",
           "ending": "unknown",
           "targetAudience": [
-            "broad movie audience"
+            "worldbuilding lovers"
           ],
           "searchPhrases": [
-            "напряженный фильм, который держит в тонусе",
-            "мрачное кино с тяжелой атмосферой",
-            "вдохновляющее кино, чтобы зарядиться",
-            "фильм для спокойного просмотра одному",
-            "жесткое приземленное криминальное кино",
-            "динамичный фильм без скучных пауз"
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
           ],
-          "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино",
-            "если нужен расслабленный фон без тревоги",
-            "если хочется тихое и созерцательное кино"
-          ],
+          "avoidPhrases": [],
           "situations": [
-            "тихий вечер одному",
-            "когда хочется держаться в напряжении",
-            "когда нужна мотивация или подъем",
-            "когда нужен эмоциональный заряд"
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: street-level grit."
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
         },
         "embedding": null
       }
