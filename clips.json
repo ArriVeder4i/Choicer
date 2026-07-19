@@ -32384,39 +32384,39 @@
       }
     },
     {
-      "movieId": 940680,
+      "movieId": 478491,
       "clips": [
         {
-          "driveId": "1MZ210l-8_vzKtJuz8MWtwUl2VD3EixX2"
+          "driveId": "17BI-gcWi_hqkWxv77da7tfIq1UYEIKBC"
         }
       ],
       "ai": {
         "version": 3,
         "provider": "local-heuristic-v3",
-        "generatedAt": "2026-07-19T02:31:34.026957+00:00",
+        "generatedAt": "2026-07-19T02:31:56.037397+00:00",
         "tags": {
           "moods": [
-            "light",
-            "sad"
+            "atmospheric",
+            "light"
           ],
           "complexity": "balanced",
           "watchWith": [
+            "family",
             "group",
             "background"
           ],
           "pacing": "balanced",
           "hiddenVibes": [
-            "quiet emotional aftertaste"
+            "cinematic mood piece"
           ],
           "themes": [
             "true story",
-            "personal legacy",
-            "personal transformation"
+            "family bonds",
+            "humanity versus technology"
           ],
           "emotions": [
-            "amusement",
             "joy",
-            "melancholy"
+            "amusement"
           ],
           "energy": "medium",
           "ending": "unknown",
@@ -32424,21 +32424,23 @@
             "binge-watchers"
           ],
           "searchPhrases": [
+            "атмосферный фильм, чтобы погрузиться",
             "что-то легкое и приятное на вечер",
-            "эмоциональный фильм, который тронет",
+            "кино для семейного вечера",
             "фильм под компанию без провисаний",
             "что-то, что можно включить фоном",
-            "фильм с ровным темпом на вечер"
+            "фильм с ровным темпом на вечер",
+            "история про близких и отношения"
           ],
-          "avoidPhrases": [
-            "если хочется совсем легкое и веселое кино"
-          ],
+          "avoidPhrases": [],
           "situations": [
+            "семейный вечер дома",
             "просмотр с друзьями",
             "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
             "после тяжелого дня, чтобы разгрузиться"
           ],
-          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+          "summary": "Атмосферное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: cinematic mood piece."
         },
         "embedding": null
       }
