@@ -35226,6 +35226,313 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 5463546,
+      "clips": [
+        {
+          "driveId": "1Ps41xBWBP6K3HFMntZRA_XhkNbv97fYt"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-21T21:52:07.371149+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "personal transformation"
+          ],
+          "emotions": [
+            "amusement",
+            "joy",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 1446132,
+      "clips": [
+        {
+          "driveId": "1Ou-LqPdpbtNrRIKicVqgETW2ypbF13zi"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-21T21:52:34.521205+00:00",
+        "tags": {
+          "moods": [
+            "dark",
+            "tense",
+            "inspiring"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "creeping dread"
+          ],
+          "themes": [
+            "fear and uncertainty",
+            "pursuit of a dream"
+          ],
+          "emotions": [
+            "unease",
+            "hope"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "мрачное кино с тяжелой атмосферой",
+            "напряженный фильм, который держит в тонусе",
+            "вдохновляющее кино, чтобы зарядиться",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Мрачное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: creeping dread."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 1263902,
+      "clips": [
+        {
+          "driveId": "140BeNZCzCCK9OTfmNBz8W4hNSvnDC-W7"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-21T21:53:02.411202+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "dark",
+            "epic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "mystery-night energy",
+            "street-level grit",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "crime",
+            "search for truth",
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "adrenaline",
+            "anxiety",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "жесткое приземленное криминальное кино",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 8613385,
+      "clips": [
+        {
+          "driveId": "1z8FC6jBGJ1AujOR7vOODzr11Jm7GQyqD"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-21T21:53:31.415911+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "epic",
+            "inspiring"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "distinct auteur flavor"
+          ],
+          "themes": [
+            "family bonds",
+            "personal legacy",
+            "true story"
+          ],
+          "emotions": [
+            "joy",
+            "adrenaline",
+            "hope"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "масштабное кино с большим размахом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 7527792,
+      "clips": [
+        {
+          "driveId": "1wXNphTzo1fPMUp0Jm859aNWSpB-p-PNg"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-21T21:54:01.898874+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "epic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "distinct auteur flavor"
+          ],
+          "themes": [
+            "family bonds"
+          ],
+          "emotions": [
+            "joy",
+            "amusement"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "масштабное кино с большим размахом",
+            "кино для семейного вечера",
+            "фильм под компанию без провисаний",
+            "динамичный фильм без скучных пауз",
+            "история про близких и отношения"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "семейный вечер дома",
+            "просмотр с друзьями",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Быстрый темп не дает фильму просесть. Вайб: distinct auteur flavor."
+        },
+        "embedding": null
+      }
     }
   ]
 }
