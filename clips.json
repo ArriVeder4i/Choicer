@@ -42328,6 +42328,322 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 958722,
+      "clips": [
+        {
+          "driveId": "1S_hNVAu7eKlRADu9iXYKK4ZLUJxhbDfK"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T15:32:28.986914+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "inspiring",
+            "light"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "family",
+            "couple"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "love and attachment",
+            "family bonds"
+          ],
+          "emotions": [
+            "tenderness",
+            "hope",
+            "joy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "вдохновляющее кино, чтобы зарядиться",
+            "что-то легкое и приятное на вечер",
+            "кино для семейного вечера",
+            "что посмотреть вдвоем вечером",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "семейный вечер дома",
+            "вечер вдвоем",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; подойдет для семейного вечера. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 910353,
+      "clips": [
+        {
+          "driveId": "19pLtMS3fiuuXs9JZUge46Jvc2hebIkWi"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T15:32:59.328296+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "romantic",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "street-level grit",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "crime",
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety",
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 4871,
+      "clips": [
+        {
+          "driveId": "14fWHLV4W-VcouPvUFxYnoq9YJZ9TRi0-"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T15:33:29.403951+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "sad",
+            "epic"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "slow",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "love and attachment",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "масштабное кино с большим размахом",
+            "фильм для спокойного просмотра одному",
+            "умный фильм, после которого хочется подумать",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "поздний вечер, когда хочется погрузиться"
+          ],
+          "summary": "Романтичное кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 880,
+      "clips": [
+        {
+          "driveId": "19XeZfMw2gPTLejOSt2UOuq0cBHf_4KPi"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T15:33:56.286873+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "light",
+            "atmospheric"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "sense of wonder"
+          ],
+          "themes": [
+            "love and attachment"
+          ],
+          "emotions": [
+            "tenderness",
+            "amusement",
+            "joy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 408876,
+      "clips": [
+        {
+          "driveId": "15Nit2NLG9JtX-lgxp_CRgTK-w9-blmKW"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T15:34:27.134729+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "atmospheric",
+            "dark"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy",
+            "love and attachment"
+          ],
+          "emotions": [
+            "adrenaline",
+            "tenderness",
+            "unease"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Масштабное кино с идеями, которые остаются после просмотра; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
     }
   ]
 }
