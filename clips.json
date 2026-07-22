@@ -38571,6 +38571,321 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 45314,
+      "clips": [
+        {
+          "driveId": "1Qaf6ZboxeAwFdSBJlprvrj4zH0VXUJ49"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T14:26:16.014053+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "sad",
+            "tense"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "quiet emotional aftertaste",
+            "retro",
+            "nostalgic undertone"
+          ],
+          "themes": [
+            "love and attachment",
+            "betrayal and distrust",
+            "personal transformation"
+          ],
+          "emotions": [
+            "melancholy",
+            "tenderness",
+            "unease"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем вечером",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 81512,
+      "clips": [
+        {
+          "driveId": "1mHTIIXfJV-oixXdhn1HeWnvZIIZMiiIo"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T14:26:57.805930+00:00",
+        "tags": {
+          "moods": [
+            "inspiring",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "distinct auteur flavor",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "personal legacy",
+            "pursuit of a dream",
+            "true story"
+          ],
+          "emotions": [
+            "hope",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: distinct auteur flavor."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 5501397,
+      "clips": [
+        {
+          "driveId": "1hNOhhUU8fzaSdaCl5aGSYDqwaKTFZmNW"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T14:27:42.094248+00:00",
+        "tags": {
+          "moods": [
+            "inspiring",
+            "romantic",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "pursuit of a dream",
+            "personal legacy",
+            "love and attachment"
+          ],
+          "emotions": [
+            "hope",
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "вдохновляющее кино, чтобы зарядиться",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "эмоциональный фильм, который тронет",
+            "фильм для спокойного просмотра одному",
+            "фильм с ровным темпом на вечер",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда нужна мотивация или подъем"
+          ],
+          "summary": "Вдохновляющее кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Ровный темп держит внимание без перегруза. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 81555,
+      "clips": [
+        {
+          "driveId": "10_-ofw4h57SsHb89RSiey_gaMCRAbXgR"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T14:28:25.358965+00:00",
+        "tags": {
+          "moods": [
+            "sad",
+            "tense",
+            "romantic"
+          ],
+          "complexity": "thought-provoking",
+          "watchWith": [
+            "alone"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "quiet emotional aftertaste",
+            "mystery-night energy",
+            "sense of wonder"
+          ],
+          "themes": [
+            "true story",
+            "personal legacy",
+            "love and attachment"
+          ],
+          "emotions": [
+            "melancholy",
+            "tenderness"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "эмоциональный фильм, который тронет",
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "фильм для спокойного просмотра одному",
+            "загадочный фильм для ночного просмотра",
+            "фильм с чувством чуда и открытия",
+            "умный фильм, после которого хочется подумать",
+            "динамичный фильм без скучных пауз"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если не хочется думать и вникать",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении",
+            "когда нужен эмоциональный заряд"
+          ],
+          "summary": "Эмоционально тяжелое кино с идеями, которые остаются после просмотра; лучше всего сработает одному. Быстрый темп не дает фильму просесть. Вайб: quiet emotional aftertaste."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 45694,
+      "clips": [
+        {
+          "driveId": "1npJi3O_2yMhVp1H7-8-97tFAHonjjWG-"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-07-22T14:28:59.814051+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "romantic",
+            "atmospheric"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple",
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "retro",
+            "sense of wonder",
+            "nostalgic undertone"
+          ],
+          "themes": [
+            "true story",
+            "love and attachment",
+            "personal legacy"
+          ],
+          "emotions": [
+            "amusement",
+            "joy",
+            "tenderness"
+          ],
+          "energy": "high",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "атмосферный фильм, чтобы погрузиться",
+            "что посмотреть вдвоем вечером",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Быстрый темп не дает фильму просесть. Вайб: retro."
+        },
+        "embedding": null
+      }
     }
   ]
 }
