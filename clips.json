@@ -46214,6 +46214,330 @@
         },
         "embedding": null
       }
+    },
+    {
+      "movieId": 5158783,
+      "clips": [
+        {
+          "driveId": "1qjx9izOt1EdmGfGDVsEoHd7iEcOMt8I0"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-10-28T22:30:14.146389+00:00",
+        "tags": {
+          "moods": [
+            "epic",
+            "atmospheric",
+            "sad"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "superhero",
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "personal transformation",
+            "survival"
+          ],
+          "emotions": [
+            "adrenaline",
+            "melancholy"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "масштабное кино с большим размахом",
+            "атмосферный фильм, чтобы погрузиться",
+            "эмоциональный фильм, который тронет",
+            "фильм под компанию без провисаний",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Масштабное кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: superhero."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 1330494,
+      "clips": [
+        {
+          "driveId": "19lzwnHpm_FldemIdXJBLOu84a2EntPcL"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-10-28T22:30:53.396755+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "epic",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "alone"
+          ],
+          "pacing": "balanced",
+          "hiddenVibes": [
+            "street-level grit"
+          ],
+          "themes": [
+            "crime",
+            "betrayal and distrust",
+            "fear and uncertainty"
+          ],
+          "emotions": [
+            "anxiety"
+          ],
+          "energy": "medium",
+          "ending": "unexpected",
+          "targetAudience": [
+            "broad movie audience"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "масштабное кино с большим размахом",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм под компанию без провисаний",
+            "фильм для спокойного просмотра одному",
+            "жесткое приземленное криминальное кино",
+            "фильм с ровным темпом на вечер",
+            "криминальная история с характером"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "тихий вечер одному",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; может зайти в компании. Ровный темп держит внимание без перегруза. Вайб: street-level grit."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 1049731,
+      "clips": [
+        {
+          "driveId": "1IfTi6kMFfiVUSnGsfsqvxbhocKJoX1Qe"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-10-28T22:31:20.909674+00:00",
+        "tags": {
+          "moods": [
+            "light",
+            "atmospheric",
+            "epic"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "group",
+            "background"
+          ],
+          "pacing": "dynamic",
+          "hiddenVibes": [
+            "sense of wonder",
+            "distinct auteur flavor"
+          ],
+          "themes": [
+            "pursuit of a dream",
+            "survival"
+          ],
+          "emotions": [
+            "joy",
+            "adrenaline",
+            "hope"
+          ],
+          "energy": "medium",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers",
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "что-то легкое и приятное на вечер",
+            "атмосферный фильм, чтобы погрузиться",
+            "масштабное кино с большим размахом",
+            "фильм под компанию без провисаний",
+            "что-то, что можно включить фоном",
+            "фильм с чувством чуда и открытия",
+            "динамичный фильм без скучных пауз",
+            "напряженная история про выживание"
+          ],
+          "avoidPhrases": [
+            "если хочется тихое и созерцательное кино"
+          ],
+          "situations": [
+            "просмотр с друзьями",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "после тяжелого дня, чтобы разгрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Легкое кино с понятным балансом эмоций и сюжета; может зайти в компании. Быстрый темп не дает фильму просесть. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 401177,
+      "clips": [
+        {
+          "driveId": "1O3ZU1E2hHN00wcyucS17-Sx0LPyLe0-h"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-10-28T22:31:48.275786+00:00",
+        "tags": {
+          "moods": [
+            "romantic",
+            "tense",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "couple"
+          ],
+          "pacing": "slow",
+          "hiddenVibes": [
+            "sense of wonder",
+            "quiet emotional aftertaste"
+          ],
+          "themes": [
+            "true story",
+            "love and attachment",
+            "personal legacy"
+          ],
+          "emotions": [
+            "tenderness",
+            "unease",
+            "melancholy"
+          ],
+          "energy": "low",
+          "ending": "unknown",
+          "targetAudience": [
+            "worldbuilding lovers"
+          ],
+          "searchPhrases": [
+            "что посмотреть вдвоем с романтичным вайбом",
+            "напряженный фильм, который держит в тонусе",
+            "мрачное кино с тяжелой атмосферой",
+            "что посмотреть вдвоем вечером",
+            "фильм с чувством чуда и открытия",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "вечер вдвоем",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Романтичное кино с понятным балансом эмоций и сюжета; хорошо подойдет для просмотра вдвоем. Неспешный ритм помогает погрузиться в настроение. Вайб: sense of wonder."
+        },
+        "embedding": null
+      }
+    },
+    {
+      "movieId": 1331649,
+      "clips": [
+        {
+          "driveId": "1KdXyEfAfIzpcV_qv4F7XDfcifX1-WkJo"
+        }
+      ],
+      "ai": {
+        "version": 3,
+        "provider": "local-heuristic-v3",
+        "generatedAt": "2026-10-28T22:32:18.106567+00:00",
+        "tags": {
+          "moods": [
+            "tense",
+            "romantic",
+            "dark"
+          ],
+          "complexity": "balanced",
+          "watchWith": [
+            "alone",
+            "background"
+          ],
+          "pacing": "slow",
+          "hiddenVibes": [
+            "mystery-night energy"
+          ],
+          "themes": [
+            "search for truth",
+            "fear and uncertainty",
+            "love and attachment"
+          ],
+          "emotions": [
+            "anxiety",
+            "tenderness"
+          ],
+          "energy": "low",
+          "ending": "unexpected",
+          "targetAudience": [
+            "binge-watchers"
+          ],
+          "searchPhrases": [
+            "напряженный фильм, который держит в тонусе",
+            "что посмотреть вдвоем с романтичным вайбом",
+            "мрачное кино с тяжелой атмосферой",
+            "фильм для спокойного просмотра одному",
+            "что-то, что можно включить фоном",
+            "загадочный фильм для ночного просмотра",
+            "неспешное кино с настроением",
+            "трогательная история про чувства"
+          ],
+          "avoidPhrases": [
+            "если хочется совсем легкое и веселое кино",
+            "если нужен расслабленный фон без тревоги",
+            "если нужен быстрый экшен без медленных сцен"
+          ],
+          "situations": [
+            "тихий вечер одному",
+            "включить фоном во время отдыха",
+            "поздний вечер, когда хочется погрузиться",
+            "когда хочется держаться в напряжении"
+          ],
+          "summary": "Напряженное кино с понятным балансом эмоций и сюжета; лучше всего сработает одному. Неспешный ритм помогает погрузиться в настроение. Вайб: mystery-night energy."
+        },
+        "embedding": null
+      }
     }
   ]
 }
